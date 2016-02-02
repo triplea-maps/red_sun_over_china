@@ -1,0 +1,2887 @@
+<?xml version="1.0"?>
+<!DOCTYPE game SYSTEM "game.dtd">
+<game>
+  <info name="Warlords FFA" version="1.1"/>
+  <loader javaClass="games.strategy.triplea.TripleA"/>
+  <map>
+    <!-- Territory name Definitions -->
+    <territory name="Chungking"/>
+    <territory name="South Laos"/>
+    <territory name="Chengang"/>
+    <territory name="Hong Kong"/>
+    <territory name="Fen-chow"/>
+    <territory name="Sog-rigs"/>
+    <territory name="Mandalay"/>
+    <territory name="Swatow"/>
+    <territory name="Huaipei"/>
+    <territory name="Tsingyang"/>
+    <territory name="Chindwin"/>
+    <territory name="West Assam"/>
+    <territory name="Malaya-Singapore"/>
+    <territory name="Ichow"/>
+    <territory name="Fengdu"/>
+    <territory name="Annam"/>
+    <territory name="East Sikang"/>
+    <territory name="Chih-Chiang"/>
+    <territory name="Hangchow"/>
+    <territory name="Hanchung"/>
+    <territory name="Phitsanulok"/>
+    <territory name="Tientsin"/>
+    <territory name="Jih-Chao"/>
+    <territory name="Pathein"/>
+    <territory name="Techow"/>
+    <territory name="Tsinan"/>
+    <territory name="Tuyun"/>
+    <territory name="Chenyuan"/>
+    <territory name="Manipur"/>
+    <territory name="Kweiyang"/>
+    <territory name="Yen-ping"/>
+    <territory name="Weinan"/>
+    <territory name="West Sikang"/>
+    <territory name="Suifu"/>
+    <territory name="Chittagong"/>
+    <territory name="Kunming"/>
+    <territory name="Tsangchow"/>
+    <territory name="Bangkok"/>
+    <territory name="Tsingtai"/>
+    <territory name="Udon Thani"/>
+    <territory name="Juning"/>
+    <territory name="Tsingtao"/>
+    <territory name="Chiang Mai"/>
+    <territory name="North Jehol"/>
+    <territory name="Huainan"/>
+    <territory name="Anyang"/>
+    <territory name="Hwangshi"/>
+    <territory name="Tali"/>
+    <territory name="Kweilin"/>
+    <territory name="Yenan"/>
+    <territory name="Chien-ning"/>
+    <territory name="Ningyen"/>
+    <territory name="Ningsia"/>
+    <territory name="Hsingi"/>
+    <territory name="Ankang"/>
+    <territory name="Cheng-tu"/>
+    <territory name="Taiyuan"/>
+    <territory name="Liaocheng"/>
+    <territory name="Chiu-Chuan"/>
+    <territory name="Liaodong"/>
+    <territory name="Nakhon Sawan"/>
+    <territory name="Taungoo"/>
+    <territory name="Kentung"/>
+    <territory name="Chengteh"/>
+    <territory name="Formosa"/>
+    <territory name="Puchow"/>
+    <territory name="Kuyuan"/>
+    <territory name="Korea"/>
+    <territory name="Kannan"/>
+    <territory name="Kungchangfu"/>
+    <territory name="Huangshan"/>
+    <territory name="Kohima"/>
+    <territory name="Shanhaiguan"/>
+    <territory name="Weihsien"/>
+    <territory name="Canton"/>
+    <territory name="Japan"/>
+    <territory name="Lungkow"/>
+    <territory name="Pa-chung"/>
+    <territory name="Nanning"/>
+    <territory name="Lashio"/>
+    <territory name="Ordos Plateau"/>
+    <territory name="Anking"/>
+    <territory name="Changteh"/>
+    <territory name="Amoy"/>
+    <territory name="Kining"/>
+    <territory name="Tsinghai"/>
+    <territory name="Kaifeng"/>
+    <territory name="Imphal"/>
+    <territory name="West Kwangtung"/>
+    <territory name="Puel"/>
+    <territory name="Luan"/>
+    <territory name="Nanchang"/>
+    <territory name="Paoting"/>
+    <territory name="Wuhu"/>
+    <territory name="Nanyang"/>
+    <territory name="Soochow"/>
+    <territory name="Kra"/>
+    <territory name="Tonkin"/>
+    <territory name="Pinghsiang"/>
+    <territory name="Kirin"/>
+    <territory name="Lanchow"/>
+    <territory name="Shanghai"/>
+    <territory name="Wu Tang Mountains"/>
+    <territory name="Lu-ting"/>
+    <territory name="Chahar"/>
+    <territory name="Weihaiwei"/>
+    <territory name="Momein"/>
+    <territory name="Cochinchina"/>
+    <territory name="Port Arthur"/>
+    <territory name="Wuhan"/>
+    <territory name="Kan"/>
+    <territory name="Mukden"/>
+    <territory name="Luang Prabang"/>
+    <territory name="Fancheng"/>
+    <territory name="Tungting"/>
+    <territory name="Ichang"/>
+    <territory name="Golog"/>
+    <territory name="Sian"/>
+    <territory name="Tangshan"/>
+    <territory name="Bichieh"/>
+    <territory name="Kutsing"/>
+    <territory name="Nanking"/>
+    <territory name="Calcutta"/>
+    <territory name="Tibet"/>
+    <territory name="Mengtsi"/>
+    <territory name="Hsuchow"/>
+    <territory name="Sining"/>
+    <territory name="Shiuchow"/>
+    <territory name="Hehsi Corridor"/>
+    <territory name="Chin"/>
+    <territory name="Woochow"/>
+    <territory name="Szecheng"/>
+    <territory name="Peking"/>
+    <territory name="Rangoon"/>
+    <territory name="Chenchow"/>
+    <territory name="Hanoi"/>
+    <territory name="Luoyang"/>
+    <territory name="Sittang"/>
+    <territory name="North Suiyuan"/>
+    <territory name="Ningpo"/>
+    <territory name="So-ping"/>
+    <territory name="Hwanggang"/>
+    <territory name="Yang-chow"/>
+    <territory name="Myitkyina"/>
+    <territory name="Siangtan"/>
+    <territory name="East Assam"/>
+    <territory name="Luchow"/>
+    <territory name="Foochow"/>
+    <territory name="Sinkiang-Mongolia"/>
+    <territory name="Kunlun Mountains"/>
+    <territory name="Cambodia"/>
+    <territory name="Changchih"/>
+    <territory name="Chin-kiang"/>
+    <territory name="Poyang"/>
+    <territory name="Te-king"/>
+    <territory name="Hainan"/>
+    <territory name="Lungchow"/>
+    <territory name="Changsha"/>
+    <territory name="Poseh"/>
+    <!-- Stations -->
+    <territory name="Hanoi Station" water="true"/>
+    <territory name="Korea Station" water="true"/>
+    <territory name="Wuhan Station" water="true"/>
+    <territory name="Sian Station" water="true"/>
+    <territory name="Chittagong Station" water="true"/>
+    <territory name="Shanghai Station" water="true"/>
+    <territory name="Chungking Station" water="true"/>
+    <territory name="Tsingtao Station" water="true"/>
+    <territory name="Nanking Station" water="true"/>
+    <territory name="Taiyuan Station" water="true"/>
+    <territory name="Calcutta Station" water="true"/>
+    <territory name="Lanchow Station" water="true"/>
+    <territory name="Tsinan Station" water="true"/>
+    <territory name="Mukden Station" water="true"/>
+    <territory name="Peking Station" water="true"/>
+    <territory name="Nanchang Station" water="true"/>
+    <territory name="East Assam Station" water="true"/>
+    <territory name="Kunming Station" water="true"/>
+    <territory name="Kweiyang Station" water="true"/>
+    <territory name="Rangoon Station" water="true"/>
+    <territory name="Changsha Station" water="true"/>
+    <territory name="Bangkok Station" water="true"/>
+    <territory name="Canton Station" water="true"/>
+    <territory name="Port Arthur Station" water="true"/>
+    <territory name="Nanning Station" water="true"/>
+    <!--Auxillary Stations-->
+    <territory name="Korea-Mukden-Korea" water="true"/>
+    <territory name="Korea-Mukden-Mukden" water="true"/>
+    <territory name="Port Arthur-Mukden-Port Arthur" water="true"/>
+    <territory name="Port Arthur-Mukden-Mukden" water="true"/>
+    <territory name="Mukden-Peking-Mukden" water="true"/>
+    <territory name="Mukden-Peking-Peking" water="true"/>
+    <territory name="Peking-Tsinan-Peking" water="true"/>
+    <territory name="Peking-Tsinan-Tsinan" water="true"/>
+    <territory name="Peking-Taiyuan-Peking" water="true"/>
+    <territory name="Peking-Taiyuan-Taiyuan" water="true"/>
+    <territory name="Peking-Sian-Peking" water="true"/>
+    <territory name="Peking-Sian-Sian" water="true"/>
+    <territory name="Peking-Wuhan-Peking" water="true"/>
+    <territory name="Peking-Wuhan-Wuhan" water="true"/>
+    <territory name="Taiyuan-Sian-Taiyuan" water="true"/>
+    <territory name="Taiyuan-Sian-Sian" water="true"/>
+    <territory name="Taiyuan-Wuhan-Taiyuan" water="true"/>
+    <territory name="Taiyuan-Wuhan-Wuhan" water="true"/>
+    <territory name="Taiyuan-Tsinan-Taiyuan" water="true"/>
+    <territory name="Taiyuan-Tsinan-Tsinan" water="true"/>
+    <territory name="Sian-Tsinan-Sian" water="true"/>
+    <territory name="Sian-Tsinan-Tsinan" water="true"/>
+    <territory name="Sian-Wuhan-Sian" water="true"/>
+    <territory name="Sian-Wuhan-Wuhan" water="true"/>
+    <territory name="Wuhan-Tsinan-Wuhan" water="true"/>
+    <territory name="Wuhan-Tsinan-Tsinan" water="true"/>
+    <territory name="Tsinan-Tsingtao-Tsinan" water="true"/>
+    <territory name="Tsinan-Tsingtao-Tsingtao" water="true"/>
+    <territory name="Tsinan-Nanking-Tsinan" water="true"/>
+    <territory name="Tsinan-Nanking-Nanking" water="true"/>
+    <territory name="Nanking-Shanghai-Nanking" water="true"/>
+    <territory name="Nanking-Shanghai-Shanghai" water="true"/>
+    <territory name="Shanghai-Nanchang-Shanghai" water="true"/>
+    <territory name="Shanghai-Nanchang-Nanchang" water="true"/>
+    <territory name="Nanchang-Changsha-Nanchang" water="true"/>
+    <territory name="Nanchang-Changsha-Changsha" water="true"/>
+    <territory name="Wuhan-Changsha-Wuhan" water="true"/>
+    <territory name="Wuhan-Changsha-Changsha" water="true"/>
+    <territory name="Changsha-Canton-Changsha" water="true"/>
+    <territory name="Changsha-Canton-Canton" water="true"/>
+    <territory name="Changsha-Kweiyang-Changsha" water="true"/>
+    <territory name="Changsha-Kweiyang-Kweiyang" water="true"/>
+    <territory name="Canton-Kweiyang-Canton" water="true"/>
+    <territory name="Canton-Kweiyang-Kweiyang" water="true"/>
+    <territory name="Lanchow-Sian-Lanchow" water="true"/>
+    <territory name="Lanchow-Sian-Sian" water="true"/>
+    <territory name="Lanchow-Chungking-Lanchow" water="true"/>
+    <territory name="Lanchow-Chungking-Chungking" water="true"/>
+    <territory name="Sian-Chungking-Sian" water="true"/>
+    <territory name="Sian-Chungking-Chungking" water="true"/>
+    <territory name="Chungking-Kweiyang-Chungking" water="true"/>
+    <territory name="Chungking-Kweiyang-Kweiyang" water="true"/>
+    <territory name="Chungking-Kunming-Chungking" water="true"/>
+    <territory name="Chungking-Kunming-Kunming" water="true"/>
+    <territory name="Kunming-Kweiyang-Kunming" water="true"/>
+    <territory name="Kunming-Kweiyang-Kweiyang" water="true"/>
+    <territory name="Kunming-Hanoi-Kunming" water="true"/>
+    <territory name="Kunming-Hanoi-Hanoi" water="true"/>
+    <territory name="Hanoi-Nanning-Hanoi" water="true"/>
+    <territory name="Hanoi-Nanning-Nanning" water="true"/>
+    <territory name="Hanoi-Bangkok-Hanoi" water="true"/>
+    <territory name="Hanoi-Bangkok-Bangkok" water="true"/>
+    <territory name="Bangkok-Rangoon-Bangkok" water="true"/>
+    <territory name="Bangkok-Rangoon-Rangoon" water="true"/>
+    <territory name="Calcutta-East Assam-Calcutta" water="true"/>
+    <territory name="Calcutta-East Assam-East Assam" water="true"/>
+    <territory name="Calcutta-Chittagong-Calcutta" water="true"/>
+    <territory name="Calcutta-Chittagong-Chittagong" water="true"/>
+    <territory name="East Assam-Chittagong-East Assam" water="true"/>
+    <territory name="East Assam-Chittagong-Chittagong" water="true"/>
+    <!-- Seazone Name Definitions -->
+    <territory name="SZ 3 North Yellow Sea" water="true"/>
+    <territory name="SZ 7 East China Sea" water="true"/>
+    <territory name="SZ 14 South China Sea" water="true"/>
+    <territory name="SZ 5 Sea of Japan" water="true"/>
+    <territory name="SZ 6 East China Sea" water="true"/>
+    <territory name="SZ 9 Taiwan Strait" water="true"/>
+    <territory name="SZ 16 Gulf of Thailand" water="true"/>
+    <territory name="SZ 19 Bay of Bengal" water="true"/>
+    <territory name="SZ 8 East China Sea" water="true"/>
+    <territory name="SZ 15 Philippine Sea" water="true"/>
+    <territory name="SZ 12 Gulf of Tonkin" water="true"/>
+    <territory name="SZ 1 Bohai Bay" water="true"/>
+    <territory name="SZ 17 Malay Sea" water="true"/>
+    <territory name="SZ 20 Indian Ocean" water="true"/>
+    <territory name="SZ 11 Philippine Sea" water="true"/>
+    <territory name="SZ 2 Bohai Sea" water="true"/>
+    <territory name="SZ 4 South Yellow Sea" water="true"/>
+    <territory name="SZ 13 South China Sea" water="true"/>
+    <territory name="SZ 18 Andaman Sea" water="true"/>
+    <territory name="SZ 10 South China Sea" water="true"/>
+    <territory name="SZ 21 Strait of Malacca" water="true"/>
+    <territory name="SZ 22 Indian Ocean" water="true"/>
+    <territory name="SZ 23 Pacific Ocean" water="true"/>
+    <territory name="SZ 100 Pacific Ocean" water="true"/>
+    <!-- Territory Connections -->
+    <connection t1="South Laos" t2="Udon Thani"/>
+    <connection t1="South Laos" t2="Luang Prabang"/>
+    <connection t1="Chungking" t2="Fengdu"/>
+    <connection t1="Sog-rigs" t2="Sining"/>
+    <connection t1="Fen-chow" t2="Taiyuan"/>
+    <connection t1="Fen-chow" t2="Yenan"/>
+    <connection t1="Fen-chow" t2="Puchow"/>
+    <connection t1="Fen-chow" t2="Changchih"/>
+    <connection t1="Fen-chow" t2="Chengang"/>
+    <connection t1="Hong Kong" t2="Canton"/>
+    <connection t1="Hong Kong" t2="West Kwangtung"/>
+    <connection t1="Hong Kong" t2="SZ 10 South China Sea"/>
+    <connection t1="Hong Kong" t2="Te-king"/>
+    <connection t1="Hong Kong" t2="Shiuchow"/>
+    <connection t1="Chengang" t2="Taiyuan"/>
+    <connection t1="Mandalay" t2="Taungoo"/>
+    <connection t1="Mandalay" t2="Chin"/>
+    <connection t1="Mandalay" t2="Lashio"/>
+    <connection t1="SZ 6 East China Sea" t2="SZ 7 East China Sea"/>
+    <connection t1="SZ 6 East China Sea" t2="Shanghai"/>
+    <connection t1="SZ 6 East China Sea" t2="SZ 5 Sea of Japan"/>
+    <connection t1="SZ 5 Sea of Japan" t2="SZ 8 East China Sea"/>
+    <connection t1="SZ 5 Sea of Japan" t2="Japan"/>
+    <connection t1="SZ 5 Sea of Japan" t2="SZ 4 South Yellow Sea"/>
+    <connection t1="SZ 5 Sea of Japan" t2="Korea"/>
+    <connection t1="Tsingyang" t2="Hanchung"/>
+    <connection t1="Tsingyang" t2="Sian"/>
+    <connection t1="Tsingyang" t2="Kuyuan"/>
+    <connection t1="Tsingyang" t2="Weinan"/>
+    <connection t1="Tsingyang" t2="Ankang"/>
+    <connection t1="Huaipei" t2="Kaifeng"/>
+    <connection t1="Huaipei" t2="Yang-chow"/>
+    <connection t1="Huaipei" t2="Nanking"/>
+    <connection t1="Huaipei" t2="Luan"/>
+    <connection t1="Swatow" t2="Amoy"/>
+    <connection t1="Swatow" t2="Kan"/>
+    <connection t1="Swatow" t2="Shiuchow"/>
+    <connection t1="Swatow" t2="Canton"/>
+    <connection t1="Swatow" t2="Hong Kong"/>
+    <connection t1="Swatow" t2="SZ 10 South China Sea"/>
+    <connection t1="Swatow" t2="Te-king"/>
+    <connection t1="Chindwin" t2="Mandalay"/>
+    <connection t1="Chindwin" t2="Manipur"/>
+    <connection t1="West Assam" t2="Kohima"/>
+    <connection t1="West Assam" t2="Imphal"/>
+    <connection t1="West Assam" t2="Calcutta"/>
+    <connection t1="SZ 21 Strait of Malacca" t2="SZ 18 Andaman Sea"/>
+    <connection t1="SZ 21 Strait of Malacca" t2="Kra"/>
+    <connection t1="Malaya-Singapore" t2="SZ 21 Strait of Malacca"/>
+    <connection t1="Ichow" t2="Tsinan"/>
+    <connection t1="Ichow" t2="Hsuchow"/>
+    <connection t1="Ichow" t2="Jih-Chao"/>
+    <connection t1="Ichow" t2="Lungkow"/>
+    <connection t1="Tsinan" t2="Lungkow"/>
+    <connection t1="Jih-Chao" t2="Lungkow"/>
+    <connection t1="Ichow" t2="Techow"/>
+    <connection t1="Ichow" t2="Liaocheng"/>
+    <connection t1="Fengdu" t2="Ichang"/>
+    <connection t1="Fengdu" t2="Chenyuan"/>
+    <connection t1="Fengdu" t2="Pa-chung"/>
+    <connection t1="Fengdu" t2="Suifu"/>
+    <connection t1="Chin-kiang" t2="Shanghai"/>
+    <connection t1="Hehsi Corridor" t2="Kuyuan"/>
+    <connection t1="Hehsi Corridor" t2="Sog-rigs"/>
+    <connection t1="Hehsi Corridor" t2="Tsinghai"/>
+    <connection t1="Annam" t2="South Laos"/>
+    <connection t1="Annam" t2="Cochinchina"/>
+    <connection t1="Annam" t2="SZ 17 Malay Sea"/>
+    <connection t1="East Sikang" t2="Suifu"/>
+    <connection t1="East Sikang" t2="Lu-ting"/>
+    <connection t1="East Sikang" t2="Golog"/>
+    <connection t1="East Sikang" t2="West Sikang"/>
+    <connection t1="East Sikang" t2="Tali"/>
+    <connection t1="East Sikang" t2="Ningyen"/>
+    <connection t1="East Sikang" t2="Kunlun Mountains"/>
+    <connection t1="Chih-Chiang" t2="Changteh"/>
+    <connection t1="Chih-Chiang" t2="Changsha"/>
+    <connection t1="Chih-Chiang" t2="Ichang"/>
+    <connection t1="Chih-Chiang" t2="Fengdu"/>
+    <connection t1="Chih-Chiang" t2="Chien-ning"/>
+    <connection t1="Chih-Chiang" t2="Tungting"/>
+    <connection t1="Hanchung" t2="Pa-chung"/>
+    <connection t1="Hanchung" t2="Kungchangfu"/>
+    <connection t1="Hanchung" t2="Sian"/>
+    <connection t1="Hanchung" t2="Yenan"/>
+    <connection t1="Hanchung" t2="Weinan"/>
+    <connection t1="Phitsanulok" t2="Udon Thani"/>
+    <connection t1="Phitsanulok" t2="Chiang Mai"/>
+    <connection t1="Tientsin" t2="Paoting"/>
+    <connection t1="Tientsin" t2="Chengteh"/>
+    <connection t1="Tientsin" t2="Chahar"/>
+    <connection t1="Techow" t2="Liaocheng"/>
+    <connection t1="Techow" t2="Tsinan"/>
+    <connection t1="Techow" t2="Lungkow"/>
+    <connection t1="Pathein" t2="Rangoon"/>
+    <connection t1="Pathein" t2="Chin"/>
+    <connection t1="Jih-Chao" t2="Hsuchow"/>
+    <connection t1="Jih-Chao" t2="Tsingtao"/>
+    <connection t1="Jih-Chao" t2="SZ 4 South Yellow Sea"/>
+    <connection t1="SZ 9 Taiwan Strait" t2="Amoy"/>
+    <connection t1="SZ 9 Taiwan Strait" t2="Formosa"/>
+    <connection t1="SZ 9 Taiwan Strait" t2="Foochow"/>
+    <connection t1="SZ 9 Taiwan Strait" t2="SZ 8 East China Sea"/>
+    <connection t1="SZ 9 Taiwan Strait" t2="SZ 7 East China Sea"/>
+    <connection t1="Tuyun" t2="Chih-Chiang"/>
+    <connection t1="Tuyun" t2="Chenyuan"/>
+    <connection t1="Tuyun" t2="Kweiyang"/>
+    <connection t1="Tuyun" t2="Bichieh"/>
+    <connection t1="Chenyuan" t2="Chih-Chiang"/>
+    <connection t1="Chenyuan" t2="Hsingi"/>
+    <connection t1="Chenyuan" t2="Bichieh"/>
+    <connection t1="Manipur" t2="Imphal"/>
+    <connection t1="Manipur" t2="Chittagong"/>
+    <connection t1="Kweiyang" t2="Chenyuan"/>
+    <connection t1="Kweiyang" t2="Hsingi"/>
+    <connection t1="Kweiyang" t2="Luchow"/>
+    <connection t1="Yen-ping" t2="Foochow"/>
+    <connection t1="SZ 16 Gulf of Thailand" t2="Bangkok"/>
+    <connection t1="SZ 16 Gulf of Thailand" t2="Kra"/>
+    <connection t1="SZ 16 Gulf of Thailand" t2="Malaya-Singapore"/>
+    <connection t1="SZ 16 Gulf of Thailand" t2="SZ 17 Malay Sea"/>
+    <connection t1="West Sikang" t2="Kunlun Mountains"/>
+    <connection t1="West Sikang" t2="Myitkyina"/>
+    <connection t1="West Sikang" t2="East Assam"/>
+    <connection t1="Weinan" t2="Yenan"/>
+    <connection t1="Suifu" t2="Cheng-tu"/>
+    <connection t1="Suifu" t2="Chungking"/>
+    <connection t1="Suifu" t2="Kutsing"/>
+    <connection t1="Suifu" t2="Lu-ting"/>
+    <connection t1="Suifu" t2="Ningyen"/>
+    <connection t1="Chittagong" t2="Calcutta"/>
+    <connection t1="Chittagong" t2="Pathein"/>
+    <connection t1="Kunming" t2="Mengtsi"/>
+    <connection t1="Kunming" t2="Tali"/>
+    <connection t1="Kunming" t2="Kutsing"/>
+    <connection t1="Kunming" t2="Ningyen"/>
+    <connection t1="Tsangchow" t2="Tsingtai"/>
+    <connection t1="Tsangchow" t2="Liaocheng"/>
+    <connection t1="Tsangchow" t2="Techow"/>
+    <connection t1="Tsangchow" t2="Tientsin"/>
+    <connection t1="Tsingtai" t2="Anyang"/>
+    <connection t1="Tsingtai" t2="Changchih"/>
+    <connection t1="Tsingtai" t2="Chengang"/>
+    <connection t1="Udon Thani" t2="Nakhon Sawan"/>
+    <connection t1="Juning" t2="Kaifeng"/>
+    <connection t1="Juning" t2="Luan"/>
+    <connection t1="Juning" t2="Fancheng"/>
+    <connection t1="Juning" t2="Hwanggang"/>
+    <connection t1="Tsingtao" t2="Weihaiwei"/>
+    <connection t1="Tsingtao" t2="SZ 4 South Yellow Sea"/>
+    <connection t1="SZ 19 Bay of Bengal" t2="SZ 20 Indian Ocean"/>
+    <connection t1="SZ 19 Bay of Bengal" t2="SZ 22 Indian Ocean"/>
+    <connection t1="SZ 23 Pacific Ocean" t2="SZ 100 Pacific Ocean"/>
+    <connection t1="SZ 22 Indian Ocean" t2="SZ 100 Pacific Ocean"/>
+    <connection t1="SZ 20 Indian Ocean" t2="SZ 22 Indian Ocean"/>
+    <connection t1="SZ 19 Bay of Bengal" t2="Chittagong"/>
+    <connection t1="Chiang Mai" t2="Luang Prabang"/>
+    <connection t1="Chiang Mai" t2="Bangkok"/>
+    <connection t1="Chiang Mai" t2="Kra"/>
+    <connection t1="Chiang Mai" t2="Taungoo"/>
+    <connection t1="North Jehol" t2="Chahar"/>
+    <connection t1="Anyang" t2="Kaifeng"/>
+    <connection t1="Hwangshi" t2="Nanchang"/>
+    <connection t1="Hwangshi" t2="Fancheng"/>
+    <connection t1="Tali" t2="Puel"/>
+    <connection t1="Tali" t2="Momein"/>
+    <connection t1="Kweilin" t2="Te-king"/>
+    <connection t1="Kweilin" t2="Chih-Chiang"/>
+    <connection t1="Kweilin" t2="Tuyun"/>
+    <connection t1="Yenan" t2="Tsingyang"/>
+    <connection t1="Yenan" t2="Ordos Plateau"/>
+    <connection t1="Yenan" t2="Ankang"/>
+    <connection t1="Chien-ning" t2="Tungting"/>
+    <connection t1="Chien-ning" t2="Changsha"/>
+    <connection t1="Chien-ning" t2="Kan"/>
+    <connection t1="Chien-ning" t2="Chenchow"/>
+    <connection t1="Ningyen" t2="Tali"/>
+    <connection t1="Ningyen" t2="Kutsing"/>
+    <connection t1="Ningyen" t2="Mengtsi"/>
+    <connection t1="Ningsia" t2="Kuyuan"/>
+    <connection t1="Ningsia" t2="Hehsi Corridor"/>
+    <connection t1="Ningsia" t2="Chiu-Chuan"/>
+    <connection t1="Hsingi" t2="Tuyun"/>
+    <connection t1="Hsingi" t2="Poseh"/>
+    <connection t1="Hsingi" t2="Kweiyang"/>
+    <connection t1="Hsingi" t2="Bichieh"/>
+    <connection t1="Hsingi" t2="Mengtsi"/>
+    <connection t1="Hsingi" t2="Chenyuan"/>
+    <connection t1="Hsingi" t2="Luchow"/>
+    <connection t1="Ankang" t2="Pa-chung"/>
+    <connection t1="Ankang" t2="Weinan"/>
+    <connection t1="Ankang" t2="Hanchung"/>
+    <connection t1="SZ 12 Gulf of Tonkin" t2="SZ 17 Malay Sea"/>
+    <connection t1="SZ 12 Gulf of Tonkin" t2="Annam"/>
+    <connection t1="SZ 12 Gulf of Tonkin" t2="Tonkin"/>
+    <connection t1="SZ 12 Gulf of Tonkin" t2="Hanoi"/>
+    <connection t1="SZ 12 Gulf of Tonkin" t2="Hainan"/>
+    <connection t1="SZ 12 Gulf of Tonkin" t2="Lungchow"/>
+    <connection t1="SZ 12 Gulf of Tonkin" t2="Nanning"/>
+    <connection t1="SZ 12 Gulf of Tonkin" t2="SZ 13 South China Sea"/>
+    <connection t1="SZ 12 Gulf of Tonkin" t2="SZ 14 South China Sea"/>
+    <connection t1="Cheng-tu" t2="Chungking"/>
+    <connection t1="Cheng-tu" t2="Lu-ting"/>
+    <connection t1="Cheng-tu" t2="Kannan"/>
+    <connection t1="Cheng-tu" t2="Hanchung"/>
+    <connection t1="Cheng-tu" t2="Fengdu"/>
+    <connection t1="Cheng-tu" t2="Luchow"/>
+    <connection t1="Liaocheng" t2="Tsinan"/>
+    <connection t1="Liaocheng" t2="Tsingtai"/>
+    <connection t1="Liaocheng" t2="Anyang"/>
+    <connection t1="Liaocheng" t2="Kining"/>
+    <connection t1="Chiu-Chuan" t2="Hehsi Corridor"/>
+    <connection t1="Chiu-Chuan" t2="Sog-rigs"/>
+    <connection t1="Liaodong" t2="Shanhaiguan"/>
+    <connection t1="Liaodong" t2="Mukden"/>
+    <connection t1="Liaodong" t2="Kirin"/>
+    <connection t1="Liaodong" t2="Chengteh"/>
+    <connection t1="Nakhon Sawan" t2="Phitsanulok"/>
+    <connection t1="Nakhon Sawan" t2="Bangkok"/>
+    <connection t1="Kra" t2="Bangkok"/>
+    <connection t1="SZ 15 Philippine Sea" t2="SZ 11 Philippine Sea"/>
+    <connection t1="SZ 15 Philippine Sea" t2="SZ 23 Pacific Ocean"/>
+    <connection t1="SZ 23 Pacific Ocean" t2="SZ 11 Philippine Sea"/>
+    <connection t1="Taungoo" t2="Rangoon"/>
+    <connection t1="Taungoo" t2="Lashio"/>
+    <connection t1="Kentung" t2="Chiang Mai"/>
+    <connection t1="Kentung" t2="Lashio"/>
+    <connection t1="Kentung" t2="Taungoo"/>
+    <connection t1="Chengteh" t2="Shanhaiguan"/>
+    <connection t1="Chengteh" t2="North Jehol"/>
+    <connection t1="Chengteh" t2="Tangshan"/>
+    <connection t1="Chengteh" t2="Paoting"/>
+    <connection t1="Formosa" t2="SZ 11 Philippine Sea"/>
+    <connection t1="Formosa" t2="SZ 10 South China Sea"/>
+    <connection t1="Formosa" t2="SZ 8 East China Sea"/>
+    <connection t1="Puchow" t2="Anyang"/>
+    <connection t1="Puchow" t2="Nanyang"/>
+    <connection t1="Puchow" t2="Weinan"/>
+    <connection t1="Puchow" t2="Yenan"/>
+    <connection t1="Kuyuan" t2="Kungchangfu"/>
+    <connection t1="Kuyuan" t2="Yenan"/>
+    <connection t1="Korea" t2="Kirin"/>
+    <connection t1="Korea" t2="Liaodong"/>
+    <connection t1="Korea" t2="SZ 3 North Yellow Sea"/>
+    <connection t1="Korea" t2="SZ 4 South Yellow Sea"/>
+    <connection t1="Kannan" t2="Hanchung"/>
+    <connection t1="Kannan" t2="Golog"/>
+    <connection t1="Kungchangfu" t2="Kannan"/>
+    <connection t1="Kungchangfu" t2="Tsingyang"/>
+    <connection t1="Kungchangfu" t2="Hehsi Corridor"/>
+    <connection t1="Kungchangfu" t2="Sining"/>
+    <connection t1="Huangshan" t2="Hangchow"/>
+    <connection t1="Huangshan" t2="Anking"/>
+    <connection t1="Huangshan" t2="Poyang"/>
+    <connection t1="Huangshan" t2="Hwanggang"/>
+    <connection t1="Huangshan" t2="Luan"/>
+    <connection t1="Huangshan" t2="Huaipei"/>
+    <connection t1="Huangshan" t2="Yang-chow"/>
+    <connection t1="Kohima" t2="East Assam"/>
+    <connection t1="Kohima" t2="Manipur"/>
+    <connection t1="Kohima" t2="West Assam"/>
+    <connection t1="Shanhaiguan" t2="Tangshan"/>
+    <connection t1="Weihsien" t2="SZ 2 Bohai Sea"/>
+    <connection t1="SZ 3 North Yellow Sea" t2="SZ 2 Bohai Sea"/>
+    <connection t1="Weihsien" t2="Tsingtao"/>
+    <connection t1="Weihsien" t2="Weihaiwei"/>
+    <connection t1="Weihsien" t2="Jih-Chao"/>
+    <connection t1="Weihsien" t2="Lungkow"/>
+    <connection t1="Canton" t2="Te-king"/>
+    <connection t1="Canton" t2="Shiuchow"/>
+    <connection t1="SZ 1 Bohai Bay" t2="Techow"/>
+    <connection t1="SZ 1 Bohai Bay" t2="Tsangchow"/>
+    <connection t1="SZ 1 Bohai Bay" t2="Tientsin"/>
+    <connection t1="SZ 1 Bohai Bay" t2="Tangshan"/>
+    <connection t1="Lungkow" t2="Liaocheng"/>
+    <connection t1="Lungkow" t2="Kining"/>
+    <connection t1="Pa-chung" t2="Chungking"/>
+    <connection t1="Pa-chung" t2="Cheng-tu"/>
+    <connection t1="Pa-chung" t2="Wu Tang Mountains"/>
+    <connection t1="Pa-chung" t2="Luchow"/>
+    <connection t1="Pa-chung" t2="Suifu"/>
+    <connection t1="Nanning" t2="Kweilin"/>
+    <connection t1="Nanning" t2="Szecheng"/>
+    <connection t1="Nanning" t2="Lungchow"/>
+    <connection t1="Kweilin" t2="Lungchow"/>
+    <connection t1="Ordos Plateau" t2="North Suiyuan"/>
+    <connection t1="Ordos Plateau" t2="Ningsia"/>
+    <connection t1="Ordos Plateau" t2="Kuyuan"/>
+    <connection t1="Anking" t2="Luan"/>
+    <connection t1="Anking" t2="Huaipei"/>
+    <connection t1="Anking" t2="Yang-chow"/>
+    <connection t1="Changteh" t2="Changsha"/>
+    <connection t1="Changteh" t2="Siangtan"/>
+    <connection t1="Changteh" t2="Chien-ning"/>
+    <connection t1="Changteh" t2="Hwangshi"/>
+    <connection t1="Changteh" t2="Fancheng"/>
+    <connection t1="Amoy" t2="Yen-ping"/>
+    <connection t1="Kining" t2="Kaifeng"/>
+    <connection t1="Kining" t2="Huaipei"/>
+    <connection t1="Kining" t2="Hsuchow"/>
+    <connection t1="Kining" t2="Ichow"/>
+    <connection t1="Kining" t2="Tsinan"/>
+    <connection t1="Kining" t2="Techow"/>
+    <connection t1="Tsinghai" t2="Golog"/>
+    <connection t1="Tsinghai" t2="Sog-rigs"/>
+    <connection t1="SZ 17 Malay Sea" t2="Malaya-Singapore"/>
+    <connection t1="SZ 17 Malay Sea" t2="Nakhon Sawan"/>
+    <connection t1="SZ 17 Malay Sea" t2="SZ 14 South China Sea"/>
+    <connection t1="Imphal" t2="Kohima"/>
+    <connection t1="Imphal" t2="Chittagong"/>
+    <connection t1="Puel" t2="Kunming"/>
+    <connection t1="Puel" t2="Momein"/>
+    <connection t1="Puel" t2="Tonkin"/>
+    <connection t1="Puel" t2="Kentung"/>
+    <connection t1="Puel" t2="Kutsing"/>
+    <connection t1="Puel" t2="Ningyen"/>
+    <connection t1="West Kwangtung" t2="Canton"/>
+    <connection t1="West Kwangtung" t2="Woochow"/>
+    <connection t1="West Kwangtung" t2="SZ 12 Gulf of Tonkin"/>
+    <connection t1="West Kwangtung" t2="Swatow"/>
+    <connection t1="West Kwangtung" t2="Shiuchow"/>
+    <connection t1="Luan" t2="Nanking"/>
+    <connection t1="Luan" t2="Kaifeng"/>
+    <connection t1="Luan" t2="Hwanggang"/>
+    <connection t1="Luan" t2="Yang-chow"/>
+    <connection t1="Paoting" t2="Chahar"/>
+    <connection t1="Paoting" t2="Tsangchow"/>
+    <connection t1="Paoting" t2="Tsingtai"/>
+    <connection t1="Paoting" t2="Chengang"/>
+    <connection t1="Paoting" t2="So-ping"/>
+    <connection t1="SZ 20 Indian Ocean" t2="SZ 21 Strait of Malacca"/>
+    <connection t1="SZ 20 Indian Ocean" t2="SZ 18 Andaman Sea"/>
+    <connection t1="Wuhu" t2="Huangshan"/>
+    <connection t1="Wuhu" t2="Soochow"/>
+    <connection t1="Wuhu" t2="Hangchow"/>
+    <connection t1="Wuhu" t2="Yang-chow"/>
+    <connection t1="Wuhu" t2="Huaipei"/>
+    <connection t1="Wuhu" t2="Luan"/>
+    <connection t1="Wuhu" t2="Anking"/>
+    <connection t1="Nanyang" t2="Weinan"/>
+    <connection t1="Nanyang" t2="Wu Tang Mountains"/>
+    <connection t1="Nanyang" t2="Fancheng"/>
+    <connection t1="Nanyang" t2="Juning"/>
+    <connection t1="Nanyang" t2="Luoyang"/>
+    <connection t1="SZ 11 Philippine Sea" t2="SZ 10 South China Sea"/>
+    <connection t1="SZ 11 Philippine Sea" t2="SZ 8 East China Sea"/>
+    <connection t1="Soochow" t2="Hangchow"/>
+    <connection t1="Soochow" t2="Shanghai"/>
+    <connection t1="Kra" t2="Malaya-Singapore"/>
+    <connection t1="Tonkin" t2="Lungchow"/>
+    <connection t1="Tonkin" t2="Hanoi"/>
+    <connection t1="Tonkin" t2="South Laos"/>
+    <connection t1="Tonkin" t2="Luang Prabang"/>
+    <connection t1="Tonkin" t2="Annam"/>
+    <connection t1="Pinghsiang" t2="Nanchang"/>
+    <connection t1="Pinghsiang" t2="Hwangshi"/>
+    <connection t1="Pinghsiang" t2="Chien-ning"/>
+    <connection t1="Pinghsiang" t2="Poyang"/>
+    <connection t1="Lanchow" t2="Kungchangfu"/>
+    <connection t1="Lanchow" t2="Kannan"/>
+    <connection t1="Lanchow" t2="Sining"/>
+    <connection t1="Kirin" t2="Chengteh"/>
+    <connection t1="Kirin" t2="North Jehol"/>
+    <connection t1="Shanghai" t2="Hangchow"/>
+    <connection t1="Shanghai" t2="Ningpo"/>
+    <connection t1="SZ 2 Bohai Sea" t2="SZ 1 Bohai Bay"/>
+    <connection t1="SZ 2 Bohai Sea" t2="Tangshan"/>
+    <connection t1="SZ 2 Bohai Sea" t2="Shanhaiguan"/>
+    <connection t1="SZ 2 Bohai Sea" t2="Liaodong"/>
+    <connection t1="SZ 2 Bohai Sea" t2="Port Arthur"/>
+    <connection t1="SZ 2 Bohai Sea" t2="Weihaiwei"/>
+    <connection t1="SZ 2 Bohai Sea" t2="Lungkow"/>
+    <connection t1="Wu Tang Mountains" t2="Weinan"/>
+    <connection t1="Wu Tang Mountains" t2="Ichang"/>
+    <connection t1="Wu Tang Mountains" t2="Ankang"/>
+    <connection t1="Huainan" t2="Hsuchow"/>
+    <connection t1="Huainan" t2="Jih-Chao"/>
+    <connection t1="Huainan" t2="Chin-kiang"/>
+    <connection t1="Huainan" t2="SZ 4 South Yellow Sea"/>
+    <connection t1="Lu-ting" t2="Kannan"/>
+    <connection t1="Lu-ting" t2="Golog"/>
+    <connection t1="Chahar" t2="Chengteh"/>
+    <connection t1="Chahar" t2="North Suiyuan"/>
+    <connection t1="Chahar" t2="Sinkiang-Mongolia"/>
+    <connection t1="Cochinchina" t2="Cambodia"/>
+    <connection t1="Cochinchina" t2="SZ 17 Malay Sea"/>
+    <connection t1="Momein" t2="Myitkyina"/>
+    <connection t1="Momein" t2="Lashio"/>
+    <connection t1="Momein" t2="Kentung"/>
+    <connection t1="Weihaiwei" t2="SZ 4 South Yellow Sea"/>
+    <connection t1="Weihaiwei" t2="Jih-Chao"/>
+    <connection t1="Port Arthur" t2="Liaodong"/>
+    <connection t1="Wuhan" t2="Fancheng"/>
+    <connection t1="Wuhan" t2="Hwanggang"/>
+    <connection t1="Wuhan" t2="Hwangshi"/>
+    <connection t1="Wuhan" t2="Tungting"/>
+    <connection t1="Wuhan" t2="Changteh"/>
+    <connection t1="Wuhan" t2="Ichang"/>
+    <connection t1="Luang Prabang" t2="Udon Thani"/>
+    <connection t1="Luang Prabang" t2="Puel"/>
+    <connection t1="Luang Prabang" t2="Phitsanulok"/>
+    <connection t1="Luang Prabang" t2="Kentung"/>
+    <connection t1="Mukden" t2="Shanhaiguan"/>
+    <connection t1="Mukden" t2="Kirin"/>
+    <connection t1="Mukden" t2="Chengteh"/>
+    <connection t1="Kan" t2="Poyang"/>
+    <connection t1="Kan" t2="Nanchang"/>
+    <connection t1="Kan" t2="Amoy"/>
+    <connection t1="Kan" t2="Pinghsiang"/>
+    <connection t1="Kan" t2="Chenchow"/>
+    <connection t1="Kan" t2="Shiuchow"/>
+    <connection t1="Kan" t2="Hwangshi"/>
+    <connection t1="Fancheng" t2="Wu Tang Mountains"/>
+    <connection t1="Tungting" t2="Hwangshi"/>
+    <connection t1="Tungting" t2="Pinghsiang"/>
+    <connection t1="Tungting" t2="Changteh"/>
+    <connection t1="Tungting" t2="Changsha"/>
+    <connection t1="Tungting" t2="Chih-Chiang"/>
+    <connection t1="Tungting" t2="Siangtan"/>
+    <connection t1="Tungting" t2="Fancheng"/>
+    <connection t1="Tungting" t2="Hwanggang"/>
+    <connection t1="SZ 3 North Yellow Sea" t2="SZ 4 South Yellow Sea"/>
+    <connection t1="SZ 3 North Yellow Sea" t2="Liaodong"/>
+    <connection t1="SZ 3 North Yellow Sea" t2="Weihaiwei"/>
+    <connection t1="SZ 3 North Yellow Sea" t2="Port Arthur"/>
+    <connection t1="Ichang" t2="Changteh"/>
+    <connection t1="Ichang" t2="Fancheng"/>
+    <connection t1="Ichang" t2="Hwanggang"/>
+    <connection t1="Ichang" t2="Hwangshi"/>
+    <connection t1="Ichang" t2="Tungting"/>
+    <connection t1="Sian" t2="Yenan"/>
+    <connection t1="Sian" t2="Weinan"/>
+    <connection t1="Sian" t2="Ankang"/>
+    <connection t1="Tangshan" t2="Tientsin"/>
+    <connection t1="Bichieh" t2="Kweiyang"/>
+    <connection t1="Bichieh" t2="Luchow"/>
+    <connection t1="Kutsing" t2="Bichieh"/>
+    <connection t1="Kutsing" t2="Hsingi"/>
+    <connection t1="Kutsing" t2="Tali"/>
+    <connection t1="Nanking" t2="Wuhu"/>
+    <connection t1="Nanking" t2="Huangshan"/>
+    <connection t1="Nanking" t2="Anking"/>
+    <connection t1="Calcutta" t2="Imphal"/>
+    <connection t1="Calcutta" t2="SZ 19 Bay of Bengal"/>
+    <connection t1="Tibet" t2="Kunlun Mountains"/>
+    <connection t1="Tibet" t2="West Sikang"/>
+    <connection t1="Tibet" t2="West Assam"/>
+    <connection t1="Hsuchow" t2="Huaipei"/>
+    <connection t1="Hsuchow" t2="Yang-chow"/>
+    <connection t1="Hsuchow" t2="Jih-Chao"/>
+    <connection t1="Mengtsi" t2="Poseh"/>
+    <connection t1="Mengtsi" t2="Kutsing"/>
+    <connection t1="Mengtsi" t2="Puel"/>
+    <connection t1="Mengtsi" t2="Tonkin"/>
+    <connection t1="Mengtsi" t2="Tali"/>
+    <connection t1="Sining" t2="Hehsi Corridor"/>
+    <connection t1="Sining" t2="Golog"/>
+    <connection t1="Sining" t2="Tsinghai"/>
+    <connection t1="Chin" t2="Sittang"/>
+    <connection t1="Chin" t2="Chindwin"/>
+    <connection t1="Chin" t2="Chittagong"/>
+    <connection t1="Chin" t2="Manipur"/>
+    <connection t1="Hehsi Corridor" t2="Lanchow"/>
+    <connection t1="Hehsi Corridor" t2="Kannan"/>
+    <connection t1="Shiuchow" t2="Te-king"/>
+    <connection t1="Shiuchow" t2="Chenchow"/>
+    <connection t1="Shiuchow" t2="West Kwangtung"/>
+    <connection t1="SZ 4 South Yellow Sea" t2="SZ 6 East China Sea"/>
+    <connection t1="Woochow" t2="Kweilin"/>
+    <connection t1="Woochow" t2="Nanning"/>
+    <connection t1="Woochow" t2="SZ 12 Gulf of Tonkin"/>
+    <connection t1="Woochow" t2="Szecheng"/>
+    <connection t1="SZ 13 South China Sea" t2="SZ 14 South China Sea"/>
+    <connection t1="SZ 13 South China Sea" t2="Hainan"/>
+    <connection t1="SZ 13 South China Sea" t2="West Kwangtung"/>
+    <connection t1="SZ 13 South China Sea" t2="Hong Kong"/>
+    <connection t1="SZ 13 South China Sea" t2="SZ 10 South China Sea"/>
+    <connection t1="Peking" t2="Paoting"/>
+    <connection t1="Peking" t2="Chahar"/>
+    <connection t1="Peking" t2="Chengteh"/>
+    <connection t1="Peking" t2="Tientsin"/>
+    <connection t1="Szecheng" t2="Kweilin"/>
+    <connection t1="Szecheng" t2="Tuyun"/>
+    <connection t1="Rangoon" t2="Chiang Mai"/>
+    <connection t1="Rangoon" t2="Kra"/>
+    <connection t1="Rangoon" t2="Sittang"/>
+    <connection t1="Chenchow" t2="Siangtan"/>
+    <connection t1="SZ 7 East China Sea" t2="SZ 8 East China Sea"/>
+    <connection t1="SZ 7 East China Sea" t2="Shanghai"/>
+    <connection t1="SZ 14 South China Sea" t2="SZ 15 Philippine Sea"/>
+    <connection t1="Luoyang" t2="Anyang"/>
+    <connection t1="Luoyang" t2="Kaifeng"/>
+    <connection t1="Luoyang" t2="Juning"/>
+    <connection t1="Sittang" t2="Taungoo"/>
+    <connection t1="Sittang" t2="Pathein"/>
+    <connection t1="Sittang" t2="Mandalay"/>
+    <connection t1="North Suiyuan" t2="Ningsia"/>
+    <connection t1="So-ping" t2="Taiyuan"/>
+    <connection t1="So-ping" t2="Chengang"/>
+    <connection t1="So-ping" t2="North Suiyuan"/>
+    <connection t1="So-ping" t2="Ordos Plateau"/>
+    <connection t1="So-ping" t2="Fen-chow"/>
+    <connection t1="So-ping" t2="Chahar"/>
+    <connection t1="Ningpo" t2="Hangchow"/>
+    <connection t1="Ningpo" t2="Huangshan"/>
+    <connection t1="Ningpo" t2="Foochow"/>
+    <connection t1="Ningpo" t2="Yen-ping"/>
+    <connection t1="Ningpo" t2="Poyang"/>
+    <connection t1="Ningpo" t2="SZ 7 East China Sea"/>
+    <connection t1="Ningpo" t2="Soochow"/>
+    <connection t1="Ningpo" t2="Chin-kiang"/>
+    <connection t1="Myitkyina" t2="Lashio"/>
+    <connection t1="Myitkyina" t2="Chindwin"/>
+    <connection t1="Myitkyina" t2="Mandalay"/>
+    <connection t1="Yang-chow" t2="Huainan"/>
+    <connection t1="Yang-chow" t2="Nanking"/>
+    <connection t1="Yang-chow" t2="Huangshan"/>
+    <connection t1="Yang-chow" t2="Luan"/>
+    <connection t1="Hwanggang" t2="Anking"/>
+    <connection t1="Hwanggang" t2="Huangshan"/>
+    <connection t1="Hwanggang" t2="Fancheng"/>
+    <connection t1="Hwanggang" t2="Hwangshi"/>
+    <connection t1="Hwanggang" t2="Changteh"/>
+    <connection t1="Siangtan" t2="Chien-ning"/>
+    <connection t1="Siangtan" t2="Chih-Chiang"/>
+    <connection t1="Siangtan" t2="Kweilin"/>
+    <connection t1="Siangtan" t2="Tungting"/>
+    <connection t1="Siangtan" t2="Changteh"/>
+    <connection t1="East Assam" t2="Chindwin"/>
+    <connection t1="East Assam" t2="Myitkyina"/>
+    <connection t1="East Assam" t2="West Assam"/>
+    <connection t1="Luchow" t2="Chenyuan"/>
+    <connection t1="Luchow" t2="Fengdu"/>
+    <connection t1="Luchow" t2="Suifu"/>
+    <connection t1="Luchow" t2="Kutsing"/>
+    <connection t1="Luchow" t2="Chungking"/>
+    <connection t1="Luchow" t2="Tuyun"/>
+    <connection t1="Luchow" t2="Cheng-tu"/>
+    <connection t1="Sinkiang-Mongolia" t2="North Suiyuan"/>
+    <connection t1="Sinkiang-Mongolia" t2="Ningsia"/>
+    <connection t1="Sinkiang-Mongolia" t2="Chiu-Chuan"/>
+    <connection t1="Sinkiang-Mongolia" t2="Sog-rigs"/>
+    <connection t1="Sinkiang-Mongolia" t2="Kunlun Mountains"/>
+    <connection t1="Sinkiang-Mongolia" t2="Tibet"/>
+    <connection t1="Foochow" t2="Amoy"/>
+    <connection t1="Cambodia" t2="South Laos"/>
+    <connection t1="Cambodia" t2="Annam"/>
+    <connection t1="Cambodia" t2="Udon Thani"/>
+    <connection t1="Cambodia" t2="Nakhon Sawan"/>
+    <connection t1="Cambodia" t2="SZ 17 Malay Sea"/>
+    <connection t1="Kunlun Mountains" t2="Tsinghai"/>
+    <connection t1="Kunlun Mountains" t2="Sog-rigs"/>
+    <connection t1="Kunlun Mountains" t2="Golog"/>
+    <connection t1="Changchih" t2="Puchow"/>
+    <connection t1="Changchih" t2="Anyang"/>
+    <connection t1="Changchih" t2="Chengang"/>
+    <connection t1="Changchih" t2="Taiyuan"/>
+    <connection t1="Changchih" t2="So-ping"/>
+    <connection t1="Chin-kiang" t2="Yang-chow"/>
+    <connection t1="Chin-kiang" t2="SZ 6 East China Sea"/>
+    <connection t1="Chin-kiang" t2="Soochow"/>
+    <connection t1="Chin-kiang" t2="Hangchow"/>
+    <connection t1="Chin-kiang" t2="Ningpo"/>
+    <connection t1="Poyang" t2="Yen-ping"/>
+    <connection t1="Poyang" t2="Nanchang"/>
+    <connection t1="Poyang" t2="Hwangshi"/>
+    <connection t1="Poyang" t2="Hwanggang"/>
+    <connection t1="SZ 10 South China Sea" t2="SZ 14 South China Sea"/>
+    <connection t1="SZ 10 South China Sea" t2="SZ 9 Taiwan Strait"/>
+    <connection t1="Te-king" t2="Chenchow"/>
+    <connection t1="Lungchow" t2="Woochow"/>
+    <connection t1="Te-king" t2="Woochow"/>
+    <connection t1="Te-king" t2="West Kwangtung"/>
+    <connection t1="Te-king" t2="Siangtan"/>
+    <connection t1="Hainan" t2="SZ 14 South China Sea"/>
+    <connection t1="SZ 18 Andaman Sea" t2="SZ 19 Bay of Bengal"/>
+    <connection t1="SZ 18 Andaman Sea" t2="Kra"/>
+    <connection t1="SZ 18 Andaman Sea" t2="Rangoon"/>
+    <connection t1="SZ 18 Andaman Sea" t2="Pathein"/>
+    <connection t1="Changsha" t2="Siangtan"/>
+    <connection t1="Lungchow" t2="Poseh"/>
+    <connection t1="Lungchow" t2="Szecheng"/>
+    <connection t1="Lungchow" t2="Kweilin"/>
+    <connection t1="Poseh" t2="Szecheng"/>
+    <connection t1="Poseh" t2="Tonkin"/>
+    <connection t1="SZ 17 Malay Sea" t2="SZ 21 Strait of Malacca"/>
+    <!--Rail Connections-->
+    <!--Rail Connection to city-->
+    <connection t1="Hanoi Station" t2="Hanoi"/>
+    <connection t1="Korea Station" t2="Korea"/>
+    <connection t1="Wuhan Station" t2="Wuhan"/>
+    <connection t1="Sian Station" t2="Sian"/>
+    <connection t1="Chittagong Station" t2="Chittagong"/>
+    <connection t1="Shanghai Station" t2="Shanghai"/>
+    <connection t1="Chungking Station" t2="Chungking"/>
+    <connection t1="Tsingtao Station" t2="Tsingtao"/>
+    <connection t1="Nanking Station" t2="Nanking"/>
+    <connection t1="Taiyuan Station" t2="Taiyuan"/>
+    <connection t1="Calcutta Station" t2="Calcutta"/>
+    <connection t1="Lanchow Station" t2="Lanchow"/>
+    <connection t1="Tsinan Station" t2="Tsinan"/>
+    <connection t1="Mukden Station" t2="Mukden"/>
+    <connection t1="Peking Station" t2="Peking"/>
+    <connection t1="Nanchang Station" t2="Nanchang"/>
+    <connection t1="East Assam Station" t2="East Assam"/>
+    <connection t1="Kunming Station" t2="Kunming"/>
+    <connection t1="Kweiyang Station" t2="Kweiyang"/>
+    <connection t1="Rangoon Station" t2="Rangoon"/>
+    <connection t1="Changsha Station" t2="Changsha"/>
+    <connection t1="Bangkok Station" t2="Bangkok"/>
+    <connection t1="Canton Station" t2="Canton"/>
+    <connection t1="Port Arthur Station" t2="Port Arthur"/>
+    <connection t1="Nanning Station" t2="Nanning"/>
+    <!--Rail Connection to Auxillary-->
+    <connection t1="Korea-Mukden-Korea" t2="Korea Station"/>
+    <connection t1="Korea-Mukden-Mukden" t2="Mukden Station"/>
+    <connection t1="Port Arthur-Mukden-Port Arthur" t2="Port Arthur Station"/>
+    <connection t1="Port Arthur-Mukden-Mukden" t2="Mukden Station"/>
+    <connection t1="Mukden-Peking-Mukden" t2="Mukden Station"/>
+    <connection t1="Mukden-Peking-Peking" t2="Peking Station"/>
+    <connection t1="Peking-Tsinan-Peking" t2="Peking Station"/>
+    <connection t1="Peking-Tsinan-Tsinan" t2="Tsinan Station"/>
+    <connection t1="Peking-Taiyuan-Peking" t2="Peking Station"/>
+    <connection t1="Peking-Taiyuan-Taiyuan" t2="Taiyuan Station"/>
+    <connection t1="Peking-Sian-Peking" t2="Peking Station"/>
+    <connection t1="Peking-Sian-Sian" t2="Sian Station"/>
+    <connection t1="Peking-Wuhan-Peking" t2="Peking Station"/>
+    <connection t1="Peking-Wuhan-Wuhan" t2="Wuhan Station"/>
+    <connection t1="Taiyuan-Sian-Taiyuan" t2="Taiyuan Station"/>
+    <connection t1="Taiyuan-Sian-Sian" t2="Sian Station"/>
+    <connection t1="Taiyuan-Wuhan-Taiyuan" t2="Taiyuan Station"/>
+    <connection t1="Taiyuan-Wuhan-Wuhan" t2="Wuhan Station"/>
+    <connection t1="Taiyuan-Tsinan-Taiyuan" t2="Taiyuan Station"/>
+    <connection t1="Taiyuan-Tsinan-Tsinan" t2="Tsinan Station"/>
+    <connection t1="Sian-Tsinan-Sian" t2="Sian Station"/>
+    <connection t1="Sian-Tsinan-Tsinan" t2="Tsinan Station"/>
+    <connection t1="Sian-Wuhan-Sian" t2="Sian Station"/>
+    <connection t1="Sian-Wuhan-Wuhan" t2="Wuhan Station"/>
+    <connection t1="Wuhan-Tsinan-Wuhan" t2="Wuhan Station"/>
+    <connection t1="Wuhan-Tsinan-Tsinan" t2="Tsinan Station"/>
+    <connection t1="Tsinan-Tsingtao-Tsinan" t2="Tsinan Station"/>
+    <connection t1="Tsinan-Tsingtao-Tsingtao" t2="Tsingtao Station"/>
+    <connection t1="Tsinan-Nanking-Tsinan" t2="Tsinan Station"/>
+    <connection t1="Tsinan-Nanking-Nanking" t2="Nanking Station"/>
+    <connection t1="Nanking-Shanghai-Nanking" t2="Nanking Station"/>
+    <connection t1="Nanking-Shanghai-Shanghai" t2="Shanghai Station"/>
+    <connection t1="Shanghai-Nanchang-Shanghai" t2="Shanghai Station"/>
+    <connection t1="Shanghai-Nanchang-Nanchang" t2="Nanchang Station"/>
+    <connection t1="Nanchang-Changsha-Nanchang" t2="Nanchang Station"/>
+    <connection t1="Nanchang-Changsha-Changsha" t2="Changsha Station"/>
+    <connection t1="Wuhan-Changsha-Wuhan" t2="Wuhan Station"/>
+    <connection t1="Wuhan-Changsha-Changsha" t2="Changsha Station"/>
+    <connection t1="Changsha-Canton-Changsha" t2="Changsha Station"/>
+    <connection t1="Changsha-Canton-Canton" t2="Canton Station"/>
+    <connection t1="Changsha-Kweiyang-Changsha" t2="Changsha Station"/>
+    <connection t1="Changsha-Kweiyang-Kweiyang" t2="Kweiyang Station"/>
+    <connection t1="Canton-Kweiyang-Canton" t2="Canton Station"/>
+    <connection t1="Canton-Kweiyang-Kweiyang" t2="Kweiyang Station"/>
+    <connection t1="Lanchow-Sian-Lanchow" t2="Lanchow Station"/>
+    <connection t1="Lanchow-Sian-Sian" t2="Sian Station"/>
+    <connection t1="Lanchow-Chungking-Lanchow" t2="Lanchow Station"/>
+    <connection t1="Lanchow-Chungking-Chungking" t2="Chungking Station"/>
+    <connection t1="Sian-Chungking-Sian" t2="Sian Station"/>
+    <connection t1="Sian-Chungking-Chungking" t2="Chungking Station"/>
+    <connection t1="Chungking-Kweiyang-Chungking" t2="Chungking Station"/>
+    <connection t1="Chungking-Kweiyang-Kweiyang" t2="Kweiyang Station"/>
+    <connection t1="Chungking-Kunming-Chungking" t2="Chungking Station"/>
+    <connection t1="Chungking-Kunming-Kunming" t2="Kunming Station"/>
+    <connection t1="Kunming-Kweiyang-Kunming" t2="Kunming Station"/>
+    <connection t1="Kunming-Kweiyang-Kweiyang" t2="Kweiyang Station"/>
+    <connection t1="Kunming-Hanoi-Kunming" t2="Kunming Station"/>
+    <connection t1="Kunming-Hanoi-Hanoi" t2="Hanoi Station"/>
+    <connection t1="Hanoi-Nanning-Hanoi" t2="Hanoi Station"/>
+    <connection t1="Hanoi-Nanning-Nanning" t2="Nanning Station"/>
+    <connection t1="Hanoi-Bangkok-Hanoi" t2="Hanoi Station"/>
+    <connection t1="Hanoi-Bangkok-Bangkok" t2="Bangkok Station"/>
+    <connection t1="Bangkok-Rangoon-Bangkok" t2="Bangkok Station"/>
+    <connection t1="Bangkok-Rangoon-Rangoon" t2="Rangoon Station"/>
+    <connection t1="Calcutta-East Assam-Calcutta" t2="Calcutta Station"/>
+    <connection t1="Calcutta-East Assam-East Assam" t2="East Assam Station"/>
+    <connection t1="Calcutta-Chittagong-Calcutta" t2="Calcutta Station"/>
+    <connection t1="Calcutta-Chittagong-Chittagong" t2="Chittagong Station"/>
+    <connection t1="East Assam-Chittagong-East Assam" t2="East Assam Station"/>
+    <connection t1="East Assam-Chittagong-Chittagong" t2="Chittagong Station"/>
+    <!--Rail Canal Connections-->
+    <connection t1="Korea-Mukden-Korea" t2="Korea-Mukden-Mukden"/>
+    <connection t1="Port Arthur-Mukden-Port Arthur" t2="Port Arthur-Mukden-Mukden"/>
+    <connection t1="Mukden-Peking-Mukden" t2="Mukden-Peking-Peking"/>
+    <connection t1="Peking-Tsinan-Peking" t2="Peking-Tsinan-Tsinan"/>
+    <connection t1="Peking-Taiyuan-Peking" t2="Peking-Taiyuan-Taiyuan"/>
+    <connection t1="Peking-Sian-Peking" t2="Peking-Sian-Sian"/>
+    <connection t1="Peking-Wuhan-Peking" t2="Peking-Wuhan-Wuhan"/>
+    <connection t1="Taiyuan-Sian-Taiyuan" t2="Taiyuan-Sian-Sian"/>
+    <connection t1="Taiyuan-Wuhan-Taiyuan" t2="Taiyuan-Wuhan-Wuhan"/>
+    <connection t1="Taiyuan-Tsinan-Taiyuan" t2="Taiyuan-Tsinan-Tsinan"/>
+    <connection t1="Sian-Tsinan-Sian" t2="Sian-Tsinan-Tsinan"/>
+    <connection t1="Sian-Wuhan-Sian" t2="Sian-Wuhan-Wuhan"/>
+    <connection t1="Wuhan-Tsinan-Wuhan" t2="Wuhan-Tsinan-Tsinan"/>
+    <connection t1="Tsinan-Tsingtao-Tsinan" t2="Tsinan-Tsingtao-Tsingtao"/>
+    <connection t1="Tsinan-Nanking-Tsinan" t2="Tsinan-Nanking-Nanking"/>
+    <connection t1="Nanking-Shanghai-Nanking" t2="Nanking-Shanghai-Shanghai"/>
+    <connection t1="Shanghai-Nanchang-Shanghai" t2="Shanghai-Nanchang-Nanchang"/>
+    <connection t1="Nanchang-Changsha-Nanchang" t2="Nanchang-Changsha-Changsha"/>
+    <connection t1="Wuhan-Changsha-Wuhan" t2="Wuhan-Changsha-Changsha"/>
+    <connection t1="Changsha-Canton-Changsha" t2="Changsha-Canton-Canton"/>
+    <connection t1="Changsha-Kweiyang-Changsha" t2="Changsha-Kweiyang-Kweiyang"/>
+    <connection t1="Canton-Kweiyang-Canton" t2="Canton-Kweiyang-Kweiyang"/>
+    <connection t1="Lanchow-Sian-Lanchow" t2="Lanchow-Sian-Sian"/>
+    <connection t1="Lanchow-Chungking-Lanchow" t2="Lanchow-Chungking-Chungking"/>
+    <connection t1="Sian-Chungking-Sian" t2="Sian-Chungking-Chungking"/>
+    <connection t1="Chungking-Kweiyang-Chungking" t2="Chungking-Kweiyang-Kweiyang"/>
+    <connection t1="Chungking-Kunming-Chungking" t2="Chungking-Kunming-Kunming"/>
+    <connection t1="Kunming-Kweiyang-Kunming" t2="Kunming-Kweiyang-Kweiyang"/>
+    <connection t1="Kunming-Hanoi-Kunming" t2="Kunming-Hanoi-Hanoi"/>
+    <connection t1="Hanoi-Nanning-Hanoi" t2="Hanoi-Nanning-Nanning"/>
+    <connection t1="Hanoi-Bangkok-Hanoi" t2="Hanoi-Bangkok-Bangkok"/>
+    <connection t1="Bangkok-Rangoon-Bangkok" t2="Bangkok-Rangoon-Rangoon"/>
+    <connection t1="Calcutta-East Assam-Calcutta" t2="Calcutta-East Assam-East Assam"/>
+    <connection t1="Calcutta-Chittagong-Calcutta" t2="Calcutta-Chittagong-Chittagong"/>
+    <connection t1="East Assam-Chittagong-East Assam" t2="East Assam-Chittagong-Chittagong"/>
+  </map>
+  <resourceList>
+    <resource name="PUs"/>
+    <resource name="techTokens"/>
+  </resourceList>
+  <playerList>
+    <!-- Player Turn Order -->
+    <player name="ChihliClique" optional="false"/>
+    <player name="FengtianClique" optional="false"/>
+    <player name="Guominjun" optional="false"/>
+    <player name="Kuomintang" optional="false"/>
+    <player name="LeagueofFiveProvinces" optional="false"/>
+    <player name="YunnanClique" optional="false"/>
+    <alliance player="ChihliClique" alliance="Chihli Clique"/>
+    <alliance player="FengtianClique" alliance="Fengtian Clique"/>
+    <alliance player="Guominjun" alliance="Guominjun"/>
+    <alliance player="Kuomintang" alliance="Kuomintang"/>
+    <alliance player="LeagueofFiveProvinces" alliance="League of Five Provinces"/>
+    <alliance player="YunnanClique" alliance="Yunnan Clique"/>
+  </playerList>
+  <unitList>
+    <unit name="infantry"/>
+    <unit name="armour"/>
+    <unit name="fighter"/>
+    <unit name="bomber"/>
+    <unit name="transport"/>
+    <unit name="battleship"/>
+    <unit name="carrier"/>
+    <unit name="submarine"/>
+    <unit name="factory"/>
+    <unit name="aaGun"/>
+    <unit name="artillery"/>
+    <unit name="destroyer"/>
+    <unit name="cruiser"/>
+    <unit name="ruralproduction"/>
+  </unitList>
+  <gamePlay>
+    <delegate name="initDelegate" javaClass="games.strategy.triplea.delegate.InitializationDelegate" display="Initializing Delegates"/>
+    <delegate name="tech" javaClass="games.strategy.triplea.delegate.TechnologyDelegate" display="Research Technology"/>
+    <delegate name="tech_activation" javaClass="games.strategy.triplea.delegate.TechActivationDelegate" display="Activate Technology"/>
+    <delegate name="battle" javaClass="games.strategy.triplea.delegate.BattleDelegate" display="Combat"/>
+    <delegate name="move" javaClass="games.strategy.triplea.delegate.MoveDelegate" display="Combat Move"/>
+    <delegate name="place" javaClass="games.strategy.triplea.delegate.PlaceDelegate" display="Place Units"/>
+    <delegate name="purchase" javaClass="games.strategy.triplea.delegate.PurchaseDelegate" display="Purchase Units"/>
+    <delegate name="purchaseNoPU" javaClass="games.strategy.triplea.delegate.NoPUPurchaseDelegate" display="Purchase Units"/>
+    <delegate name="endTurn" javaClass="games.strategy.triplea.delegate.EndTurnDelegate" display="Turn Complete"/>
+    <delegate name="endTurnNoPU" javaClass="games.strategy.triplea.delegate.NoPUEndTurnDelegate" display="Turn Complete"/>
+    <delegate name="endRound" javaClass="games.strategy.triplea.delegate.EndRoundDelegate" display="Round Complete"/>
+    <delegate name="placeBid" javaClass="games.strategy.triplea.delegate.BidPlaceDelegate" display="Bid Placement"/>
+    <delegate name="bid" javaClass="games.strategy.triplea.delegate.BidPurchaseDelegate" display="Bid Purchase"/>
+    <sequence>
+      <step name="gameInitDelegate" delegate="initDelegate" maxRunCount="1"/>
+      <!-- Bidding Phase -->
+      <step name="ChihliCliqueBid" delegate="bid" player="ChihliClique" maxRunCount="1"/>
+      <step name="ChihliCliqueBidPlace" delegate="placeBid" player="ChihliClique" maxRunCount="1"/>
+      <step name="FengtianCliqueBid" delegate="bid" player="FengtianClique" maxRunCount="1"/>
+      <step name="FengtianCliqueBidPlace" delegate="placeBid" player="FengtianClique" maxRunCount="1"/>
+      <step name="GuominjunBid" delegate="bid" player="Guominjun" maxRunCount="1"/>
+      <step name="GuominjunBidPlace" delegate="placeBid" player="Guominjun" maxRunCount="1"/>
+      <step name="KuomintangBid" delegate="bid" player="Kuomintang" maxRunCount="1"/>
+      <step name="KuomintangBidPlace" delegate="placeBid" player="Kuomintang" maxRunCount="1"/>
+      <step name="LeagueofFiveProvincesBid" delegate="bid" player="LeagueofFiveProvinces" maxRunCount="1"/>
+      <step name="LeagueofFiveProvincesBidPlace" delegate="placeBid" player="LeagueofFiveProvinces" maxRunCount="1"/>
+      <step name="YunnanCliqueBid" delegate="bid" player="YunnanClique" maxRunCount="1"/>
+      <step name="YunnanCliqueBidPlace" delegate="placeBid" player="YunnanClique" maxRunCount="1"/>
+      <!-- Chihli Clique Game Sequence -->
+      <step name="ChihliCliqueTech" delegate="tech" player="ChihliClique"/>
+      <step name="ChihliCliqueTechActivation" delegate="tech_activation" player="ChihliClique"/>
+      <step name="ChihliCliquePurchase" delegate="purchase" player="ChihliClique"/>
+      <step name="ChihliCliqueCombatMove" delegate="move" player="ChihliClique"/>
+      <step name="ChihliCliqueBattle" delegate="battle" player="ChihliClique"/>
+      <step name="ChihliCliqueNonCombatMove" delegate="move" player="ChihliClique" display="Non Combat Move"/>
+      <step name="ChihliCliquePlace" delegate="place" player="ChihliClique"/>
+      <step name="ChihliCliqueEndTurn" delegate="endTurn" player="ChihliClique"/>
+      <!-- Fengtian Clique Game Sequence -->
+      <step name="FengtianCliqueTech" delegate="tech" player="FengtianClique"/>
+      <step name="FengtianCliqueTechActivation" delegate="tech_activation" player="FengtianClique"/>
+      <step name="FengtianCliquePurchase" delegate="purchase" player="FengtianClique"/>
+      <step name="FengtianCliqueCombatMove" delegate="move" player="FengtianClique"/>
+      <step name="FengtianCliqueBattle" delegate="battle" player="FengtianClique"/>
+      <step name="FengtianCliqueNonCombatMove" delegate="move" player="FengtianClique" display="Non Combat Move"/>
+      <step name="FengtianCliquePlace" delegate="place" player="FengtianClique"/>
+      <step name="FengtianCliqueEndTurn" delegate="endTurn" player="FengtianClique"/>
+      <!-- Guominjun Game Sequence -->
+      <step name="GuominjunTech" delegate="tech" player="Guominjun"/>
+      <step name="GuominjunTechActivation" delegate="tech_activation" player="Guominjun"/>
+      <step name="GuominjunPurchase" delegate="purchase" player="Guominjun"/>
+      <step name="GuominjunCombatMove" delegate="move" player="Guominjun"/>
+      <step name="GuominjunBattle" delegate="battle" player="Guominjun"/>
+      <step name="GuominjunNonCombatMove" delegate="move" player="Guominjun" display="Non Combat Move"/>
+      <step name="GuominjunPlace" delegate="place" player="Guominjun"/>
+      <step name="GuominjunEndTurn" delegate="endTurn" player="Guominjun"/>
+      <!-- Kuomintang Game Sequence -->
+      <step name="KuomintangTech" delegate="tech" player="Kuomintang"/>
+      <step name="KuomintangTechActivation" delegate="tech_activation" player="Kuomintang"/>
+      <step name="KuomintangPurchase" delegate="purchase" player="Kuomintang"/>
+      <step name="KuomintangCombatMove" delegate="move" player="Kuomintang"/>
+      <step name="KuomintangBattle" delegate="battle" player="Kuomintang"/>
+      <step name="KuomintangNonCombatMove" delegate="move" player="Kuomintang" display="Non Combat Move"/>
+      <step name="KuomintangPlace" delegate="place" player="Kuomintang"/>
+      <step name="KuomintangEndTurn" delegate="endTurn" player="Kuomintang"/>
+      <!-- League of Five Provinces Game Sequence -->
+      <step name="LeagueofFiveProvincesTech" delegate="tech" player="LeagueofFiveProvinces"/>
+      <step name="LeagueofFiveProvincesTechActivation" delegate="tech_activation" player="LeagueofFiveProvinces"/>
+      <step name="LeagueofFiveProvincesPurchase" delegate="purchase" player="LeagueofFiveProvinces"/>
+      <step name="LeagueofFiveProvincesCombatMove" delegate="move" player="LeagueofFiveProvinces"/>
+      <step name="LeagueofFiveProvincesBattle" delegate="battle" player="LeagueofFiveProvinces"/>
+      <step name="LeagueofFiveProvincesNonCombatMove" delegate="move" player="LeagueofFiveProvinces" display="Non Combat Move"/>
+      <step name="LeagueofFiveProvincesPlace" delegate="place" player="LeagueofFiveProvinces"/>
+      <step name="LeagueofFiveProvincesEndTurn" delegate="endTurn" player="LeagueofFiveProvinces"/>
+      <!-- Yunnan Clique Game Sequence -->
+      <step name="YunnanCliqueTech" delegate="tech" player="YunnanClique"/>
+      <step name="YunnanCliqueTechActivation" delegate="tech_activation" player="YunnanClique"/>
+      <step name="YunnanCliquePurchase" delegate="purchase" player="YunnanClique"/>
+      <step name="YunnanCliqueCombatMove" delegate="move" player="YunnanClique"/>
+      <step name="YunnanCliqueBattle" delegate="battle" player="YunnanClique"/>
+      <step name="YunnanCliqueNonCombatMove" delegate="move" player="YunnanClique" display="Non Combat Move"/>
+      <step name="YunnanCliquePlace" delegate="place" player="YunnanClique"/>
+      <step name="YunnanCliqueEndTurn" delegate="endTurn" player="YunnanClique"/>
+      <!-- End Round -->
+      <step name="endRoundStep" delegate="endRound"/>
+    </sequence>
+  </gamePlay>
+  <production>
+    <!-- Unit Production Cost -->
+    <productionRule name="buyinfantry">
+      <cost resource="PUs" quantity="3"/>
+      <result resourceOrUnit="infantry" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyArtillery">
+      <cost resource="PUs" quantity="4"/>
+      <result resourceOrUnit="artillery" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyArmour">
+      <cost resource="PUs" quantity="5"/>
+      <result resourceOrUnit="armour" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyFighter">
+      <cost resource="PUs" quantity="10"/>
+      <result resourceOrUnit="fighter" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyBomber">
+      <cost resource="PUs" quantity="12"/>
+      <result resourceOrUnit="bomber" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyTransport">
+      <cost resource="PUs" quantity="7"/>
+      <result resourceOrUnit="transport" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyCarrier">
+      <cost resource="PUs" quantity="14"/>
+      <result resourceOrUnit="carrier" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyDestroyer">
+      <cost resource="PUs" quantity="8"/>
+      <result resourceOrUnit="destroyer" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyCruiser">
+      <cost resource="PUs" quantity="12"/>
+      <result resourceOrUnit="cruiser" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyBattleship">
+      <cost resource="PUs" quantity="20"/>
+      <result resourceOrUnit="battleship" quantity="1"/>
+    </productionRule>
+    <productionRule name="buySubmarine">
+      <cost resource="PUs" quantity="6"/>
+      <result resourceOrUnit="submarine" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyFactory">
+      <cost resource="PUs" quantity="15"/>
+      <result resourceOrUnit="factory" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyAAGun">
+      <cost resource="PUs" quantity="6"/>
+      <result resourceOrUnit="aaGun" quantity="1"/>
+    </productionRule>
+    <!-- Advanced Industrial Production -->
+    <productionRule name="buyinfantryIndustrialTechnology">
+      <cost resource="PUs" quantity="3"/>
+      <result resourceOrUnit="infantry" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyArtilleryIndustrialTechnology">
+      <cost resource="PUs" quantity="4"/>
+      <result resourceOrUnit="artillery" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyArmourIndustrialTechnology">
+      <cost resource="PUs" quantity="5"/>
+      <result resourceOrUnit="armour" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyFighterIndustrialTechnology">
+      <cost resource="PUs" quantity="10"/>
+      <result resourceOrUnit="fighter" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyBomberIndustrialTechnology">
+      <cost resource="PUs" quantity="12"/>
+      <result resourceOrUnit="bomber" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyTransportIndustrialTechnology">
+      <cost resource="PUs" quantity="6"/>
+      <result resourceOrUnit="transport" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyCarrierIndustrialTechnology">
+      <cost resource="PUs" quantity="11"/>
+      <result resourceOrUnit="carrier" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyDestroyerIndustrialTechnology">
+      <cost resource="PUs" quantity="7"/>
+      <result resourceOrUnit="destroyer" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyCruiserIndustrialTechnology">
+      <cost resource="PUs" quantity="10"/>
+      <result resourceOrUnit="destroyer" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyBattleshipIndustrialTechnology">
+      <cost resource="PUs" quantity="17"/>
+      <result resourceOrUnit="battleship" quantity="1"/>
+    </productionRule>
+    <productionRule name="buySubmarineIndustrialTechnology">
+      <cost resource="PUs" quantity="5"/>
+      <result resourceOrUnit="submarine" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyFactoryIndustrialTechnology">
+      <cost resource="PUs" quantity="15"/>
+      <result resourceOrUnit="factory" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyAAGunIndustrialTechnology">
+      <cost resource="PUs" quantity="6"/>
+      <result resourceOrUnit="aaGun" quantity="1"/>
+    </productionRule>
+    <!-- SHIPYARD PRICES -->
+    <productionRule name="buyTransportShipyards">
+      <cost resource="PUs" quantity="6"/>
+      <result resourceOrUnit="transport" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyCarrierShipyards">
+      <cost resource="PUs" quantity="11"/>
+      <result resourceOrUnit="carrier" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyDestroyerShipyards">
+      <cost resource="PUs" quantity="7"/>
+      <result resourceOrUnit="destroyer" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyCruiserShipyards">
+      <cost resource="PUs" quantity="10"/>
+      <result resourceOrUnit="cruiser" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyBattleshipShipyards">
+      <cost resource="PUs" quantity="17"/>
+      <result resourceOrUnit="battleship" quantity="1"/>
+    </productionRule>
+    <productionRule name="buySubmarineShipyards">
+      <cost resource="PUs" quantity="5"/>
+      <result resourceOrUnit="submarine" quantity="1"/>
+    </productionRule>
+    <!-- Repair rules -->
+    <repairRule name="repairFactory">
+      <cost resource="PUs" quantity="1"/>
+      <result resourceOrUnit="factory" quantity="1"/>
+    </repairRule>
+    <repairRule name="repairFactoryIndustrialTechnology">
+      <cost resource="PUs" quantity="1"/>
+      <result resourceOrUnit="factory" quantity="2"/>
+    </repairRule>
+    <repairFrontier name="repair">
+      <repairRules name="repairFactory"/>
+    </repairFrontier>
+    <repairFrontier name="repairIndustrialTechnology">
+      <repairRules name="repairFactoryIndustrialTechnology"/>
+    </repairFrontier>
+    <productionFrontier name="production">
+      <frontierRules name="buyinfantry"/>
+      <frontierRules name="buyArtillery"/>
+      <frontierRules name="buyArmour"/>
+      <frontierRules name="buyFighter"/>
+      <frontierRules name="buyBomber"/>
+      <frontierRules name="buyTransport"/>
+      <frontierRules name="buySubmarine"/>
+      <frontierRules name="buyCarrier"/>
+      <frontierRules name="buyDestroyer"/>
+      <frontierRules name="buyCruiser"/>
+      <frontierRules name="buyBattleship"/>
+      <frontierRules name="buyAAGun"/>
+      <frontierRules name="buyFactory"/>
+    </productionFrontier>
+    <productionFrontier name="productionIndustrialTechnology">
+      <frontierRules name="buyinfantryIndustrialTechnology"/>
+      <frontierRules name="buyArtilleryIndustrialTechnology"/>
+      <frontierRules name="buyArmourIndustrialTechnology"/>
+      <frontierRules name="buyFighterIndustrialTechnology"/>
+      <frontierRules name="buyBomberIndustrialTechnology"/>
+      <frontierRules name="buyTransportIndustrialTechnology"/>
+      <frontierRules name="buySubmarineIndustrialTechnology"/>
+      <frontierRules name="buyCarrierIndustrialTechnology"/>
+      <frontierRules name="buyDestroyerIndustrialTechnology"/>
+      <frontierRules name="buyCruiserIndustrialTechnology"/>
+      <frontierRules name="buyBattleshipIndustrialTechnology"/>
+      <frontierRules name="buyAAGunIndustrialTechnology"/>
+      <frontierRules name="buyFactoryIndustrialTechnology"/>
+    </productionFrontier>
+    <productionFrontier name="productionShipyards">
+      <frontierRules name="buyTransportShipyards"/>
+      <frontierRules name="buySubmarineShipyards"/>
+      <frontierRules name="buyCarrierShipyards"/>
+      <frontierRules name="buyDestroyerShipyards"/>
+      <frontierRules name="buyCruiserShipyards"/>
+      <frontierRules name="buyBattleshipShipyards"/>
+    </productionFrontier>
+    <playerProduction player="ChihliClique" frontier="production"/>
+    <playerProduction player="FengtianClique" frontier="production"/>
+    <playerProduction player="Guominjun" frontier="production"/>
+    <playerProduction player="Kuomintang" frontier="production"/>
+    <playerProduction player="LeagueofFiveProvinces" frontier="production"/>
+    <playerProduction player="YunnanClique" frontier="production"/>
+    <playerRepair player="ChihliClique" frontier="repair"/>
+    <playerRepair player="FengtianClique" frontier="repair"/>
+    <playerRepair player="Guominjun" frontier="repair"/>
+    <playerRepair player="Kuomintang" frontier="repair"/>
+    <playerRepair player="LeagueofFiveProvinces" frontier="repair"/>
+    <playerRepair player="YunnanClique" frontier="repair"/>
+  </production>
+  <attatchmentList>
+    <!-- Rural Production -->
+    <attatchment name="unitAttatchment" attatchTo="ruralproduction" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="attack" value="0"/>
+      <option name="defense" value="0"/>
+      <option name="isFactory" value="true"/>
+    </attatchment>
+    <!-- infantry -->
+    <attatchment name="unitAttatchment" attatchTo="infantry" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="1"/>
+      <option name="transportCost" value="2"/>
+      <option name="isInfantry" value="true"/>
+      <option name="attack" value="1"/>
+      <option name="defense" value="2"/>
+      <option name="artillerySupportable" value="true"/>
+      <option name="isAirTransportable" value="true"/>
+    </attatchment>
+    <!-- Artillery -->
+    <attatchment name="unitAttatchment" attatchTo="artillery" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="1"/>
+      <option name="transportCost" value="3"/>
+      <option name="attack" value="2"/>
+      <option name="defense" value="2"/>
+      <option name="artillery" value="true"/>
+    </attatchment>
+    <!-- Armour -->
+    <attatchment name="unitAttatchment" attatchTo="armour" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="2"/>
+      <option name="transportCost" value="3"/>
+      <option name="canBlitz" value="true"/>
+      <option name="attack" value="3"/>
+      <option name="defense" value="3"/>
+      <option name="isLandTransport" value="true"/>
+    </attatchment>
+    <!-- Fighter -->
+    <attatchment name="unitAttatchment" attatchTo="fighter" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="4"/>
+      <option name="carrierCost" value="1"/>
+      <option name="isAir" value="true"/>
+      <option name="attack" value="3"/>
+      <option name="defense" value="4"/>
+    </attatchment>
+    <!-- Bomber -->
+    <attatchment name="unitAttatchment" attatchTo="bomber" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="6"/>
+      <option name="isAir" value="true"/>
+      <option name="attack" value="4"/>
+      <option name="defense" value="1"/>
+      <option name="isStrategicBomber" value="true"/>
+      <option name="transportCapacity" value="2"/>
+      <option name="isAirTransport" value="true"/>
+    </attatchment>
+    <!-- Transport -->
+    <attatchment name="unitAttatchment" attatchTo="transport" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="2"/>
+      <option name="isSea" value="true"/>
+      <option name="transportCapacity" value="5"/>
+      <option name="attack" value="0"/>
+      <option name="defense" value="0"/>
+    </attatchment>
+    <!-- Battle Ship -->
+    <attatchment name="unitAttatchment" attatchTo="battleship" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="2"/>
+      <option name="isSea" value="true"/>
+      <option name="attack" value="4"/>
+      <option name="defense" value="4"/>
+      <option name="canBombard" value="true"/>
+      <option name="isTwoHit" value="true"/>
+    </attatchment>
+    <!-- Cruiser -->
+    <attatchment name="unitAttatchment" attatchTo="cruiser" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="2"/>
+      <option name="isSea" value="true"/>
+      <option name="attack" value="3"/>
+      <option name="defense" value="3"/>
+      <option name="canBombard" value="true"/>
+      <option name="isTwoHit" value="false"/>
+    </attatchment>
+    <!-- Destroyer -->
+    <attatchment name="unitAttatchment" attatchTo="destroyer" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="2"/>
+      <option name="isSea" value="true"/>
+      <option name="attack" value="2"/>
+      <option name="defense" value="2"/>
+      <option name="isDestroyer" value="true"/>
+    </attatchment>
+    <!-- Carrier -->
+    <attatchment name="unitAttatchment" attatchTo="carrier" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="carrierCapacity" value="2"/>
+      <option name="movement" value="2"/>
+      <option name="isSea" value="true"/>
+      <option name="attack" value="1"/>
+      <option name="defense" value="2"/>
+    </attatchment>
+    <!-- Submarine -->
+    <attatchment name="unitAttatchment" attatchTo="submarine" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="isSub" value="true"/>
+      <option name="movement" value="2"/>
+      <option name="isSea" value="true"/>
+      <option name="attack" value="2"/>
+      <option name="defense" value="1"/>
+    </attatchment>
+    <!-- Factory -->
+    <attatchment name="unitAttatchment" attatchTo="factory" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="isFactory" value="true"/>
+    </attatchment>
+    <!-- AA Gun -->
+    <attatchment name="unitAttatchment" attatchTo="aaGun" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="isAA" value="true"/>
+      <option name="transportCost" value="3"/>
+      <option name="movement" value="1"/>
+    </attatchment>
+    <!--Territory Attachments-->
+    <attatchment name="territoryAttatchment" attatchTo="Chungking" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+      <option name="unitProduction" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="South Laos" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+      <option name="isImpassible" value="true"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Chengang" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Hong Kong" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="isImpassible" value="true"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Fen-chow" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Sog-rigs" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Mandalay" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="isImpassible" value="true"/>
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Swatow" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Huaipei" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Tsingyang" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Chindwin" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+      <option name="isImpassible" value="true"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="West Assam" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="isImpassible" value="true"/>
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Malaya-Singapore" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="isImpassible" value="true"/>
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Ichow" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Fengdu" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Annam" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+      <option name="isImpassible" value="true"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="East Sikang" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Chih-Chiang" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Hangchow" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Hanchung" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Phitsanulok" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="isImpassible" value="true"/>
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Tientsin" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Jih-Chao" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Pathein" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="isImpassible" value="true"/>
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Techow" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Tsinan" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="unitProduction" value="3"/>
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Tuyun" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Chenyuan" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Manipur" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="isImpassible" value="true"/>
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Kweiyang" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+      <option name="unitProduction" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Yen-ping" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Poseh" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Weinan" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="West Sikang" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Suifu" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Chittagong" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="isImpassible" value="true"/>
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Kunming" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+      <option name="unitProduction" value="3"/>
+      <option name="capital" value="YunnanClique"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Tsangchow" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Bangkok" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="isImpassible" value="true"/>
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Tsingtai" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Udon Thani" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="isImpassible" value="true"/>
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Juning" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Tsingtao" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+      <option name="unitProduction" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Chiang Mai" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="isImpassible" value="true"/>
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="North Jehol" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Huainan" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Anyang" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Hwangshi" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Tali" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Kweilin" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Yenan" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Chien-ning" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Ningyen" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Ningsia" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Hsingi" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Ankang" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Cheng-tu" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Taiyuan" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+      <option name="unitProduction" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Liaocheng" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Chiu-Chuan" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Liaodong" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Nakhon Sawan" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="isImpassible" value="true"/>
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Taungoo" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+      <option name="isImpassible" value="true"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Kentung" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="isImpassible" value="true"/>
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Chengteh" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Formosa" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Puchow" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Kuyuan" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Korea" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+      <option name="isImpassible" value="true"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Kannan" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Kungchangfu" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Huangshan" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Kohima" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="isImpassible" value="true"/>
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Shanhaiguan" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Weihsien" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Canton" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+      <option name="unitProduction" value="3"/>
+      <option name="capital" value="Kuomintang"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Japan" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="isImpassible" value="true"/>
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Lungkow" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Pa-chung" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Nanning" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+      <option name="unitProduction" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Lashio" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="isImpassible" value="true"/>
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Ordos Plateau" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Anking" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Changteh" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Amoy" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Kining" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Tsinghai" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Kaifeng" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Imphal" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+      <option name="isImpassible" value="true"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="West Kwangtung" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Puel" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Luan" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Nanchang" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+      <option name="unitProduction" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Paoting" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Wuhu" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Nanyang" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Soochow" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Kra" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="isImpassible" value="true"/>
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Tonkin" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="isImpassible" value="true"/>
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Pinghsiang" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Kirin" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Lanchow" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+      <option name="unitProduction" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Shanghai" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+      <option name="unitProduction" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Wu Tang Mountains" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Lu-ting" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Chahar" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Weihaiwei" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Momein" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Cochinchina" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="isImpassible" value="true"/>
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Port Arthur" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="unitProduction" value="3"/>
+      <option name="production" value="0"/>
+      <option name="isImpassible" value="true"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Wuhan" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+      <option name="unitProduction" value="3"/>
+      <option name="capital" value="ChihliClique"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Kan" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Mukden" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+      <option name="unitProduction" value="3"/>
+      <option name="capital" value="FengtianClique"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Luang Prabang" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="isImpassible" value="true"/>
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Fancheng" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Tungting" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Ichang" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Golog" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Sian" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+      <option name="unitProduction" value="3"/>
+      <option name="capital" value="Guominjun"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Tangshan" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Bichieh" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Kutsing" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Nanking" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+      <option name="unitProduction" value="3"/>
+      <option name="capital" value="LeagueofFiveProvinces"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Calcutta" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="isImpassible" value="true"/>
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Tibet" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+      <option name="isImpassible" value="true"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Mengtsi" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Hsuchow" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Sining" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Shiuchow" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Hehsi Corridor" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Chin" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+      <option name="isImpassible" value="true"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Woochow" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Szecheng" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Peking" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="unitProduction" value="3"/>
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Rangoon" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="isImpassible" value="true"/>
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Chenchow" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Hanoi" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="isImpassible" value="true"/>
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Luoyang" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Sittang" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="isImpassible" value="true"/>
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="North Suiyuan" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+      <option name="unitProduction" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Ningpo" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="So-ping" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Hwanggang" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Yang-chow" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Myitkyina" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="isImpassible" value="true"/>
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Siangtan" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="East Assam" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="isImpassible" value="true"/>
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Luchow" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Foochow" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Sinkiang-Mongolia" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+      <option name="isImpassible" value="true"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Kunlun Mountains" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Cambodia" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+      <option name="isImpassible" value="true"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Changchih" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Chin-kiang" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Poyang" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Te-king" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Hainan" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Lungchow" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Changsha" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="unitProduction" value="3"/>
+    </attatchment>
+    <!--Rail Canals-->
+    <attatchment name="canalAttatchment" attatchTo="Korea-Mukden-Korea" javaClass="games.strategy.triplea.attatchments.CanalAttachment" type="territory">
+      <option name="canalName" value="Korea-Mukden Line"/>
+      <option name="landTerritories" value="Korea:Mukden:Kirin"/>
+    </attatchment>
+    <attatchment name="canalAttatchment" attatchTo="Korea-Mukden-Mukden" javaClass="games.strategy.triplea.attatchments.CanalAttachment" type="territory">
+      <option name="canalName" value="Korea-Mukden Line"/>
+      <option name="landTerritories" value="Korea:Mukden:Kirin"/>
+    </attatchment>
+    <attatchment name="canalAttatchment" attatchTo="Port Arthur-Mukden-Port Arthur" javaClass="games.strategy.triplea.attatchments.CanalAttachment" type="territory">
+      <option name="canalName" value="Port Arthur-Mukden Line"/>
+      <option name="landTerritories" value="Port Arthur:Liaodong:Mukden"/>
+    </attatchment>
+    <attatchment name="canalAttatchment" attatchTo="Port Arthur-Mukden-Mukden" javaClass="games.strategy.triplea.attatchments.CanalAttachment" type="territory">
+      <option name="canalName" value="Port Arthur-Mukden Line"/>
+      <option name="landTerritories" value="Port Arthur:Liaodong:Mukden"/>
+    </attatchment>
+    <attatchment name="canalAttatchment" attatchTo="Mukden-Peking-Mukden" javaClass="games.strategy.triplea.attatchments.CanalAttachment" type="territory">
+      <option name="canalName" value="Mukden-Peking Line"/>
+      <option name="landTerritories" value="Mukden:Peking:Chengteh"/>
+    </attatchment>
+    <attatchment name="canalAttatchment" attatchTo="Mukden-Peking-Peking" javaClass="games.strategy.triplea.attatchments.CanalAttachment" type="territory">
+      <option name="canalName" value="Mukden-Peking Line"/>
+      <option name="landTerritories" value="Mukden:Peking:Chengteh"/>
+    </attatchment>
+    <attatchment name="canalAttatchment" attatchTo="Peking-Tsinan-Peking" javaClass="games.strategy.triplea.attatchments.CanalAttachment" type="territory">
+      <option name="canalName" value="Peking-Tsinan Line"/>
+      <option name="landTerritories" value="Peking:Tsinan:Tsangchow:Techow:Tientsin"/>
+    </attatchment>
+    <attatchment name="canalAttatchment" attatchTo="Peking-Tsinan-Tsinan" javaClass="games.strategy.triplea.attatchments.CanalAttachment" type="territory">
+      <option name="canalName" value="Peking-Tsinan Line"/>
+      <option name="landTerritories" value="Peking:Tsinan:Tsangchow:Techow:Tientsin"/>
+    </attatchment>
+    <attatchment name="canalAttatchment" attatchTo="Peking-Taiyuan-Peking" javaClass="games.strategy.triplea.attatchments.CanalAttachment" type="territory">
+      <option name="canalName" value="Peking-Taiyuan Line"/>
+      <option name="landTerritories" value="Peking:Taiyuan:Chengang:Paoting"/>
+    </attatchment>
+    <attatchment name="canalAttatchment" attatchTo="Peking-Taiyuan-Taiyuan" javaClass="games.strategy.triplea.attatchments.CanalAttachment" type="territory">
+      <option name="canalName" value="Peking-Taiyuan Line"/>
+      <option name="landTerritories" value="Peking:Taiyuan:Chengang:Paoting"/>
+    </attatchment>
+    <attatchment name="canalAttatchment" attatchTo="Peking-Sian-Peking" javaClass="games.strategy.triplea.attatchments.CanalAttachment" type="territory">
+      <option name="canalName" value="Peking-Sian Line"/>
+      <option name="landTerritories" value="Peking:Paoting:Tsingtai:Anyang:Luoyang:Nanyang:Weinan:Sian"/>
+    </attatchment>
+    <attatchment name="canalAttatchment" attatchTo="Peking-Sian-Sian" javaClass="games.strategy.triplea.attatchments.CanalAttachment" type="territory">
+      <option name="canalName" value="Peking-Sian Line"/>
+      <option name="landTerritories" value="Peking:Paoting:Tsingtai:Anyang:Luoyang:Nanyang:Weinan:Sian"/>
+    </attatchment>
+    <attatchment name="canalAttatchment" attatchTo="Peking-Wuhan-Peking" javaClass="games.strategy.triplea.attatchments.CanalAttachment" type="territory">
+      <option name="canalName" value="Peking-Wuhan Line"/>
+      <option name="landTerritories" value="Peking:Paoting:Tsingtai:Anyang:Luoyang:Juning:Hwanggang:Wuhan"/>
+    </attatchment>
+    <attatchment name="canalAttatchment" attatchTo="Peking-Wuhan-Wuhan" javaClass="games.strategy.triplea.attatchments.CanalAttachment" type="territory">
+      <option name="canalName" value="Peking-Wuhan Line"/>
+      <option name="landTerritories" value="Peking:Paoting:Tsingtai:Anyang:Luoyang:Nanyang:Fancheng:Wuhan"/>
+    </attatchment>
+    <attatchment name="canalAttatchment" attatchTo="Taiyuan-Sian-Taiyuan" javaClass="games.strategy.triplea.attatchments.CanalAttachment" type="territory">
+      <option name="canalName" value="Taiyuan-Sian Line"/>
+      <option name="landTerritories" value="Taiyuan:Sian:Weinan:Puchow"/>
+    </attatchment>
+    <attatchment name="canalAttatchment" attatchTo="Taiyuan-Sian-Sian" javaClass="games.strategy.triplea.attatchments.CanalAttachment" type="territory">
+      <option name="canalName" value="Taiyuan-Sian Line"/>
+      <option name="landTerritories" value="Taiyuan:Sian:Weinan:Puchow"/>
+    </attatchment>
+    <attatchment name="canalAttatchment" attatchTo="Taiyuan-Wuhan-Taiyuan" javaClass="games.strategy.triplea.attatchments.CanalAttachment" type="territory">
+      <option name="canalName" value="Taiyuan-Wuhan Line"/>
+      <option name="landTerritories" value="Taiyuan:Chengang:Paoting:Tsingtai:Anyang:Luoyang:Nanyang:Fancheng:Wuhan"/>
+    </attatchment>
+    <attatchment name="canalAttatchment" attatchTo="Taiyuan-Wuhan-Wuhan" javaClass="games.strategy.triplea.attatchments.CanalAttachment" type="territory">
+      <option name="canalName" value="Taiyuan-Wuhan Line"/>
+      <option name="landTerritories" value="Taiyuan:Chengang:Paoting:Tsingtai:Anyang:Luoyang:Nanyang:Fancheng:Wuhan"/>
+    </attatchment>
+    <attatchment name="canalAttatchment" attatchTo="Taiyuan-Tsinan-Taiyuan" javaClass="games.strategy.triplea.attatchments.CanalAttachment" type="territory">
+      <option name="canalName" value="Taiyuan-Tsinan Line"/>
+      <option name="landTerritories" value="Taiyuan:Chengang:Paoting:Tsangchow:Techow:Tsinan"/>
+    </attatchment>
+    <attatchment name="canalAttatchment" attatchTo="Taiyuan-Tsinan-Tsinan" javaClass="games.strategy.triplea.attatchments.CanalAttachment" type="territory">
+      <option name="canalName" value="Taiyuan-Tsinan Line"/>
+      <option name="landTerritories" value="Taiyuan:Chengang:Paoting:Tsangchow:Techow:Tsinan"/>
+    </attatchment>
+    <attatchment name="canalAttatchment" attatchTo="Sian-Tsinan-Sian" javaClass="games.strategy.triplea.attatchments.CanalAttachment" type="territory">
+      <option name="canalName" value="Sian-Tsinan Line"/>
+      <option name="landTerritories" value="Sian:Weinan:Nanyang:Luoyang:Kaifeng:Kining:Tsinan"/>
+    </attatchment>
+    <attatchment name="canalAttatchment" attatchTo="Sian-Tsinan-Tsinan" javaClass="games.strategy.triplea.attatchments.CanalAttachment" type="territory">
+      <option name="canalName" value="Sian-Tsinan Line"/>
+      <option name="landTerritories" value="Sian:Weinan:Nanyang:Luoyang:Kaifeng:Kining:Tsinan"/>
+    </attatchment>
+    <attatchment name="canalAttatchment" attatchTo="Sian-Wuhan-Sian" javaClass="games.strategy.triplea.attatchments.CanalAttachment" type="territory">
+      <option name="canalName" value="Sian-Wuhan Line"/>
+      <option name="landTerritories" value="Sian:Weinan:Nanyang:Luoyang:Fancheng:Wuhan"/>
+    </attatchment>
+    <attatchment name="canalAttatchment" attatchTo="Sian-Wuhan-Wuhan" javaClass="games.strategy.triplea.attatchments.CanalAttachment" type="territory">
+      <option name="canalName" value="Sian-Wuhan Line"/>
+      <option name="landTerritories" value="Sian:Weinan:Nanyang:Luoyang:Fancheng:Wuhan"/>
+    </attatchment>
+    <attatchment name="canalAttatchment" attatchTo="Wuhan-Tsinan-Wuhan" javaClass="games.strategy.triplea.attatchments.CanalAttachment" type="territory">
+      <option name="canalName" value="Wuhan-Tsinan Line"/>
+      <option name="landTerritories" value="Wuhan:Fancheng:Nanyang:Luoyang:Kaifeng:Kining:Tsinan"/>
+    </attatchment>
+    <attatchment name="canalAttatchment" attatchTo="Wuhan-Tsinan-Tsinan" javaClass="games.strategy.triplea.attatchments.CanalAttachment" type="territory">
+      <option name="canalName" value="Wuhan-Tsinan Line"/>
+      <option name="landTerritories" value="Wuhan:Fancheng:Nanyang:Luoyang:Kaifeng:Kining:Tsinan"/>
+    </attatchment>
+    <attatchment name="canalAttatchment" attatchTo="Tsinan-Tsingtao-Tsinan" javaClass="games.strategy.triplea.attatchments.CanalAttachment" type="territory">
+      <option name="canalName" value="Tsinan-Tsingtao Line"/>
+      <option name="landTerritories" value="Tsinan:Lungkow:Jih-Chao:Tsingtao"/>
+    </attatchment>
+    <attatchment name="canalAttatchment" attatchTo="Tsinan-Tsingtao-Tsingtao" javaClass="games.strategy.triplea.attatchments.CanalAttachment" type="territory">
+      <option name="canalName" value="Tsinan-Tsingtao Line"/>
+      <option name="landTerritories" value="Tsinan:Lungkow:Jih-Chao:Tsingtao"/>
+    </attatchment>
+    <attatchment name="canalAttatchment" attatchTo="Tsinan-Nanking-Tsinan" javaClass="games.strategy.triplea.attatchments.CanalAttachment" type="territory">
+      <option name="canalName" value="Tsinan-Nanking Line"/>
+      <option name="landTerritories" value="Tsinan:Ichow:Hsuchow:Yang-chow:Nanking"/>
+    </attatchment>
+    <attatchment name="canalAttatchment" attatchTo="Tsinan-Nanking-Nanking" javaClass="games.strategy.triplea.attatchments.CanalAttachment" type="territory">
+      <option name="canalName" value="Tsinan-Nanking Line"/>
+      <option name="landTerritories" value="Tsinan:Ichow:Hsuchow:Yang-chow:Nanking"/>
+    </attatchment>
+    <attatchment name="canalAttatchment" attatchTo="Nanking-Shanghai-Nanking" javaClass="games.strategy.triplea.attatchments.CanalAttachment" type="territory">
+      <option name="canalName" value="Nanking-Shanghai Line"/>
+      <option name="landTerritories" value="Nanking:Wuhu:Soochow:Shanghai"/>
+    </attatchment>
+    <attatchment name="canalAttatchment" attatchTo="Nanking-Shanghai-Shanghai" javaClass="games.strategy.triplea.attatchments.CanalAttachment" type="territory">
+      <option name="canalName" value="Nanking-Shanghai Line"/>
+      <option name="landTerritories" value="Nanking:Wuhu:Soochow:Shanghai"/>
+    </attatchment>
+    <attatchment name="canalAttatchment" attatchTo="Shanghai-Nanchang-Shanghai" javaClass="games.strategy.triplea.attatchments.CanalAttachment" type="territory">
+      <option name="canalName" value="Shanghai-Nanchang Line"/>
+      <option name="landTerritories" value="Shanghai:Hangchow:Ningpo:Poyang:Nanchang"/>
+    </attatchment>
+    <attatchment name="canalAttatchment" attatchTo="Shanghai-Nanchang-Nanchang" javaClass="games.strategy.triplea.attatchments.CanalAttachment" type="territory">
+      <option name="canalName" value="Shanghai-Nanchang Line"/>
+      <option name="landTerritories" value="Shanghai:Hangchow:Ningpo:Poyang:Nanchang"/>
+    </attatchment>
+    <attatchment name="canalAttatchment" attatchTo="Nanchang-Changsha-Nanchang" javaClass="games.strategy.triplea.attatchments.CanalAttachment" type="territory">
+      <option name="canalName" value="Nanchang-Changsha Line"/>
+      <option name="landTerritories" value="Nanchang:Pinghsiang:Chien-ning:Changsha"/>
+    </attatchment>
+    <attatchment name="canalAttatchment" attatchTo="Nanchang-Changsha-Changsha" javaClass="games.strategy.triplea.attatchments.CanalAttachment" type="territory">
+      <option name="canalName" value="Nanchang-Changsha Line"/>
+      <option name="landTerritories" value="Nanchang:Pinghsiang:Chien-ning:Changsha"/>
+    </attatchment>
+    <attatchment name="canalAttatchment" attatchTo="Wuhan-Changsha-Wuhan" javaClass="games.strategy.triplea.attatchments.CanalAttachment" type="territory">
+      <option name="canalName" value="Wuhan-Changsha Line"/>
+      <option name="landTerritories" value="Wuhan:Tungting:Changsha"/>
+    </attatchment>
+    <attatchment name="canalAttatchment" attatchTo="Wuhan-Changsha-Changsha" javaClass="games.strategy.triplea.attatchments.CanalAttachment" type="territory">
+      <option name="canalName" value="Wuhan-Changsha Line"/>
+      <option name="landTerritories" value="Wuhan:Tungting:Changsha"/>
+    </attatchment>
+    <attatchment name="canalAttatchment" attatchTo="Changsha-Canton-Changsha" javaClass="games.strategy.triplea.attatchments.CanalAttachment" type="territory">
+      <option name="canalName" value="Changsha-Canton Line"/>
+      <option name="landTerritories" value="Changsha:Siangtan:Chenchow:Te-king:Canton"/>
+    </attatchment>
+    <attatchment name="canalAttatchment" attatchTo="Changsha-Canton-Canton" javaClass="games.strategy.triplea.attatchments.CanalAttachment" type="territory">
+      <option name="canalName" value="Changsha-Canton Line"/>
+      <option name="landTerritories" value="Changsha:Siangtan:Chenchow:Te-king:Canton"/>
+    </attatchment>
+    <attatchment name="canalAttatchment" attatchTo="Changsha-Kweiyang-Changsha" javaClass="games.strategy.triplea.attatchments.CanalAttachment" type="territory">
+      <option name="canalName" value="Changsha-Kweiyang Line"/>
+      <option name="landTerritories" value="Changsha:Siangtan:Kweilin:Tuyun:Kweiyang"/>
+    </attatchment>
+    <attatchment name="canalAttatchment" attatchTo="Changsha-Kweiyang-Kweiyang" javaClass="games.strategy.triplea.attatchments.CanalAttachment" type="territory">
+      <option name="canalName" value="Changsha-Kweiyang Line"/>
+      <option name="landTerritories" value="Changsha:Siangtan:Kweilin:Tuyun:Kweiyang"/>
+    </attatchment>
+    <attatchment name="canalAttatchment" attatchTo="Canton-Kweiyang-Canton" javaClass="games.strategy.triplea.attatchments.CanalAttachment" type="territory">
+      <option name="canalName" value="Canton-Kweiyang Line"/>
+      <option name="landTerritories" value="Canton:Te-king:Chenchow:Siangtan:Kweilin:Tuyun:Kweiyang"/>
+    </attatchment>
+    <attatchment name="canalAttatchment" attatchTo="Canton-Kweiyang-Kweiyang" javaClass="games.strategy.triplea.attatchments.CanalAttachment" type="territory">
+      <option name="canalName" value="Canton-Kweiyang Line"/>
+      <option name="landTerritories" value="Canton:Te-king:Chenchow:Siangtan:Kweilin:Tuyun:Kweiyang"/>
+    </attatchment>
+    <attatchment name="canalAttatchment" attatchTo="Lanchow-Sian-Lanchow" javaClass="games.strategy.triplea.attatchments.CanalAttachment" type="territory">
+      <option name="canalName" value="Lanchow-Sian Line"/>
+      <option name="landTerritories" value="Lanchow:Kannan:Hanchung:Sian"/>
+    </attatchment>
+    <attatchment name="canalAttatchment" attatchTo="Lanchow-Sian-Sian" javaClass="games.strategy.triplea.attatchments.CanalAttachment" type="territory">
+      <option name="canalName" value="Lanchow-Sian Line"/>
+      <option name="landTerritories" value="Lanchow:Kannan:Hanchung:Sian"/>
+    </attatchment>
+    <attatchment name="canalAttatchment" attatchTo="Lanchow-Chungking-Lanchow" javaClass="games.strategy.triplea.attatchments.CanalAttachment" type="territory">
+      <option name="canalName" value="Lanchow-Chungking Line"/>
+      <option name="landTerritories" value="Lanchow:Kannan:Hanchung:Pa-chung:Chungking"/>
+    </attatchment>
+    <attatchment name="canalAttatchment" attatchTo="Lanchow-Chungking-Chungking" javaClass="games.strategy.triplea.attatchments.CanalAttachment" type="territory">
+      <option name="canalName" value="Lanchow-Chungking Line"/>
+      <option name="landTerritories" value="Lanchow:Kannan:Hanchung:Pa-chung:Chungking"/>
+    </attatchment>
+    <attatchment name="canalAttatchment" attatchTo="Sian-Chungking-Sian" javaClass="games.strategy.triplea.attatchments.CanalAttachment" type="territory">
+      <option name="canalName" value="Sian-Chungking Line"/>
+      <option name="landTerritories" value="Sian:Hanchung:Pa-chung:Chungking"/>
+    </attatchment>
+    <attatchment name="canalAttatchment" attatchTo="Sian-Chungking-Chungking" javaClass="games.strategy.triplea.attatchments.CanalAttachment" type="territory">
+      <option name="canalName" value="Sian-Chungking Line"/>
+      <option name="landTerritories" value="Sian:Hanchung:Pa-chung:Chungking"/>
+    </attatchment>
+    <attatchment name="canalAttatchment" attatchTo="Chungking-Kweiyang-Chungking" javaClass="games.strategy.triplea.attatchments.CanalAttachment" type="territory">
+      <option name="canalName" value="Chungking-Kweiyang Line"/>
+      <option name="landTerritories" value="Chungking:Luchow:Kweiyang"/>
+    </attatchment>
+    <attatchment name="canalAttatchment" attatchTo="Chungking-Kweiyang-Kweiyang" javaClass="games.strategy.triplea.attatchments.CanalAttachment" type="territory">
+      <option name="canalName" value="Chungking-Kweiyang Line"/>
+      <option name="landTerritories" value="Chungking:Luchow:Kweiyang"/>
+    </attatchment>
+    <attatchment name="canalAttatchment" attatchTo="Chungking-Kunming-Chungking" javaClass="games.strategy.triplea.attatchments.CanalAttachment" type="territory">
+      <option name="canalName" value="Chungking-Kunming Line"/>
+      <option name="landTerritories" value="Chungking:Luchow:Kutsing:Kunming"/>
+    </attatchment>
+    <attatchment name="canalAttatchment" attatchTo="Chungking-Kunming-Kunming" javaClass="games.strategy.triplea.attatchments.CanalAttachment" type="territory">
+      <option name="canalName" value="Chungking-Kunming Line"/>
+      <option name="landTerritories" value="Chungking:Luchow:Kutsing:Kunming"/>
+    </attatchment>
+    <attatchment name="canalAttatchment" attatchTo="Kunming-Kweiyang-Kunming" javaClass="games.strategy.triplea.attatchments.CanalAttachment" type="territory">
+      <option name="canalName" value="Kunming-Kweiyang Line"/>
+      <option name="landTerritories" value="Kunming:Kutsing:Hsingi:Kweilin"/>
+    </attatchment>
+    <attatchment name="canalAttatchment" attatchTo="Kunming-Kweiyang-Kweiyang" javaClass="games.strategy.triplea.attatchments.CanalAttachment" type="territory">
+      <option name="canalName" value="Kunming-Kweiyang Line"/>
+      <option name="landTerritories" value="Kunming:Kutsing:Hsingi:Kweilin"/>
+    </attatchment>
+    <attatchment name="canalAttatchment" attatchTo="Kunming-Hanoi-Kunming" javaClass="games.strategy.triplea.attatchments.CanalAttachment" type="territory">
+      <option name="canalName" value="Kunming-Hanoi Line"/>
+      <option name="landTerritories" value="Kunming:Mengtsi:Tonkin:Hanoi"/>
+    </attatchment>
+    <attatchment name="canalAttatchment" attatchTo="Kunming-Hanoi-Hanoi" javaClass="games.strategy.triplea.attatchments.CanalAttachment" type="territory">
+      <option name="canalName" value="Kunming-Hanoi Line"/>
+      <option name="landTerritories" value="Kunming:Mengtsi:Tonkin:Hanoi"/>
+    </attatchment>
+    <attatchment name="canalAttatchment" attatchTo="Hanoi-Nanning-Hanoi" javaClass="games.strategy.triplea.attatchments.CanalAttachment" type="territory">
+      <option name="canalName" value="Hanoi-Nanning Line"/>
+      <option name="landTerritories" value="Nanning:Lungchow:Tonkin:Hanoi"/>
+    </attatchment>
+    <attatchment name="canalAttatchment" attatchTo="Hanoi-Nanning-Nanning" javaClass="games.strategy.triplea.attatchments.CanalAttachment" type="territory">
+      <option name="canalName" value="Hanoi-Nanning Line"/>
+      <option name="landTerritories" value="Nanning:Lungchow:Tonkin:Hanoi"/>
+    </attatchment>
+    <attatchment name="canalAttatchment" attatchTo="Hanoi-Bangkok-Hanoi" javaClass="games.strategy.triplea.attatchments.CanalAttachment" type="territory">
+      <option name="canalName" value="Hanoi-Bangkok Line"/>
+      <option name="landTerritories" value="Hanoi:Tonkin:Annam:Cochinchina:Cambodia:Nakhon Sawan:Bangkok"/>
+    </attatchment>
+    <attatchment name="canalAttatchment" attatchTo="Hanoi-Bangkok-Bangkok" javaClass="games.strategy.triplea.attatchments.CanalAttachment" type="territory">
+      <option name="canalName" value="Hanoi-Bangkok Line"/>
+      <option name="landTerritories" value="Hanoi:Tonkin:Annam:Cochinchina:Cambodia:Nakhon Sawan:Bangkok"/>
+    </attatchment>
+    <attatchment name="canalAttatchment" attatchTo="Bangkok-Rangoon-Bangkok" javaClass="games.strategy.triplea.attatchments.CanalAttachment" type="territory">
+      <option name="canalName" value="Bangkok-Rangoon Line"/>
+      <option name="landTerritories" value="Bangkok:Kra:Rangoon"/>
+    </attatchment>
+    <attatchment name="canalAttatchment" attatchTo="Bangkok-Rangoon-Rangoon" javaClass="games.strategy.triplea.attatchments.CanalAttachment" type="territory">
+      <option name="canalName" value="Bangkok-Rangoon Line"/>
+      <option name="landTerritories" value="Bangkok:Kra:Rangoon"/>
+    </attatchment>
+    <attatchment name="canalAttatchment" attatchTo="Calcutta-East Assam-Calcutta" javaClass="games.strategy.triplea.attatchments.CanalAttachment" type="territory">
+      <option name="canalName" value="Calcutta-East Assam Line"/>
+      <option name="landTerritories" value="Calcutta:Imphal:Kohima:East Assam"/>
+    </attatchment>
+    <attatchment name="canalAttatchment" attatchTo="Calcutta-East Assam-East Assam" javaClass="games.strategy.triplea.attatchments.CanalAttachment" type="territory">
+      <option name="canalName" value="Calcutta-East Assam Line"/>
+      <option name="landTerritories" value="Calcutta:Imphal:Kohima:East Assam"/>
+    </attatchment>
+    <attatchment name="canalAttatchment" attatchTo="Calcutta-Chittagong-Calcutta" javaClass="games.strategy.triplea.attatchments.CanalAttachment" type="territory">
+      <option name="canalName" value="Calcutta-Chittagong Line"/>
+      <option name="landTerritories" value="Calcutta:Chittagong"/>
+    </attatchment>
+    <attatchment name="canalAttatchment" attatchTo="Calcutta-Chittagong-Chittagong" javaClass="games.strategy.triplea.attatchments.CanalAttachment" type="territory">
+      <option name="canalName" value="Calcutta-Chittagong Line"/>
+      <option name="landTerritories" value="Calcutta:Chittagong"/>
+    </attatchment>
+    <attatchment name="canalAttatchment" attatchTo="East Assam-Chittagong-East Assam" javaClass="games.strategy.triplea.attatchments.CanalAttachment" type="territory">
+      <option name="canalName" value="East Assam-Chittagong Line"/>
+      <option name="landTerritories" value="East Assam:Manipur:Chittagong"/>
+    </attatchment>
+    <attatchment name="canalAttatchment" attatchTo="East Assam-Chittagong-Chittagong" javaClass="games.strategy.triplea.attatchments.CanalAttachment" type="territory">
+      <option name="canalName" value="East Assam-Chittagong Line"/>
+      <option name="landTerritories" value="East Assam:Manipur:Chittagong"/>
+    </attatchment>
+  </attatchmentList>
+  <initialize>
+    <ownerInitialize>
+      <territoryOwner territory="Swatow" owner="Kuomintang"/>
+      <territoryOwner territory="Tsingyang" owner="Guominjun"/>
+      <territoryOwner territory="Hanchung" owner="Guominjun"/>
+      <territoryOwner territory="Weinan" owner="Guominjun"/>
+      <territoryOwner territory="Kweilin" owner="Kuomintang"/>
+      <territoryOwner territory="Yenan" owner="Guominjun"/>
+      <territoryOwner territory="Ankang" owner="Guominjun"/>
+      <territoryOwner territory="Kannan" owner="Guominjun"/>
+      <territoryOwner territory="Kungchangfu" owner="Guominjun"/>
+      <territoryOwner territory="Canton" owner="Kuomintang"/>
+      <territoryOwner territory="Nanning" owner="Kuomintang"/>
+      <territoryOwner territory="West Kwangtung" owner="Kuomintang"/>
+      <territoryOwner territory="Nanyang" owner="Guominjun"/>
+      <territoryOwner territory="Lanchow" owner="Guominjun"/>
+      <territoryOwner territory="Sian" owner="Guominjun"/>
+      <territoryOwner territory="Shiuchow" owner="Kuomintang"/>
+      <territoryOwner territory="Woochow" owner="Kuomintang"/>
+      <territoryOwner territory="Szecheng" owner="Kuomintang"/>
+      <territoryOwner territory="Te-king" owner="Kuomintang"/>
+      <territoryOwner territory="Lungchow" owner="Kuomintang"/>
+      <territoryOwner territory="Wuhan" owner="ChihliClique"/>
+      <territoryOwner territory="Changsha" owner="ChihliClique"/>
+      <territoryOwner territory="Tungting" owner="ChihliClique"/>
+      <territoryOwner territory="Juning" owner="ChihliClique"/>
+      <territoryOwner territory="Hwanggang" owner="ChihliClique"/>
+      <territoryOwner territory="Ichang" owner="ChihliClique"/>
+      <territoryOwner territory="Fancheng" owner="ChihliClique"/>
+      <territoryOwner territory="Siangtan" owner="ChihliClique"/>
+      <territoryOwner territory="Chih-Chiang" owner="ChihliClique"/>
+      <territoryOwner territory="Changteh" owner="ChihliClique"/>
+      <territoryOwner territory="Tsangchow" owner="FengtianClique"/>
+      <territoryOwner territory="Paoting" owner="FengtianClique"/>
+      <territoryOwner territory="Peking" owner="FengtianClique"/>
+      <territoryOwner territory="Tangshan" owner="FengtianClique"/>
+      <territoryOwner territory="Tientsin" owner="FengtianClique"/>
+      <territoryOwner territory="Shanhaiguan" owner="FengtianClique"/>
+      <territoryOwner territory="Chengteh" owner="FengtianClique"/>
+      <territoryOwner territory="Kirin" owner="FengtianClique"/>
+      <territoryOwner territory="Mukden" owner="FengtianClique"/>
+      <territoryOwner territory="Liaodong" owner="FengtianClique"/>
+      <territoryOwner territory="Hsuchow" owner="LeagueofFiveProvinces"/>
+      <territoryOwner territory="Huainan" owner="LeagueofFiveProvinces"/>
+      <territoryOwner territory="Huaipei" owner="LeagueofFiveProvinces"/>
+      <territoryOwner territory="Yang-chow" owner="LeagueofFiveProvinces"/>
+      <territoryOwner territory="Chin-kiang" owner="LeagueofFiveProvinces"/>
+      <territoryOwner territory="Nanking" owner="LeagueofFiveProvinces"/>
+      <territoryOwner territory="Luan" owner="LeagueofFiveProvinces"/>
+      <territoryOwner territory="Huangshan" owner="LeagueofFiveProvinces"/>
+      <territoryOwner territory="Shanghai" owner="LeagueofFiveProvinces"/>
+      <territoryOwner territory="Hangchow" owner="LeagueofFiveProvinces"/>
+      <territoryOwner territory="Kunming" owner="YunnanClique"/>
+      <territoryOwner territory="Tali" owner="YunnanClique"/>
+      <territoryOwner territory="Ningyen" owner="YunnanClique"/>
+      <territoryOwner territory="Kutsing" owner="YunnanClique"/>
+      <territoryOwner territory="Puel" owner="YunnanClique"/>
+      <territoryOwner territory="Mengtsi" owner="YunnanClique"/>
+      <territoryOwner territory="Kweiyang" owner="YunnanClique"/>
+      <territoryOwner territory="Bichieh" owner="YunnanClique"/>
+      <territoryOwner territory="Hsingi" owner="YunnanClique"/>
+      <territoryOwner territory="Tuyun" owner="YunnanClique"/>
+    </ownerInitialize>
+    <unitInitialize>
+      <unitPlacement unitType="factory" territory="Mukden" quantity="1" owner="FengtianClique"/>
+      <unitPlacement unitType="factory" territory="Peking" quantity="1" owner="FengtianClique"/>
+      <unitPlacement unitType="factory" territory="Taiyuan" quantity="1"/>
+      <unitPlacement unitType="factory" territory="Tsinan" quantity="1"/>
+      <unitPlacement unitType="factory" territory="Tsingtao" quantity="1"/>
+      <unitPlacement unitType="factory" territory="Lanchow" quantity="1" owner="Guominjun"/>
+      <unitPlacement unitType="factory" territory="Sian" quantity="1" owner="Guominjun"/>
+      <unitPlacement unitType="factory" territory="Shanghai" quantity="1" owner="LeagueofFiveProvinces"/>
+      <unitPlacement unitType="factory" territory="Nanking" quantity="1" owner="LeagueofFiveProvinces"/>
+      <unitPlacement unitType="factory" territory="Nanchang" quantity="1"/>
+      <unitPlacement unitType="factory" territory="Changsha" quantity="1" owner="ChihliClique"/>
+      <unitPlacement unitType="factory" territory="Wuhan" quantity="1" owner="ChihliClique"/>
+      <unitPlacement unitType="factory" territory="Canton" quantity="1" owner="Kuomintang"/>
+      <unitPlacement unitType="factory" territory="Kweiyang" quantity="1" owner="YunnanClique"/>
+      <unitPlacement unitType="factory" territory="Kunming" quantity="1" owner="YunnanClique"/>
+      <unitPlacement unitType="factory" territory="Chungking" quantity="1"/>
+      <unitPlacement unitType="factory" territory="Nanning" quantity="1" owner="Kuomintang"/>
+      <unitPlacement unitType="infantry" territory="Chungking" quantity="3"/>
+      <unitPlacement unitType="infantry" territory="Chengang" quantity="3"/>
+      <unitPlacement unitType="infantry" territory="Fen-chow" quantity="3"/>
+      <unitPlacement unitType="infantry" territory="Sog-rigs" quantity="3"/>
+      <unitPlacement unitType="infantry" territory="Ichow" quantity="3"/>
+      <unitPlacement unitType="infantry" territory="East Sikang" quantity="3"/>
+      <unitPlacement unitType="infantry" territory="Jih-Chao" quantity="3"/>
+      <unitPlacement unitType="infantry" territory="Techow" quantity="3"/>
+      <unitPlacement unitType="infantry" territory="Tsinan" quantity="3"/>
+      <unitPlacement unitType="infantry" territory="Chenyuan" quantity="3"/>
+      <unitPlacement unitType="infantry" territory="Yen-ping" quantity="3"/>
+      <unitPlacement unitType="infantry" territory="West Sikang" quantity="3"/>
+      <unitPlacement unitType="infantry" territory="Suifu" quantity="3"/>
+      <unitPlacement unitType="infantry" territory="Tsingtai" quantity="3"/>
+      <unitPlacement unitType="infantry" territory="Tsingtao" quantity="3"/>
+      <unitPlacement unitType="infantry" territory="North Jehol" quantity="3"/>
+      <unitPlacement unitType="infantry" territory="Anyang" quantity="3"/>
+      <unitPlacement unitType="infantry" territory="Hwangshi" quantity="3"/>
+      <unitPlacement unitType="infantry" territory="Ningsia" quantity="3"/>
+      <unitPlacement unitType="infantry" territory="Cheng-tu" quantity="3"/>
+      <unitPlacement unitType="infantry" territory="Taiyuan" quantity="3"/>
+      <unitPlacement unitType="infantry" territory="Liaocheng" quantity="3"/>
+      <unitPlacement unitType="infantry" territory="Chiu-Chuan" quantity="3"/>
+      <unitPlacement unitType="infantry" territory="Formosa" quantity="3"/>
+      <unitPlacement unitType="infantry" territory="Kuyuan" quantity="3"/>
+      <unitPlacement unitType="infantry" territory="Weihsien" quantity="3"/>
+      <unitPlacement unitType="infantry" territory="Lungkow" quantity="3"/>
+      <unitPlacement unitType="infantry" territory="Pa-chung" quantity="3"/>
+      <unitPlacement unitType="infantry" territory="Ordos Plateau" quantity="3"/>
+      <unitPlacement unitType="infantry" territory="Anking" quantity="3"/>
+      <unitPlacement unitType="infantry" territory="Amoy" quantity="3"/>
+      <unitPlacement unitType="infantry" territory="Kining" quantity="3"/>
+      <unitPlacement unitType="infantry" territory="Tsinghai" quantity="3"/>
+      <unitPlacement unitType="infantry" territory="Kaifeng" quantity="3"/>
+      <unitPlacement unitType="infantry" territory="Nanchang" quantity="3"/>
+      <unitPlacement unitType="infantry" territory="Wuhu" quantity="3"/>
+      <unitPlacement unitType="infantry" territory="Soochow" quantity="3"/>
+      <unitPlacement unitType="infantry" territory="Pinghsiang" quantity="3"/>
+      <unitPlacement unitType="infantry" territory="Wu Tang Mountains" quantity="3"/>
+      <unitPlacement unitType="infantry" territory="Lu-ting" quantity="3"/>
+      <unitPlacement unitType="infantry" territory="Chahar" quantity="3"/>
+      <unitPlacement unitType="infantry" territory="Weihaiwei" quantity="3"/>
+      <unitPlacement unitType="infantry" territory="Momein" quantity="3"/>
+      <unitPlacement unitType="infantry" territory="Kan" quantity="3"/>
+      <unitPlacement unitType="infantry" territory="Golog" quantity="3"/>
+      <unitPlacement unitType="infantry" territory="Sining" quantity="3"/>
+      <unitPlacement unitType="infantry" territory="Hehsi Corridor" quantity="3"/>
+      <unitPlacement unitType="infantry" territory="Chenchow" quantity="3"/>
+      <unitPlacement unitType="infantry" territory="Luoyang" quantity="3"/>
+      <unitPlacement unitType="infantry" territory="North Suiyuan" quantity="3"/>
+      <unitPlacement unitType="infantry" territory="So-ping" quantity="3"/>
+      <unitPlacement unitType="infantry" territory="Luchow" quantity="3"/>
+      <unitPlacement unitType="infantry" territory="Foochow" quantity="3"/>
+      <unitPlacement unitType="infantry" territory="Kunlun Mountains" quantity="3"/>
+      <unitPlacement unitType="infantry" territory="Changchih" quantity="3"/>
+      <unitPlacement unitType="infantry" territory="Poyang" quantity="3"/>
+      <unitPlacement unitType="infantry" territory="Hainan" quantity="3"/>
+      <unitPlacement unitType="infantry" territory="Fengdu" quantity="3"/>
+      <unitPlacement unitType="infantry" territory="Chien-ning" quantity="3"/>
+      <unitPlacement unitType="infantry" territory="Ningpo" quantity="3"/>
+      <unitPlacement unitType="infantry" territory="Puchow" quantity="3"/>
+      <unitPlacement unitType="infantry" territory="Poseh" quantity="3"/>
+      <unitPlacement unitType="ruralproduction" territory="Chungking" quantity="1"/>
+      <unitPlacement unitType="ruralproduction" territory="Chengang" quantity="1"/>
+      <unitPlacement unitType="ruralproduction" territory="Fen-chow" quantity="1"/>
+      <unitPlacement unitType="ruralproduction" territory="Sog-rigs" quantity="1"/>
+      <unitPlacement unitType="ruralproduction" territory="Ichow" quantity="1"/>
+      <unitPlacement unitType="ruralproduction" territory="East Sikang" quantity="1"/>
+      <unitPlacement unitType="ruralproduction" territory="Jih-Chao" quantity="1"/>
+      <unitPlacement unitType="ruralproduction" territory="Techow" quantity="1"/>
+      <unitPlacement unitType="ruralproduction" territory="Tsinan" quantity="1"/>
+      <unitPlacement unitType="ruralproduction" territory="Chenyuan" quantity="1"/>
+      <unitPlacement unitType="ruralproduction" territory="Yen-ping" quantity="1"/>
+      <unitPlacement unitType="ruralproduction" territory="West Sikang" quantity="1"/>
+      <unitPlacement unitType="ruralproduction" territory="Suifu" quantity="1"/>
+      <unitPlacement unitType="ruralproduction" territory="Tsingtai" quantity="1"/>
+      <unitPlacement unitType="ruralproduction" territory="Tsingtao" quantity="1"/>
+      <unitPlacement unitType="ruralproduction" territory="North Jehol" quantity="1"/>
+      <unitPlacement unitType="ruralproduction" territory="Anyang" quantity="1"/>
+      <unitPlacement unitType="ruralproduction" territory="Hwangshi" quantity="1"/>
+      <unitPlacement unitType="ruralproduction" territory="Ningsia" quantity="1"/>
+      <unitPlacement unitType="ruralproduction" territory="Cheng-tu" quantity="1"/>
+      <unitPlacement unitType="ruralproduction" territory="Taiyuan" quantity="1"/>
+      <unitPlacement unitType="ruralproduction" territory="Liaocheng" quantity="1"/>
+      <unitPlacement unitType="ruralproduction" territory="Chiu-Chuan" quantity="1"/>
+      <unitPlacement unitType="ruralproduction" territory="Formosa" quantity="1"/>
+      <unitPlacement unitType="ruralproduction" territory="Kuyuan" quantity="1"/>
+      <unitPlacement unitType="ruralproduction" territory="Weihsien" quantity="1"/>
+      <unitPlacement unitType="ruralproduction" territory="Lungkow" quantity="1"/>
+      <unitPlacement unitType="ruralproduction" territory="Pa-chung" quantity="1"/>
+      <unitPlacement unitType="ruralproduction" territory="Ordos Plateau" quantity="1"/>
+      <unitPlacement unitType="ruralproduction" territory="Anking" quantity="1"/>
+      <unitPlacement unitType="ruralproduction" territory="Amoy" quantity="1"/>
+      <unitPlacement unitType="ruralproduction" territory="Kining" quantity="1"/>
+      <unitPlacement unitType="ruralproduction" territory="Tsinghai" quantity="1"/>
+      <unitPlacement unitType="ruralproduction" territory="Kaifeng" quantity="1"/>
+      <unitPlacement unitType="ruralproduction" territory="Nanchang" quantity="1"/>
+      <unitPlacement unitType="ruralproduction" territory="Wuhu" quantity="1"/>
+      <unitPlacement unitType="ruralproduction" territory="Soochow" quantity="1"/>
+      <unitPlacement unitType="ruralproduction" territory="Pinghsiang" quantity="1"/>
+      <unitPlacement unitType="ruralproduction" territory="Wu Tang Mountains" quantity="1"/>
+      <unitPlacement unitType="ruralproduction" territory="Lu-ting" quantity="1"/>
+      <unitPlacement unitType="ruralproduction" territory="Chahar" quantity="1"/>
+      <unitPlacement unitType="ruralproduction" territory="Weihaiwei" quantity="1"/>
+      <unitPlacement unitType="ruralproduction" territory="Momein" quantity="1"/>
+      <unitPlacement unitType="ruralproduction" territory="Kan" quantity="1"/>
+      <unitPlacement unitType="ruralproduction" territory="Golog" quantity="1"/>
+      <unitPlacement unitType="ruralproduction" territory="Sining" quantity="1"/>
+      <unitPlacement unitType="ruralproduction" territory="Hehsi Corridor" quantity="1"/>
+      <unitPlacement unitType="ruralproduction" territory="Chenchow" quantity="1"/>
+      <unitPlacement unitType="ruralproduction" territory="Luoyang" quantity="1"/>
+      <unitPlacement unitType="ruralproduction" territory="North Suiyuan" quantity="1"/>
+      <unitPlacement unitType="ruralproduction" territory="So-ping" quantity="1"/>
+      <unitPlacement unitType="ruralproduction" territory="Luchow" quantity="1"/>
+      <unitPlacement unitType="ruralproduction" territory="Foochow" quantity="1"/>
+      <unitPlacement unitType="ruralproduction" territory="Kunlun Mountains" quantity="1"/>
+      <unitPlacement unitType="ruralproduction" territory="Changchih" quantity="1"/>
+      <unitPlacement unitType="ruralproduction" territory="Poyang" quantity="1"/>
+      <unitPlacement unitType="ruralproduction" territory="Hainan" quantity="1"/>
+      <unitPlacement unitType="ruralproduction" territory="Fengdu" quantity="1"/>
+      <unitPlacement unitType="ruralproduction" territory="Chien-ning" quantity="1"/>
+      <unitPlacement unitType="ruralproduction" territory="Ningpo" quantity="1"/>
+      <unitPlacement unitType="ruralproduction" territory="Puchow" quantity="1"/>
+      <unitPlacement unitType="ruralproduction" territory="Poseh" quantity="1"/>
+      <unitPlacement unitType="ruralproduction" territory="Swatow" quantity="1" owner="Kuomintang"/>
+      <unitPlacement unitType="ruralproduction" territory="Tsingyang" quantity="1" owner="Guominjun"/>
+      <unitPlacement unitType="ruralproduction" territory="Hanchung" quantity="1" owner="Guominjun"/>
+      <unitPlacement unitType="ruralproduction" territory="Weinan" quantity="1" owner="Guominjun"/>
+      <unitPlacement unitType="ruralproduction" territory="Kweilin" quantity="1" owner="Kuomintang"/>
+      <unitPlacement unitType="ruralproduction" territory="Yenan" quantity="1" owner="Guominjun"/>
+      <unitPlacement unitType="ruralproduction" territory="Ankang" quantity="1" owner="Guominjun"/>
+      <unitPlacement unitType="ruralproduction" territory="Kannan" quantity="1" owner="Guominjun"/>
+      <unitPlacement unitType="ruralproduction" territory="Kungchangfu" quantity="1" owner="Guominjun"/>
+      <unitPlacement unitType="ruralproduction" territory="Canton" quantity="1" owner="Kuomintang"/>
+      <unitPlacement unitType="ruralproduction" territory="Nanning" quantity="1" owner="Kuomintang"/>
+      <unitPlacement unitType="ruralproduction" territory="West Kwangtung" quantity="1" owner="Kuomintang"/>
+      <unitPlacement unitType="ruralproduction" territory="Nanyang" quantity="1" owner="Guominjun"/>
+      <unitPlacement unitType="ruralproduction" territory="Lanchow" quantity="1" owner="Guominjun"/>
+      <unitPlacement unitType="ruralproduction" territory="Sian" quantity="1" owner="Guominjun"/>
+      <unitPlacement unitType="ruralproduction" territory="Shiuchow" quantity="1" owner="Kuomintang"/>
+      <unitPlacement unitType="ruralproduction" territory="Woochow" quantity="1" owner="Kuomintang"/>
+      <unitPlacement unitType="ruralproduction" territory="Szecheng" quantity="1" owner="Kuomintang"/>
+      <unitPlacement unitType="ruralproduction" territory="Te-king" quantity="1" owner="Kuomintang"/>
+      <unitPlacement unitType="ruralproduction" territory="Lungchow" quantity="1" owner="Kuomintang"/>
+      <unitPlacement unitType="ruralproduction" territory="Wuhan" quantity="1" owner="ChihliClique"/>
+      <unitPlacement unitType="ruralproduction" territory="Changsha" quantity="1" owner="ChihliClique"/>
+      <unitPlacement unitType="ruralproduction" territory="Tungting" quantity="1" owner="ChihliClique"/>
+      <unitPlacement unitType="ruralproduction" territory="Juning" quantity="1" owner="ChihliClique"/>
+      <unitPlacement unitType="ruralproduction" territory="Hwanggang" quantity="1" owner="ChihliClique"/>
+      <unitPlacement unitType="ruralproduction" territory="Ichang" quantity="1" owner="ChihliClique"/>
+      <unitPlacement unitType="ruralproduction" territory="Fancheng" quantity="1" owner="ChihliClique"/>
+      <unitPlacement unitType="ruralproduction" territory="Siangtan" quantity="1" owner="ChihliClique"/>
+      <unitPlacement unitType="ruralproduction" territory="Chih-Chiang" quantity="1" owner="ChihliClique"/>
+      <unitPlacement unitType="ruralproduction" territory="Changteh" quantity="1" owner="ChihliClique"/>
+      <unitPlacement unitType="ruralproduction" territory="Tsangchow" quantity="1" owner="FengtianClique"/>
+      <unitPlacement unitType="ruralproduction" territory="Paoting" quantity="1" owner="FengtianClique"/>
+      <unitPlacement unitType="ruralproduction" territory="Peking" quantity="1" owner="FengtianClique"/>
+      <unitPlacement unitType="ruralproduction" territory="Tangshan" quantity="1" owner="FengtianClique"/>
+      <unitPlacement unitType="ruralproduction" territory="Tientsin" quantity="1" owner="FengtianClique"/>
+      <unitPlacement unitType="ruralproduction" territory="Shanhaiguan" quantity="1" owner="FengtianClique"/>
+      <unitPlacement unitType="ruralproduction" territory="Chengteh" quantity="1" owner="FengtianClique"/>
+      <unitPlacement unitType="ruralproduction" territory="Kirin" quantity="1" owner="FengtianClique"/>
+      <unitPlacement unitType="ruralproduction" territory="Mukden" quantity="1" owner="FengtianClique"/>
+      <unitPlacement unitType="ruralproduction" territory="Liaodong" quantity="1" owner="FengtianClique"/>
+      <unitPlacement unitType="ruralproduction" territory="Hsuchow" quantity="1" owner="LeagueofFiveProvinces"/>
+      <unitPlacement unitType="ruralproduction" territory="Huainan" quantity="1" owner="LeagueofFiveProvinces"/>
+      <unitPlacement unitType="ruralproduction" territory="Huaipei" quantity="1" owner="LeagueofFiveProvinces"/>
+      <unitPlacement unitType="ruralproduction" territory="Yang-chow" quantity="1" owner="LeagueofFiveProvinces"/>
+      <unitPlacement unitType="ruralproduction" territory="Chin-kiang" quantity="1" owner="LeagueofFiveProvinces"/>
+      <unitPlacement unitType="ruralproduction" territory="Nanking" quantity="1" owner="LeagueofFiveProvinces"/>
+      <unitPlacement unitType="ruralproduction" territory="Luan" quantity="1" owner="LeagueofFiveProvinces"/>
+      <unitPlacement unitType="ruralproduction" territory="Huangshan" quantity="1" owner="LeagueofFiveProvinces"/>
+      <unitPlacement unitType="ruralproduction" territory="Shanghai" quantity="1" owner="LeagueofFiveProvinces"/>
+      <unitPlacement unitType="ruralproduction" territory="Hangchow" quantity="1" owner="LeagueofFiveProvinces"/>
+      <unitPlacement unitType="ruralproduction" territory="Kunming" quantity="1" owner="YunnanClique"/>
+      <unitPlacement unitType="ruralproduction" territory="Tali" quantity="1" owner="YunnanClique"/>
+      <unitPlacement unitType="ruralproduction" territory="Ningyen" quantity="1" owner="YunnanClique"/>
+      <unitPlacement unitType="ruralproduction" territory="Kutsing" quantity="1" owner="YunnanClique"/>
+      <unitPlacement unitType="ruralproduction" territory="Puel" quantity="1" owner="YunnanClique"/>
+      <unitPlacement unitType="ruralproduction" territory="Mengtsi" quantity="1" owner="YunnanClique"/>
+      <unitPlacement unitType="ruralproduction" territory="Kweiyang" quantity="1" owner="YunnanClique"/>
+      <unitPlacement unitType="ruralproduction" territory="Bichieh" quantity="1" owner="YunnanClique"/>
+      <unitPlacement unitType="ruralproduction" territory="Hsingi" quantity="1" owner="YunnanClique"/>
+      <unitPlacement unitType="ruralproduction" territory="Tuyun" quantity="1" owner="YunnanClique"/>
+    </unitInitialize>
+    <resourceInitialize>
+      <resourceGiven player="ChihliClique" resource="PUs" quantity="0"/>
+      <resourceGiven player="FengtianClique" resource="PUs" quantity="0"/>
+      <resourceGiven player="Guominjun" resource="PUs" quantity="0"/>
+      <resourceGiven player="Kuomintang" resource="PUs" quantity="0"/>
+      <resourceGiven player="LeagueofFiveProvinces" resource="PUs" quantity="0"/>
+      <resourceGiven player="YunnanClique" resource="PUs" quantity="0"/>
+      <resourceGiven player="ChihliClique" resource="techTokens" quantity="0"/>
+      <resourceGiven player="FengtianClique" resource="techTokens" quantity="0"/>
+      <resourceGiven player="Guominjun" resource="techTokens" quantity="0"/>
+      <resourceGiven player="Kuomintang" resource="techTokens" quantity="0"/>
+      <resourceGiven player="LeagueofFiveProvinces" resource="techTokens" quantity="0"/>
+      <resourceGiven player="YunnanClique" resource="techTokens" quantity="0"/>
+    </resourceInitialize>
+  </initialize>
+  <propertyList>
+    <!-- Bidding -->
+    <property name="ChihliClique bid" value="200" editable="true">
+      <number min="0" max="1000"/>
+    </property>
+    <property name="FengtianClique bid" value="200" editable="true">
+      <number min="0" max="1000"/>
+    </property>
+    <property name="Guominjun bid" value="200" editable="true">
+      <number min="0" max="1000"/>
+    </property>
+    <property name="Kuomintang bid" value="200" editable="true">
+      <number min="0" max="1000"/>
+    </property>
+    <property name="LeagueofFiveProvinces bid" value="200" editable="true">
+      <number min="0" max="1000"/>
+    </property>
+    <property name="YunnanClique bid" value="200" editable="true">
+      <number min="0" max="1000"/>
+    </property>
+    <!-- OPTIONAL PROPERTIES -->
+    <!-- victory options -->
+    <property name="No Economic Victory" value="true" editable="true">
+      <boolean/>
+    </property>
+    <property name="Total Victory" value="false" editable="true">
+      <boolean/>
+    </property>
+    <property name="Honorable Surrender" value="true" editable="true">
+      <boolean/>
+    </property>
+    <property name="Projection of Power" value="false" editable="true">
+      <boolean/>
+    </property>
+    <property name="Low Luck" value="false" editable="true">
+      <boolean/>
+    </property>
+    <property name="Low Luck for AntiAircraft" value="false" editable="true">
+      <boolean/>
+    </property>
+    <property name="Low Luck for Technology" value="false" editable="true">
+      <boolean/>
+    </property>
+    <property name="Low Luck for Bombing and Territory Damage" value="false" editable="true">
+      <boolean/>
+    </property>
+    <property name="National Objectives" value="false" editable="true">
+      <boolean/>
+    </property>
+    <property name="Tech Development" value="false" editable="true">
+      <boolean/>
+    </property>
+    <property name="Super Sub Defence Bonus" value="0" editable="true">
+      <number min="0" max="1"/>
+    </property>
+    <property name="LHTR Heavy Bombers" value="false" editable="true">
+      <boolean/>
+    </property>
+    <property name="Heavy Bomber Dice Rolls" value="2" editable="true">
+      <number min="2" max="3"/>
+    </property>
+    <property name="Always on AA" value="false" editable="true">
+      <boolean/>
+    </property>
+    <property name="Kamikaze Airplanes" value="true" editable="true">
+      <boolean/>
+    </property>
+    <property name="Battleships repair at end of round" value="true" editable="true">
+      <boolean/>
+    </property>
+    <property name="Battleships repair at beginning of round" value="false" editable="true">
+      <boolean/>
+    </property>
+    <!-- END OF OPTIONAL PROPERTIES -->
+    <!-- rules and tech -->
+    <property name="WW2V3" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="WW2V3 Tech Model" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Use Shipyards" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="All Rockets Attack" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Rockets Can Fly Over Impassables" value="false" editable="false">
+      <boolean/>
+    </property>
+    <!-- These require an associated value in the attachments section above-->
+    <property name="Movement By Territory Restricted" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Production Per X Territories Restricted" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Unit Placement Per Territory Restricted" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Place in Any Territory" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Unplaced units live when not placed" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Occupied Territories" value="true" editable="false">
+      <boolean/>
+    </property>
+    <!-- specific rules -->
+    <!-- land related -->
+    <property name="Blitz Through Factories And AA Restricted" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Roll AA Individually" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Choose AA Casualties" value="false" editable="false">
+      <boolean/>
+    </property>
+    <property name="AA Territory Restricted" value="true" editable="false">
+      <boolean/>
+    </property>
+    <!-- sea related -->
+    <property name="Partial Amphibious Retreat" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Shore Bombard Per Ground Unit Restricted" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Naval Bombard Casualties Return Fire Restricted" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Hari-Kari Units" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Surviving Air Move To Land" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Air Attack Sub Restricted" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Ignore Transport In Movement" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Transport Casualties Restricted" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Unescorted Transport Dies" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Ignore Sub In Movement" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Defending Subs Sneak Attack" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Sub Retreat Before Battle" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Submersible Subs" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Sub Control Sea Zone Restricted" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Two hit battleship" value="true" editable="false">
+      <boolean/>
+    </property>
+    <!-- production related -->
+    <property name="Produce fighters on carriers" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Produce new fighters on old carriers" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Move existing fighters to new carriers" value="false" editable="false">
+      <boolean/>
+    </property>
+    <property name="Land existing fighters on new carriers" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="LHTR Carrier production rules" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Unit Placement In Enemy Seas" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Territory Turn Limit" value="true" editable="true">
+      <boolean/>
+    </property>
+    <property name="maxFactoriesPerTerritory" value="1"/>
+    <property name="Placement Restricted By Factory" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="SBR Affects Unit Production" value="true" editable="false">
+      <boolean/>
+    </property>
+    <!-- to do with neutrals -->
+    <property name="neutralCharge" value="0"/>
+    <property name="Neutrals Are Impassable" value="false" editable="false">
+      <boolean/>
+    </property>
+    <!-- Map Name: also used for map utils when asked -->
+    <property name="mapName" value="red_sun_over_china" editable="false"/>
+    <!-- notes appear in the notes menu in the main screen, format as html -->
+    <property name="notes">
+      <value><![CDATA[  
+						
+						<CENTER>
+<b><font size="6">Warlords: 6 Player FFA</font></b> <br>
+						<br>
+						by Pulicat <br></CENTER> <br>
+						Version 1.1 <br>
+						<br>
+						  <br>
+						  <br>
+						  This is an FFA based on the RSOC map. Suggested bid is 200 PU. Standard bidding rules: 5 units max per territory, except capital.
+						  <br>
+						  <br>
+</p>
+  <p><b>A few special rules:</b></p>
+<p><b>1) Any two territories adjacent to a city are considered connected to each other. In other words, you may move between two territories on opposites of a city in just 1 move. <b>However, you can "teleport" between two non-adjacent territories this way only if you control the city.</b></p>
+  <p><strong>2) There are two kinds of factory units: an invisible one called "ruralproduction" present in the countryside and regular "factories" in cities. infantry is to built in the countryside only and everything else in cities only. You are not allowed to build infantry inside cities, or artillery/tanks/planes/etc. in the countryside.</strong>  </p>
+  <p><strong>3) You can build trains, which hop from station to station carrying troops. Cargo trains are 0/0 capacity 10, while armoured trains are 0/1 capacity 5, and they both travel two station-lengths. You can only use a railroad line if you begin the turn by controlling all the territories between the stations (like a canal).</strong>  </p>
+    <br>
+    <a name="Countries"><font size="5"><b><em>Countries</em></b></font></a>
+						<li>Chihli Clique (capital: Wuhan)</li>
+						<li>Fengtian Clique(capital: Mukden)</li>
+						<li>Guominjun (capital: Sian)</li>
+						<li>Kuomintang (capital: Canton)</li>
+						<li>League of Five provinces (capital: Nanking)</li>
+						<li>Yunnan Clique (capital: Calcutta)</li>
+
+		<br>
+						
+					]]></value>
+    </property>
+  </propertyList>
+</game>
