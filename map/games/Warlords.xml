@@ -1447,14 +1447,14 @@
     </attachment>
     <attachment name="territoryAttachment" attachTo="South Laos" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-      <option name="isImpassible" value="true"/>
+      <option name="isImpassable" value="true"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Chengang" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="2"/>
       <option name="unitProduction" value="2"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Hong Kong" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="isImpassible" value="true"/>
+      <option name="isImpassable" value="true"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Fen-chow" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="2"/>
@@ -1465,7 +1465,7 @@
       <option name="unitProduction" value="2"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Mandalay" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="isImpassible" value="true"/>
+      <option name="isImpassable" value="true"/>
       <option name="production" value="0"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Swatow" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
@@ -1482,14 +1482,14 @@
     </attachment>
     <attachment name="territoryAttachment" attachTo="Chindwin" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-      <option name="isImpassible" value="true"/>
+      <option name="isImpassable" value="true"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="West Assam" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="isImpassible" value="true"/>
+      <option name="isImpassable" value="true"/>
       <option name="production" value="0"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Malaya-Singapore" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="isImpassible" value="true"/>
+      <option name="isImpassable" value="true"/>
       <option name="production" value="0"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Ichow" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
@@ -1502,7 +1502,7 @@
     </attachment>
     <attachment name="territoryAttachment" attachTo="Annam" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-      <option name="isImpassible" value="true"/>
+      <option name="isImpassable" value="true"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="East Sikang" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="2"/>
@@ -1521,7 +1521,7 @@
       <option name="unitProduction" value="2"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Phitsanulok" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="isImpassible" value="true"/>
+      <option name="isImpassable" value="true"/>
       <option name="production" value="0"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Tientsin" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
@@ -1533,7 +1533,7 @@
       <option name="unitProduction" value="2"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Pathein" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="isImpassible" value="true"/>
+      <option name="isImpassable" value="true"/>
       <option name="production" value="0"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Techow" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
@@ -1553,7 +1553,7 @@
       <option name="unitProduction" value="2"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Manipur" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="isImpassible" value="true"/>
+      <option name="isImpassable" value="true"/>
       <option name="production" value="0"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Kweiyang" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
@@ -1581,7 +1581,7 @@
       <option name="unitProduction" value="2"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Chittagong" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="isImpassible" value="true"/>
+      <option name="isImpassable" value="true"/>
       <option name="production" value="0"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Kunming" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
@@ -1594,7 +1594,7 @@
       <option name="unitProduction" value="2"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Bangkok" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="isImpassible" value="true"/>
+      <option name="isImpassable" value="true"/>
       <option name="production" value="0"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Tsingtai" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
@@ -1602,7 +1602,7 @@
       <option name="unitProduction" value="2"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Udon Thani" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="isImpassible" value="true"/>
+      <option name="isImpassable" value="true"/>
       <option name="production" value="0"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Juning" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
@@ -1614,7 +1614,7 @@
       <option name="unitProduction" value="3"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Chiang Mai" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="isImpassible" value="true"/>
+      <option name="isImpassable" value="true"/>
       <option name="production" value="0"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="North Jehol" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
@@ -1686,15 +1686,15 @@
       <option name="unitProduction" value="2"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Nakhon Sawan" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="isImpassible" value="true"/>
+      <option name="isImpassable" value="true"/>
       <option name="production" value="0"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Taungoo" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-      <option name="isImpassible" value="true"/>
+      <option name="isImpassable" value="true"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Kentung" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="isImpassible" value="true"/>
+      <option name="isImpassable" value="true"/>
       <option name="production" value="0"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Chengteh" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
@@ -1715,7 +1715,7 @@
     </attachment>
     <attachment name="territoryAttachment" attachTo="Korea" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-      <option name="isImpassible" value="true"/>
+      <option name="isImpassable" value="true"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Kannan" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="2"/>
@@ -1730,7 +1730,7 @@
       <option name="unitProduction" value="2"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Kohima" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="isImpassible" value="true"/>
+      <option name="isImpassable" value="true"/>
       <option name="production" value="0"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Shanhaiguan" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
@@ -1747,7 +1747,7 @@
       <option name="capital" value="Kuomintang"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Japan" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="isImpassible" value="true"/>
+      <option name="isImpassable" value="true"/>
       <option name="production" value="0"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Lungkow" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
@@ -1763,7 +1763,7 @@
       <option name="unitProduction" value="3"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Lashio" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="isImpassible" value="true"/>
+      <option name="isImpassable" value="true"/>
       <option name="production" value="0"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Ordos Plateau" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
@@ -1796,7 +1796,7 @@
     </attachment>
     <attachment name="territoryAttachment" attachTo="Imphal" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-      <option name="isImpassible" value="true"/>
+      <option name="isImpassable" value="true"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="West Kwangtung" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="2"/>
@@ -1831,11 +1831,11 @@
       <option name="unitProduction" value="2"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Kra" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="isImpassible" value="true"/>
+      <option name="isImpassable" value="true"/>
       <option name="production" value="0"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Tonkin" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="isImpassible" value="true"/>
+      <option name="isImpassable" value="true"/>
       <option name="production" value="0"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Pinghsiang" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
@@ -1874,13 +1874,13 @@
       <option name="unitProduction" value="2"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Cochinchina" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="isImpassible" value="true"/>
+      <option name="isImpassable" value="true"/>
       <option name="production" value="0"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Port Arthur" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="unitProduction" value="3"/>
       <option name="production" value="0"/>
-      <option name="isImpassible" value="true"/>
+      <option name="isImpassable" value="true"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Wuhan" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="3"/>
@@ -1897,7 +1897,7 @@
       <option name="capital" value="FengtianClique"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Luang Prabang" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="isImpassible" value="true"/>
+      <option name="isImpassable" value="true"/>
       <option name="production" value="0"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Fancheng" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
@@ -1939,12 +1939,12 @@
       <option name="capital" value="LeagueofFiveProvinces"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Calcutta" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="isImpassible" value="true"/>
+      <option name="isImpassable" value="true"/>
       <option name="production" value="0"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Tibet" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-      <option name="isImpassible" value="true"/>
+      <option name="isImpassable" value="true"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Mengtsi" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="2"/>
@@ -1968,7 +1968,7 @@
     </attachment>
     <attachment name="territoryAttachment" attachTo="Chin" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-      <option name="isImpassible" value="true"/>
+      <option name="isImpassable" value="true"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Woochow" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="2"/>
@@ -1983,7 +1983,7 @@
       <option name="production" value="3"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Rangoon" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="isImpassible" value="true"/>
+      <option name="isImpassable" value="true"/>
       <option name="production" value="0"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Chenchow" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
@@ -1991,7 +1991,7 @@
       <option name="unitProduction" value="2"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Hanoi" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="isImpassible" value="true"/>
+      <option name="isImpassable" value="true"/>
       <option name="production" value="0"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Luoyang" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
@@ -1999,7 +1999,7 @@
       <option name="unitProduction" value="2"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Sittang" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="isImpassible" value="true"/>
+      <option name="isImpassable" value="true"/>
       <option name="production" value="0"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="North Suiyuan" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
@@ -2023,7 +2023,7 @@
       <option name="unitProduction" value="2"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Myitkyina" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="isImpassible" value="true"/>
+      <option name="isImpassable" value="true"/>
       <option name="production" value="0"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Siangtan" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
@@ -2031,7 +2031,7 @@
       <option name="unitProduction" value="2"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="East Assam" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="isImpassible" value="true"/>
+      <option name="isImpassable" value="true"/>
       <option name="production" value="0"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Luchow" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
@@ -2044,7 +2044,7 @@
     </attachment>
     <attachment name="territoryAttachment" attachTo="Sinkiang-Mongolia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-      <option name="isImpassible" value="true"/>
+      <option name="isImpassable" value="true"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Kunlun Mountains" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="2"/>
@@ -2052,7 +2052,7 @@
     </attachment>
     <attachment name="territoryAttachment" attachTo="Cambodia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-      <option name="isImpassible" value="true"/>
+      <option name="isImpassable" value="true"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Changchih" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="2"/>

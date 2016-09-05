@@ -1768,8 +1768,8 @@
       <option name="canBlitz" value="true"/>
       <option name="defense" value="1"/>
       <option name="isInfantry" value="true"/>
-      <option name="isParatroop" value="false"/>
-      <option name="isMechanized" value="false"/>
+      <option name="isAirTransportable" value="false"/>
+      <option name="isInfantry" value="false"/>
       <option name="artillerySupportable" value="false"/>
     </attachment>
     <!--Guerilla -->
@@ -2221,7 +2221,7 @@
     <attachment name="territoryAttachment" attachTo="Tibet" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
       <option name="capital" value="Communist"/>
-      <option name="isImpassible" value="true"/>
+      <option name="isImpassable" value="true"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Mengtsi" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="1"/>
@@ -2475,7 +2475,7 @@
     </attachment>
     <attachment name="territoryAttachment" attachTo="Sinkiang-Mongolia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
-      <option name="isImpassible" value="true"/>
+      <option name="isImpassable" value="true"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Ningsia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="1"/>
