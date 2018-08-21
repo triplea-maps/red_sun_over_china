@@ -1834,14 +1834,12 @@
     </attachment>
     <attachment name="territoryAttachment" attachTo="Taiyuan" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="4"/>
-      <option name="unitProduction" value="-4"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Hong Kong" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="4"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Tsinan" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="4"/>
-      <option name="unitProduction" value="-4"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Yenan" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="3"/>
@@ -1850,7 +1848,6 @@
     </attachment>
     <attachment name="territoryAttachment" attachTo="Canton" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="6"/>
-      <option name="unitProduction" value="-4"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Japan" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="10"/>
@@ -1859,7 +1856,6 @@
     </attachment>
     <attachment name="territoryAttachment" attachTo="Nanchang" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="4"/>
-      <option name="unitProduction" value="-4"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Lanchow" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="4"/>
@@ -1881,7 +1877,6 @@
     </attachment>
     <attachment name="territoryAttachment" attachTo="Wuhan" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="6"/>
-      <option name="unitProduction" value="-4"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Mukden" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="6"/>
@@ -1901,27 +1896,21 @@
     </attachment>
     <attachment name="territoryAttachment" attachTo="Changsha" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="4"/>
-      <option name="unitProduction" value="-4"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Kunming" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="6"/>
-      <option name="unitProduction" value="-4"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Kweiyang" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="4"/>
-      <option name="unitProduction" value="-4"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Nanning" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="4"/>
-      <option name="unitProduction" value="-4"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Nanking" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="4"/>
-      <option name="unitProduction" value="-4"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Tsingtao" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="4"/>
-      <option name="unitProduction" value="-4"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Malaya-Singapore" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="5"/>
@@ -3467,17 +3456,17 @@
       <unitPlacement unitType="cargo_train" territory="Lanchow Station" quantity="2" owner="Communist"/>
       <unitPlacement unitType="cargo_train" territory="Calcutta Station" quantity="2" owner="British"/>
       <unitPlacement unitType="armoured_train" territory="Calcutta Station" quantity="2" owner="British"/>
-      <unitPlacement unitType="factory" territory="Taiyuan" quantity="1" owner="Japanese"/>
-      <unitPlacement unitType="factory" territory="Nanking" quantity="1" owner="Nationalist"/>
-      <unitPlacement unitType="factory" territory="Tsinan" quantity="1" owner="Nationalist"/>
-      <unitPlacement unitType="factory" territory="Tsingtao" quantity="1" owner="Nationalist"/>
-      <unitPlacement unitType="factory" territory="Nanchang" quantity="1" owner="Nationalist"/>
-      <unitPlacement unitType="factory" territory="Wuhan" quantity="1" owner="Nationalist"/>
-      <unitPlacement unitType="factory" territory="Changsha" quantity="1" owner="Nationalist"/>
-      <unitPlacement unitType="factory" territory="Nanning" quantity="1" owner="Nationalist"/>
-      <unitPlacement unitType="factory" territory="Canton" quantity="1" owner="Nationalist"/>
-      <unitPlacement unitType="factory" territory="Kweiyang" quantity="1" owner="Nationalist"/>
-      <unitPlacement unitType="factory" territory="Kunming" quantity="1" owner="Nationalist"/>
+      <unitPlacement unitType="factory" territory="Taiyuan" quantity="1" owner="Japanese" unitDamage="8"/>
+      <unitPlacement unitType="factory" territory="Nanking" quantity="1" owner="Nationalist" unitDamage="8"/>
+      <unitPlacement unitType="factory" territory="Tsinan" quantity="1" owner="Nationalist" unitDamage="8"/>
+      <unitPlacement unitType="factory" territory="Tsingtao" quantity="1" owner="Nationalist" unitDamage="8"/>
+      <unitPlacement unitType="factory" territory="Nanchang" quantity="1" owner="Nationalist" unitDamage="8"/>
+      <unitPlacement unitType="factory" territory="Wuhan" quantity="1" owner="Nationalist" unitDamage="10"/>
+      <unitPlacement unitType="factory" territory="Changsha" quantity="1" owner="Nationalist" unitDamage="8"/>
+      <unitPlacement unitType="factory" territory="Nanning" quantity="1" owner="Nationalist" unitDamage="8"/>
+      <unitPlacement unitType="factory" territory="Canton" quantity="1" owner="Nationalist" unitDamage="10"/>
+      <unitPlacement unitType="factory" territory="Kweiyang" quantity="1" owner="Nationalist" unitDamage="8"/>
+      <unitPlacement unitType="factory" territory="Kunming" quantity="1" owner="Nationalist" unitDamage="10"/>
       <unitPlacement unitType="ruralproduction" territory="Poseh" quantity="1" owner="Nationalist"/>
       <unitPlacement unitType="ruralproduction" territory="Swatow" quantity="1" owner="Nationalist"/>
       <unitPlacement unitType="ruralproduction" territory="Huaipei" quantity="1" owner="Nationalist"/>
@@ -3720,9 +3709,7 @@
     <property name="Unplaced units live when not placed" value="true" editable="false">
       <boolean/>
     </property>
-    <property name="Occupied Territories" value="true" editable="false">
-      <boolean/>
-    </property>
+
     <!-- specific rules -->
     <!-- land related -->
     <property name="Blitz Through Factories And AA Restricted" value="false" editable="false">
