@@ -2872,7 +2872,7 @@
     <!-- Communist Quarantine -->
     <attachment name="objectiveAttachment10" attachTo="Communist" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="objectiveValue" value="5"/>
-      <option name="alliedExclusionTerritories" value="original"/>
+      <option name="alliedExclusionTerritories" value="Yenan:Fen-chow:Puchow:Sian:Weinan:Ankang:Hanchung:Tsingyang:Kungchangfu:Kuyuan:Lanchow"/>
     </attachment>
     <!-- British  Objectives -->
     <!-- Colonial Strongholds -->
