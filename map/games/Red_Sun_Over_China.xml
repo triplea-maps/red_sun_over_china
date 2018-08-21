@@ -1799,10 +1799,6 @@
       <option name="attack" value="0"/>
       <option name="defense" value="0"/>
     </attachment>
-    <!-- colonial_outpost
-                <attachment name="unitAttachment" attachTo="colonial_outpost" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
-                         <option name="isFactory" value="true"/>
-                </attachment> -->
     <!-- Factory -->
     <attachment name="unitAttachment" attachTo="factory" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="attack" value="0"/>
@@ -1814,6 +1810,7 @@
       <option name="attack" value="0"/>
       <option name="defense" value="0"/>
       <option name="isFactory" value="true"/>
+      <option name="canBeDamaged" value="false"/>
     </attachment>
     <!-- AA Gun -->
     <attachment name="unitAttachment" attachTo="aaGun" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
