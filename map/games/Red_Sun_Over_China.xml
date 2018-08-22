@@ -2526,6 +2526,7 @@
     <attachment name="territoryAttachment" attachTo="Phase I" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="0"/>
     </attachment>
+    
     <!-- Canals -->
     <attachment name="canalAttachment" attachTo="SZ 17 Malay Sea" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
       <option name="canalName" value="StraitofMalacca"/>
@@ -2543,6 +2544,759 @@
       <option name="canalName" value="Atlantic"/>
       <option name="landTerritories" value="Tibet"/>
     </attachment>
+    
+    <!-- Land Canals for Cities -->
+    
+    <!-- Nationalist -->
+    <attachment name="canalAttachmentKunming1" attachTo="Tali" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Kunming 1"/>
+      <option name="landTerritories" value="Kunming"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentKunming1" attachTo="Kutsing" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Kunming 1"/>
+      <option name="landTerritories" value="Kunming"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentKunming2" attachTo="Tali" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Kunming 2"/>
+      <option name="landTerritories" value="Kunming"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentKunming2" attachTo="Mengtsi" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Kunming 2"/>
+      <option name="landTerritories" value="Kunming"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentKunming3" attachTo="Puel" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Kunming 3"/>
+      <option name="landTerritories" value="Kunming"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentKunming3" attachTo="Ningyen" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Kunming 3"/>
+      <option name="landTerritories" value="Kunming"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentKunming4" attachTo="Puel" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Kunming 4"/>
+      <option name="landTerritories" value="Kunming"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentKunming4" attachTo="Kutsing" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Kunming 4"/>
+      <option name="landTerritories" value="Kunming"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentKunming5" attachTo="Ningyen" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Kunming 5"/>
+      <option name="landTerritories" value="Kunming"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentKunming5" attachTo="Mengtsi" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Kunming 5"/>
+      <option name="landTerritories" value="Kunming"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentChungking1" attachTo="Suifu" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Chungking 1"/>
+      <option name="landTerritories" value="Chungking"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentChungking1" attachTo="Pa-chung" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Chungking 1"/>
+      <option name="landTerritories" value="Chungking"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentChungking2" attachTo="Suifu" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Chungking 2"/>
+      <option name="landTerritories" value="Chungking"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentChungking2" attachTo="Fengdu" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Chungking 2"/>
+      <option name="landTerritories" value="Chungking"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentChungking3" attachTo="Cheng-tu" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Chungking 3"/>
+      <option name="landTerritories" value="Chungking"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentChungking3" attachTo="Luchow" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Chungking 3"/>
+      <option name="landTerritories" value="Chungking"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentChungking4" attachTo="Cheng-tu" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Chungking 4"/>
+      <option name="landTerritories" value="Chungking"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentChungking4" attachTo="Fengdu" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Chungking 4"/>
+      <option name="landTerritories" value="Chungking"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentChungking5" attachTo="Luchow" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Chungking 5"/>
+      <option name="landTerritories" value="Chungking"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentChungking5" attachTo="Pa-chung" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Chungking 5"/>
+      <option name="landTerritories" value="Chungking"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentKweiyang1" attachTo="Bichieh" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Kweiyang 1"/>
+      <option name="landTerritories" value="Kweiyang"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentKweiyang1" attachTo="Chenyuan" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Kweiyang 1"/>
+      <option name="landTerritories" value="Kweiyang"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentKweiyang2" attachTo="Bichieh" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Kweiyang 2"/>
+      <option name="landTerritories" value="Kweiyang"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentKweiyang2" attachTo="Tuyun" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Kweiyang 2"/>
+      <option name="landTerritories" value="Kweiyang"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentKweiyang3" attachTo="Luchow" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Kweiyang 3"/>
+      <option name="landTerritories" value="Kweiyang"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentKweiyang3" attachTo="Hsingi" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Kweiyang 3"/>
+      <option name="landTerritories" value="Kweiyang"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentKweiyang4" attachTo="Luchow" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Kweiyang 4"/>
+      <option name="landTerritories" value="Kweiyang"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentKweiyang4" attachTo="Tuyun" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Kweiyang 4"/>
+      <option name="landTerritories" value="Kweiyang"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentKweiyang5" attachTo="Hsingi" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Kweiyang 5"/>
+      <option name="landTerritories" value="Kweiyang"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentKweiyang5" attachTo="Chenyuan" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Kweiyang 5"/>
+      <option name="landTerritories" value="Kweiyang"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentNanning1" attachTo="Szecheng" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Nanning 1"/>
+      <option name="landTerritories" value="Nanning"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentNanning1" attachTo="Woochow" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Nanning 1"/>
+      <option name="landTerritories" value="Nanning"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentNanning2" attachTo="Lungchow" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Nanning 2"/>
+      <option name="landTerritories" value="Nanning"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentNanning2" attachTo="Kweilin" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Nanning 2"/>
+      <option name="landTerritories" value="Nanning"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentNanning3" attachTo="Lungchow" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Nanning 3"/>
+      <option name="landTerritories" value="Nanning"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentNanning3" attachTo="Woochow" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Nanning 3"/>
+      <option name="landTerritories" value="Nanning"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentChangsha1" attachTo="Chih-Chiang" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Changsha 1"/>
+      <option name="landTerritories" value="Changsha"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentChangsha1" attachTo="Tungting" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Changsha 1"/>
+      <option name="landTerritories" value="Changsha"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentChangsha2" attachTo="Chih-Chiang" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Changsha 2"/>
+      <option name="landTerritories" value="Changsha"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentChangsha2" attachTo="Chien-ning" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Changsha 2"/>
+      <option name="landTerritories" value="Changsha"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentChangsha3" attachTo="Changteh" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Changsha 3"/>
+      <option name="landTerritories" value="Changsha"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentChangsha3" attachTo="Siangtan" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Changsha 3"/>
+      <option name="landTerritories" value="Changsha"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentChangsha4" attachTo="Changteh" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Changsha 4"/>
+      <option name="landTerritories" value="Changsha"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentChangsha4" attachTo="Chien-ning" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Changsha 4"/>
+      <option name="landTerritories" value="Changsha"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentChangsha5" attachTo="Siangtan" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Changsha 5"/>
+      <option name="landTerritories" value="Changsha"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentChangsha5" attachTo="Tungting" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Changsha 5"/>
+      <option name="landTerritories" value="Changsha"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentWuhan1" attachTo="Ichang" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Wuhan 1"/>
+      <option name="landTerritories" value="Wuhan"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentWuhan1" attachTo="Hwanggang" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Wuhan 1"/>
+      <option name="landTerritories" value="Wuhan"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentWuhan2" attachTo="Ichang" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Wuhan 2"/>
+      <option name="landTerritories" value="Wuhan"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentWuhan2" attachTo="Hwangshi" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Wuhan 2"/>
+      <option name="landTerritories" value="Wuhan"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentWuhan3" attachTo="Ichang" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Wuhan 3"/>
+      <option name="landTerritories" value="Wuhan"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentWuhan3" attachTo="Tungting" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Wuhan 3"/>
+      <option name="landTerritories" value="Wuhan"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentWuhan4" attachTo="Changteh" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Wuhan 4"/>
+      <option name="landTerritories" value="Wuhan"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentWuhan4" attachTo="Fancheng" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Wuhan 4"/>
+      <option name="landTerritories" value="Wuhan"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentWuhan5" attachTo="Changteh" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Wuhan 5"/>
+      <option name="landTerritories" value="Wuhan"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentWuhan5" attachTo="Hwanggang" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Wuhan 5"/>
+      <option name="landTerritories" value="Wuhan"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentWuhan6" attachTo="Changteh" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Wuhan 6"/>
+      <option name="landTerritories" value="Wuhan"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentWuhan6" attachTo="Hwangshi" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Wuhan 6"/>
+      <option name="landTerritories" value="Wuhan"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentWuhan7" attachTo="Fancheng" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Wuhan 7"/>
+      <option name="landTerritories" value="Wuhan"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentWuhan7" attachTo="Hwangshi" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Wuhan 7"/>
+      <option name="landTerritories" value="Wuhan"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentWuhan8" attachTo="Fancheng" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Wuhan 8"/>
+      <option name="landTerritories" value="Wuhan"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentWuhan8" attachTo="Tungting" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Wuhan 8"/>
+      <option name="landTerritories" value="Wuhan"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentWuhan9" attachTo="Hwanggang" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Wuhan 9"/>
+      <option name="landTerritories" value="Wuhan"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentWuhan9" attachTo="Tungting" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Wuhan 9"/>
+      <option name="landTerritories" value="Wuhan"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentCanton1" attachTo="West Kwangtung" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Canton 1"/>
+      <option name="landTerritories" value="Canton"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentCanton1" attachTo="Shiuchow" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Canton 1"/>
+      <option name="landTerritories" value="Canton"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentCanton2" attachTo="West Kwangtung" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Canton 2"/>
+      <option name="landTerritories" value="Canton"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentCanton2" attachTo="Swatow" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Canton 2"/>
+      <option name="landTerritories" value="Canton"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentCanton3" attachTo="Te-king" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Canton 3"/>
+      <option name="landTerritories" value="Canton"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentCanton3" attachTo="Swatow" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Canton 3"/>
+      <option name="landTerritories" value="Canton"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentCanton4" attachTo="Te-king" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Canton 4"/>
+      <option name="landTerritories" value="Canton"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentCanton4" attachTo="Hong Kong" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Canton 4"/>
+      <option name="landTerritories" value="Canton"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentCanton5" attachTo="Shiuchow" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Canton 5"/>
+      <option name="landTerritories" value="Canton"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentCanton5" attachTo="Hong Kong" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Canton 5"/>
+      <option name="landTerritories" value="Canton"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>   
+    <attachment name="canalAttachmentNanchang1" attachTo="Hwangshi" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Nanchang 1"/>
+      <option name="landTerritories" value="Nanchang"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentNanchang1" attachTo="Kan" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Nanchang 1"/>
+      <option name="landTerritories" value="Nanchang"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentNanchang2" attachTo="Pinghsiang" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Nanchang 2"/>
+      <option name="landTerritories" value="Nanchang"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentNanchang2" attachTo="Poyang" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Nanchang 2"/>
+      <option name="landTerritories" value="Nanchang"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentTsinan1" attachTo="Liaocheng" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Tsinan 1"/>
+      <option name="landTerritories" value="Tsinan"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentTsinan1" attachTo="Lungkow" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Tsinan 1"/>
+      <option name="landTerritories" value="Tsinan"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentTsinan2" attachTo="Liaocheng" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Tsinan 2"/>
+      <option name="landTerritories" value="Tsinan"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentTsinan2" attachTo="Ichow" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Tsinan 2"/>
+      <option name="landTerritories" value="Tsinan"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentTsinan3" attachTo="Kining" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Tsinan 3"/>
+      <option name="landTerritories" value="Tsinan"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentTsinan3" attachTo="Techow" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Tsinan 3"/>
+      <option name="landTerritories" value="Tsinan"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentTsinan4" attachTo="Kining" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Tsinan 4"/>
+      <option name="landTerritories" value="Tsinan"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentTsinan4" attachTo="Lungkow" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Tsinan 4"/>
+      <option name="landTerritories" value="Tsinan"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentTsinan5" attachTo="Techow" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Tsinan 5"/>
+      <option name="landTerritories" value="Tsinan"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentTsinan5" attachTo="Ichow" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Tsinan 5"/>
+      <option name="landTerritories" value="Tsinan"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentNanking1" attachTo="Luan" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Nanking 1"/>
+      <option name="landTerritories" value="Nanking"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentNanking1" attachTo="Yang-chow" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Nanking 1"/>
+      <option name="landTerritories" value="Nanking"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentNanking2" attachTo="Luan" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Nanking 2"/>
+      <option name="landTerritories" value="Nanking"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentNanking2" attachTo="Wuhu" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Nanking 2"/>
+      <option name="landTerritories" value="Nanking"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentNanking3" attachTo="Luan" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Nanking 3"/>
+      <option name="landTerritories" value="Nanking"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentNanking3" attachTo="Huangshan" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Nanking 3"/>
+      <option name="landTerritories" value="Nanking"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentNanking4" attachTo="Huaipei" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Nanking 4"/>
+      <option name="landTerritories" value="Nanking"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentNanking4" attachTo="Wuhu" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Nanking 4"/>
+      <option name="landTerritories" value="Nanking"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentNanking5" attachTo="Huaipei" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Nanking 5"/>
+      <option name="landTerritories" value="Nanking"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentNanking5" attachTo="Huangshan" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Nanking 5"/>
+      <option name="landTerritories" value="Nanking"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentNanking6" attachTo="Huaipei" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Nanking 6"/>
+      <option name="landTerritories" value="Nanking"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentNanking6" attachTo="Anking" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Nanking 6"/>
+      <option name="landTerritories" value="Nanking"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentNanking7" attachTo="Anking" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Nanking 7"/>
+      <option name="landTerritories" value="Nanking"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentNanking7" attachTo="Yang-chow" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Nanking 7"/>
+      <option name="landTerritories" value="Nanking"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentNanking8" attachTo="Anking" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Nanking 8"/>
+      <option name="landTerritories" value="Nanking"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentNanking8" attachTo="Wuhu" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Nanking 8"/>
+      <option name="landTerritories" value="Nanking"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentNanking9" attachTo="Huangshan" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Nanking 9"/>
+      <option name="landTerritories" value="Nanking"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentNanking9" attachTo="Yang-chow" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Nanking 9"/>
+      <option name="landTerritories" value="Nanking"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentNanking10" attachTo="Wuhu" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Nanking 10"/>
+      <option name="landTerritories" value="Nanking"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentNanking10" attachTo="Yang-chow" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Nanking 10"/>
+      <option name="landTerritories" value="Nanking"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentTsingtao1" attachTo="Jih-Chao" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Tsingtao 1"/>
+      <option name="landTerritories" value="Tsingtao"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentTsingtao1" attachTo="Weihaiwei" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Tsingtao 1"/>
+      <option name="landTerritories" value="Tsingtao"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    
+    <!-- Manchukwo -->
+    <attachment name="canalAttachmentMukden1" attachTo="Chengteh" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Mukden 1"/>
+      <option name="landTerritories" value="Mukden"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentMukden1" attachTo="Liaodong" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Mukden 1"/>
+      <option name="landTerritories" value="Mukden"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentMukden2" attachTo="Shanhaiguan" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Mukden 2"/>
+      <option name="landTerritories" value="Mukden"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentMukden2" attachTo="Kirin" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Mukden 2"/>
+      <option name="landTerritories" value="Mukden"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    
+    <!-- Communist -->
+    <attachment name="canalAttachmentLanchow1" attachTo="Sining" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Lanchow 1"/>
+      <option name="landTerritories" value="Lanchow"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentLanchow1" attachTo="Kannan" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Lanchow 1"/>
+      <option name="landTerritories" value="Lanchow"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentLanchow2" attachTo="Sining" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Lanchow 2"/>
+      <option name="landTerritories" value="Lanchow"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentLanchow2" attachTo="Kungchangfu" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Lanchow 2"/>
+      <option name="landTerritories" value="Lanchow"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentLanchow3" attachTo="Hehsi Corridor" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Lanchow 3"/>
+      <option name="landTerritories" value="Lanchow"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentLanchow3" attachTo="Kannan" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Lanchow 3"/>
+      <option name="landTerritories" value="Lanchow"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentSian1" attachTo="Tsingyang" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Sian 1"/>
+      <option name="landTerritories" value="Sian"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentSian1" attachTo="Weinan" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Sian 1"/>
+      <option name="landTerritories" value="Sian"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentSian2" attachTo="Tsingyang" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Sian 2"/>
+      <option name="landTerritories" value="Sian"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentSian2" attachTo="Ankang" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Sian 2"/>
+      <option name="landTerritories" value="Sian"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentSian3" attachTo="Hanchung" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Sian 3"/>
+      <option name="landTerritories" value="Sian"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentSian3" attachTo="Yenan" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Sian 3"/>
+      <option name="landTerritories" value="Sian"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentSian4" attachTo="Hanchung" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Sian 4"/>
+      <option name="landTerritories" value="Sian"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentSian4" attachTo="Weinan" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Sian 4"/>
+      <option name="landTerritories" value="Sian"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentSian5" attachTo="Ankang" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Sian 5"/>
+      <option name="landTerritories" value="Sian"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentSian5" attachTo="Yenan" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Sian 5"/>
+      <option name="landTerritories" value="Sian"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+
+    <!-- Japanese -->
+    <attachment name="canalAttachmentTaiyuan1" attachTo="Fen-chow" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Taiyuan 1"/>
+      <option name="landTerritories" value="Taiyuan"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentTaiyuan1" attachTo="Chengang" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Taiyuan 1"/>
+      <option name="landTerritories" value="Taiyuan"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentTaiyuan2" attachTo="So-ping" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Taiyuan 2"/>
+      <option name="landTerritories" value="Taiyuan"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentTaiyuan2" attachTo="Changchih" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Taiyuan 2"/>
+      <option name="landTerritories" value="Taiyuan"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentPeking1" attachTo="Chahar" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Peking 1"/>
+      <option name="landTerritories" value="Peking"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentPeking1" attachTo="Tientsin" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Peking 1"/>
+      <option name="landTerritories" value="Peking"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentPeking2" attachTo="Paoting" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Peking 2"/>
+      <option name="landTerritories" value="Peking"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentPeking2" attachTo="Chengteh" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Peking 2"/>
+      <option name="landTerritories" value="Peking"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentShanghai1" attachTo="Hangchow" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Shanghai 1"/>
+      <option name="landTerritories" value="Shanghai"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentShanghai1" attachTo="Chin-kiang" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Shanghai 1"/>
+      <option name="landTerritories" value="Shanghai"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentShanghai2" attachTo="Soochow" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Shanghai 2"/>
+      <option name="landTerritories" value="Shanghai"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentShanghai2" attachTo="Chin-kiang" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Shanghai 2"/>
+      <option name="landTerritories" value="Shanghai"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentShanghai3" attachTo="Soochow" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Shanghai 3"/>
+      <option name="landTerritories" value="Shanghai"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentShanghai3" attachTo="Ningpo" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Shanghai 3"/>
+      <option name="landTerritories" value="Shanghai"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentShanghai4" attachTo="Chin-kiang" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Shanghai 4"/>
+      <option name="landTerritories" value="Shanghai"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentShanghai4" attachTo="Ningpo" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Shanghai 4"/>
+      <option name="landTerritories" value="Shanghai"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    
+    <!-- British -->
+    <attachment name="canalAttachmentHongKong1" attachTo="West Kwangtung" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Hong Kong 1"/>
+      <option name="landTerritories" value="Hong Kong"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    <attachment name="canalAttachmentHongKong1" attachTo="Swatow" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Hong Kong 1"/>
+      <option name="landTerritories" value="Hong Kong"/>
+      <option name="excludedUnits" value="NONE"/>
+    </attachment>
+    
     <!--Rail Canals-->
     <attachment name="canalAttachment" attachTo="Korea-Mukden-Korea" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
       <option name="canalName" value="Korea-Mukden Line"/>
@@ -3820,19 +4574,19 @@
 						
 						<CENTER>
 <b><font size="6">Red Sun Over China: The Second Sino-Japanese War</font></b> <br>
-						<br>
-						by Pulicat <br>
-						Version 2.3 <br></CENTER>
+						Version 2.3 <br>
+                        by Pulicat <br>
+                        updates and fixes by redrum <br>
+						</CENTER>
 						<p><br>
-						  Credits: Pulicat (creator and map design), erik542 (balance and playtesting), Veqryn (troubleshooting and general awesomeness). Thanks to all players and testers such as lalapalooza and everybody else!<br>
+						  Credits: Pulicat (creator and map design), redrum (updates and fixes), erik542 (balance and playtesting), Veqryn (troubleshooting and general awesomeness). Thanks to all players and testers such as lalapalooza and everybody else!<br>
 						  <br>
 						  Thanks for playing RSOC! If you would like to help contribute, please send your savegame to: pulicat01 [at] gmail [dot] com, since game balance is still being evaluated! Thanks! -- Pulicat
 						  <br>
 						  <br>
 </p>
   <p><b>SPECIAL REMINDERS:</b></p>
-<p><b>1) Movement from one side of an enemy city to another is technically possible, but is considered ILLEGAL.</b></p>
-  <p><strong>2) British are not allowed to fight Axis for the first 3 rounds (Phase I), unless any Axis country attacks it first.</strong>  </p>
+  <p><strong>1) British are not allowed to fight Axis for the first 3 rounds (Phase I), unless any Axis country attacks it first.</strong>  </p>
   <p><b>The rules listed in the special reminder above are unique to this mod. TripleA will not automatically enforce the rule and you must keep the rules in mind yourself and take care to not violate the rules.</b></p><br>
     <br>
     <a name="Countries"><font size="5"><b><em>Countries</em></b></font></a>
@@ -3933,13 +4687,13 @@ West Kwangtung touches Hong Kong. </p> <br>
     <th style="font-size:120%;000000"bgcolor="#9BBCBE"colspan="7">Unit Descriptions</th>
   </tr>
 						  
-						  <th>Unit name</th>
-						    <th>att</th>
-						    <th>def</th>
-						    <th>move</th>
-						    <th>cost</th>
-						    <th WIDTH="500">image / available to:</th>
-						    <th>description</th>
+						  <th>Name</th>
+						    <th>Att</th>
+						    <th>Def</th>
+						    <th>Move</th>
+						    <th>Cost</th>
+						    <th WIDTH="200">Available To</th>
+						    <th>Description</th>
 						    </tr>
 						  
 						  <tr bgcolor="#B9BFAF">
@@ -3948,7 +4702,7 @@ West Kwangtung touches Hong Kong. </p> <br>
 						    <td>2</td>
 						    <td>1</td>
 						    <td>3</td>
-							<td><img src="http://i958.photobucket.com/albums/ae64/pulicat/TripleA/RSOC/units/Neutral/Infantry.jpg"><img src="http://i958.photobucket.com/albums/ae64/pulicat/TripleA/RSOC/units/Nationalist/infantry.jpg"><img src="http://i958.photobucket.com/albums/ae64/pulicat/TripleA/RSOC/units/Manchukwo/infantry.jpg"><img src="http://i958.photobucket.com/albums/ae64/pulicat/TripleA/RSOC/units/Communist/infantry.jpg"><img src="http://i958.photobucket.com/albums/ae64/pulicat/TripleA/RSOC/units/Japanese/infantry.jpg"><img src="http://i958.photobucket.com/albums/ae64/pulicat/TripleA/RSOC/units/Thailand/thai_infantry.jpg"><img src="http://i958.photobucket.com/albums/ae64/pulicat/TripleA/RSOC/units/British/infantry.jpg"></td>
+							<td><img src="Nationalist.gif"/><img src="Manchukwo.gif"/><img src="Communist.gif"/><img src="Thailand.gif"/><img src="Japanese.gif"/><img src="British.gif"/></td>
 					    <td>isSupportable, TransportCost:2</td>
   </tr>
 						  
@@ -3957,7 +4711,7 @@ West Kwangtung touches Hong Kong. </p> <br>
 						    <td>2</td>
 						    <td>1</td>
 						    <td>4</td>
-						    <td><img src="http://i958.photobucket.com/albums/ae64/pulicat/TripleA/RSOC/units/Japanese/elite.jpg"><img src="http://i958.photobucket.com/albums/ae64/pulicat/TripleA/RSOC/units/Nationalist/elite.jpg"></td>
+						    <td><img src="Nationalist.gif"/><img src="Japanese.gif"/></td>
 						    <td>isSupportable, TransportCost:2</td>
 						    </tr>
 						  
@@ -3967,7 +4721,7 @@ West Kwangtung touches Hong Kong. </p> <br>
 						    <td>3</td>
 						    <td>2</td>
 						    <td>6</td>
-						    <td><img src="http://i958.photobucket.com/albums/ae64/pulicat/TripleA/RSOC/units/Nationalist/armour.jpg"><img src="http://i958.photobucket.com/albums/ae64/pulicat/TripleA/RSOC/units/Communist/armour.jpg"><img src="http://i958.photobucket.com/albums/ae64/pulicat/TripleA/RSOC/units/Japanese/armour.jpg"><img src="http://i958.photobucket.com/albums/ae64/pulicat/TripleA/RSOC/units/Thailand/armour.jpg"><img src="http://i958.photobucket.com/albums/ae64/pulicat/TripleA/RSOC/units/British/armour.jpg"></td>
+						    <td><img src="Nationalist.gif"/><img src="Communist.gif"/><img src="Thailand.gif"/><img src="Japanese.gif"/><img src="British.gif"/></td>
 						    <td>canBlitz, TransportCost:3</td>
   </tr>
 						  
@@ -3976,7 +4730,7 @@ West Kwangtung touches Hong Kong. </p> <br>
 						    <td>2</td>
 						    <td>1</td>
 						    <td>5</td>
-							<td><img src="http://i958.photobucket.com/albums/ae64/pulicat/TripleA/RSOC/units/Nationalist/heavy_artillery.jpg"><img src="http://i958.photobucket.com/albums/ae64/pulicat/TripleA/RSOC/units/Communist/heavy_artillery.jpg"><img src="http://i958.photobucket.com/albums/ae64/pulicat/TripleA/RSOC/units/Japanese/heavy_artillery.jpg"><img src="http://i958.photobucket.com/albums/ae64/pulicat/TripleA/RSOC/units/Thailand/heavy_artillery.jpg"><img src="http://i958.photobucket.com/albums/ae64/pulicat/TripleA/RSOC/units/British/heavy_artillery.jpg"></td>
+							<td><img src="Nationalist.gif"/><img src="Communist.gif"/><img src="Thailand.gif"/><img src="Japanese.gif"/><img src="British.gif"/></td>
 						    <td>givesSupport, TransportCost:3</td>
 						    </tr>
 						  
@@ -3986,7 +4740,7 @@ West Kwangtung touches Hong Kong. </p> <br>
 						    <td>2</td>
 						    <td>2</td>
 						    <td>5</td>
-						    <td><img src="http://i958.photobucket.com/albums/ae64/pulicat/TripleA/RSOC/units/Nationalist/light_artillery.jpg"><img src="http://i958.photobucket.com/albums/ae64/pulicat/TripleA/RSOC/units/Communist/light_artillery.jpg"><img src="http://i958.photobucket.com/albums/ae64/pulicat/TripleA/RSOC/units/Manchukwo/light_artillery.jpg"><img src="http://i958.photobucket.com/albums/ae64/pulicat/TripleA/RSOC/units/Japanese/light_artillery.jpg"><img src="http://i958.photobucket.com/albums/ae64/pulicat/TripleA/RSOC/units/Thailand/light_artillery.jpg"><img src="http://i958.photobucket.com/albums/ae64/pulicat/TripleA/RSOC/units/British/light_artillery.jpg"></td>
+						    <td><img src="Nationalist.gif"/><img src="Manchukwo.gif"/><img src="Communist.gif"/><img src="Thailand.gif"/><img src="Japanese.gif"/><img src="British.gif"/></td>
 						    <td>givesSupport, CANNOT Blitz,, TransportCost:3</td>
   </tr>
 						  
@@ -3995,7 +4749,7 @@ West Kwangtung touches Hong Kong. </p> <br>
 						    <td>4</td>
 						    <td>5</td>
 						    <td>15</td>
-						    <td><img src="http://i958.photobucket.com/albums/ae64/pulicat/TripleA/RSOC/units/Nationalist/fighter.jpg"><img src="http://i958.photobucket.com/albums/ae64/pulicat/TripleA/RSOC/units/Japanese/fighter.jpg"><img src="http://i958.photobucket.com/albums/ae64/pulicat/TripleA/RSOC/units/British/fighter.jpg"></td>
+						    <td><img src="Nationalist.gif"/><img src="Japanese.gif"/><img src="British.gif"/></td>
 						    <td>canLandOnCarrier</td>
 						    </tr>
 						  
@@ -4005,7 +4759,7 @@ West Kwangtung touches Hong Kong. </p> <br>
 						    <td>1</td>
 						    <td>9</td>
 						    <td>20</td>
-						    <td><img src="http://i958.photobucket.com/albums/ae64/pulicat/TripleA/RSOC/units/Nationalist/bomber.jpg"><img src="http://i958.photobucket.com/albums/ae64/pulicat/TripleA/RSOC/units/Japanese/bomber.jpg"><img src="http://i958.photobucket.com/albums/ae64/pulicat/TripleA/RSOC/units/British/bomber.jpg"></td>
+						    <td><img src="Nationalist.gif"/><img src="Japanese.gif"/><img src="British.gif"/></td>
 						    <td>canDoSBR</td>
   </tr>
 						  
@@ -4014,7 +4768,7 @@ West Kwangtung touches Hong Kong. </p> <br>
 						    <td>0</td>
 						    <td>2</td>
 						    <td>8</td>
-						    <td><img src="http://i958.photobucket.com/albums/ae64/pulicat/TripleA/RSOC/units/Japanese/transport.jpg"><img src="http://i958.photobucket.com/albums/ae64/pulicat/TripleA/RSOC/units/British/transport.jpg"></td>
+						    <td><img src="Japanese.gif"/><img src="British.gif"/></td>
 						    <td>Capacity:5</td>
 						    </tr>
 						  
@@ -4024,7 +4778,7 @@ West Kwangtung touches Hong Kong. </p> <br>
 						    <td>1</td>
 						    <td>2</td>
 						    <td>7</td>
-						    <td><img src="http://i958.photobucket.com/albums/ae64/pulicat/TripleA/RSOC/units/Japanese/submarine.jpg"><img src="http://i958.photobucket.com/albums/ae64/pulicat/TripleA/RSOC/units/British/submarine.jpg"></td>
+						    <td><img src="Japanese.gif"/><img src="British.gif"/></td>
 						    <td>isSubmarine</td>
   </tr>
 						  
@@ -4033,7 +4787,7 @@ West Kwangtung touches Hong Kong. </p> <br>
 						    <td>2</td>
 						    <td>2</td>
 						    <td>8</td>
-						    <td><img src="http://i958.photobucket.com/albums/ae64/pulicat/TripleA/RSOC/units/Neutral/Destroyer.jpg"><img src="http://i958.photobucket.com/albums/ae64/pulicat/TripleA/RSOC/units/Japanese/destroyer.jpg"><img src="http://i958.photobucket.com/albums/ae64/pulicat/TripleA/RSOC/units/British/destroyer.jpg"></td>
+						    <td><img src="Japanese.gif"/><img src="British.gif"/></td>
 						    <td>isDestroyer</td>
 						    </tr>
 						  
@@ -4043,7 +4797,7 @@ West Kwangtung touches Hong Kong. </p> <br>
 						    <td>3</td>
 						    <td>2</td>
 						    <td>12</td>
-						    <td><img src="http://i958.photobucket.com/albums/ae64/pulicat/TripleA/RSOC/units/Japanese/cruiser.jpg"><img src="http://i958.photobucket.com/albums/ae64/pulicat/TripleA/RSOC/units/British/cruiser.jpg"></td>
+						    <td><img src="Japanese.gif"/><img src="British.gif"/></td>
 					    <td>canBombard</td>
   </tr>
 						  
@@ -4052,7 +4806,7 @@ West Kwangtung touches Hong Kong. </p> <br>
 						    <td>2</td>
 						    <td>2</td>
 						    <td>16</td>
-						    <td><img src="http://i958.photobucket.com/albums/ae64/pulicat/TripleA/RSOC/units/Japanese/carrier.jpg"><img src="http://i958.photobucket.com/albums/ae64/pulicat/TripleA/RSOC/units/British/carrier.jpg"></td>
+						    <td><img src="Japanese.gif"/><img src="British.gif"/></td>
 						    <td>Transport up to 2 air units</td>
 						    </tr>
 						  
@@ -4062,7 +4816,7 @@ West Kwangtung touches Hong Kong. </p> <br>
 						    <td>4</td>
 						    <td>2</td>
 						    <td>20</td>
-						    <td><img src="http://i958.photobucket.com/albums/ae64/pulicat/TripleA/RSOC/units/Japanese/battleship.jpg"><img src="http://i958.photobucket.com/albums/ae64/pulicat/TripleA/RSOC/units/British/battleship.jpg"></td>
+						    <td><img src="Japanese.gif"/><img src="British.gif"/></td>
 						    <td>isTwoHit, canBombard</td>
   </tr>
 						  
@@ -4071,7 +4825,7 @@ West Kwangtung touches Hong Kong. </p> <br>
 						    <td>1</td>
 						    <td>1</td>
 						    <td>5</td>
-						    <td><img src="http://i958.photobucket.com/albums/ae64/pulicat/TripleA/RSOC/units/Nationalist/aaGun.jpg"><img src="http://i958.photobucket.com/albums/ae64/pulicat/TripleA/RSOC/units/Manchukwo/aaGun.jpg"><img src="http://i958.photobucket.com/albums/ae64/pulicat/TripleA/RSOC/units/Communist/aaGun.jpg"><img src="http://i958.photobucket.com/albums/ae64/pulicat/TripleA/RSOC/units/Japanese/aaGun.jpg"><img src="http://i958.photobucket.com/albums/ae64/pulicat/TripleA/RSOC/units/Thailand/aaGun.jpg"><img src="http://i958.photobucket.com/albums/ae64/pulicat/TripleA/RSOC/units/British/aaGun.jpg"></td>
+						    <td><img src="Nationalist.gif"/><img src="Manchukwo.gif"/><img src="Communist.gif"/><img src="Thailand.gif"/><img src="Japanese.gif"/><img src="British.gif"/></td>
 						    <td>isAA, TransportCost:3</td>
 						    </tr>
 						  
@@ -4081,7 +4835,7 @@ West Kwangtung touches Hong Kong. </p> <br>
 						    <td>1</td>
 						    <td>2</td>
 						    <td>3</td>
-						    <td><img src="http://i958.photobucket.com/albums/ae64/pulicat/TripleA/RSOC/units/Nationalist/cavalry.jpg"><img src="http://i958.photobucket.com/albums/ae64/pulicat/TripleA/RSOC/units/Manchukwo/cavalry.jpg"><img src="http://i958.photobucket.com/albums/ae64/pulicat/TripleA/RSOC/units/Communist/cavalry.jpg"></td>
+						    <td><img src="Nationalist.gif"/><img src="Manchukwo.gif"/><img src="Communist.gif"/></td>
 						    <td>canBlitz, isSupportable, TransportCost:3</td>
   </tr>
 						  
@@ -4091,7 +4845,7 @@ West Kwangtung touches Hong Kong. </p> <br>
 						    <td>0</td>
 						    <td>0</td>
 						    <td>30</td>
-						    <td><img src="http://i958.photobucket.com/albums/ae64/pulicat/TripleA/RSOC/units/British/factory.jpg"> only British can build new</td>
+						    <td><img src="British.gif"/> *Only British can build new</td>
 						    <td>isFactory</td>
   </tr>
 						  <tr bgcolor="B9BFAF">
@@ -4101,7 +4855,7 @@ West Kwangtung touches Hong Kong. </p> <br>
 						    <td>0</td>
 						    <td>6</td>
 						    <td>8</td>
-						    <td><img src="http://i958.photobucket.com/albums/ae64/pulicat/TripleA/RSOC/units/Nationalist/cargo_train.jpg"><img src="http://i958.photobucket.com/albums/ae64/pulicat/TripleA/RSOC/units/Communist/cargo_train.jpg"><img src="http://i958.photobucket.com/albums/ae64/pulicat/TripleA/RSOC/units/Manchukwo/cargo_train.jpg"><img src="http://i958.photobucket.com/albums/ae64/pulicat/TripleA/RSOC/units/Japanese/cargo_train.jpg"><img src="http://i958.photobucket.com/albums/ae64/pulicat/TripleA/RSOC/units/British/cargo_train.jpg"></td>
+						    <td><img src="Nationalist.gif"/><img src="Manchukwo.gif"/><img src="Communist.gif"/><img src="Thailand.gif"/><img src="Japanese.gif"/><img src="British.gif"/></td>
 						    <td>Capacity:10, 6 movement = 2 stations</td>
   </tr>
 						  
@@ -4111,7 +4865,7 @@ West Kwangtung touches Hong Kong. </p> <br>
 						    <td>1</td>
 						    <td>0</td>
 						    <td>10</td>
-						    <td><img src="http://i958.photobucket.com/albums/ae64/pulicat/TripleA/RSOC/units/Nationalist/armoured_train.jpg"><img src="http://i958.photobucket.com/albums/ae64/pulicat/TripleA/RSOC/units/Communist/armoured_train.jpg"><img src="http://i958.photobucket.com/albums/ae64/pulicat/TripleA/RSOC/units/Manchukwo/armoured_train.jpg"><img src="http://i958.photobucket.com/albums/ae64/pulicat/TripleA/RSOC/units/Japanese/armoured_train.jpg"><img src="http://i958.photobucket.com/albums/ae64/pulicat/TripleA/RSOC/units/British/armoured_train.jpg"></td>
+						    <td><img src="Nationalist.gif"/><img src="Manchukwo.gif"/><img src="Communist.gif"/><img src="Thailand.gif"/><img src="Japanese.gif"/><img src="British.gif"/></td>
 						    <td>Capacity:5, 6 movement = 2 stations</td>
   </tr>
 						  
@@ -4121,7 +4875,7 @@ West Kwangtung touches Hong Kong. </p> <br>
 	<td>1</td>
 	<td>1</td>
 	<td>2</td>
-    <td><img src="http://i958.photobucket.com/albums/ae64/pulicat/TripleA/RSOC/units/Nationalist/conscript.jpg"><img src="http://i958.photobucket.com/albums/ae64/pulicat/TripleA/RSOC/units/Communist/conscript.jpg"></td>
+    <td><img src="Nationalist.gif"/><img src="Communist.gif"/></td>
 	<td>is NOT supportable, TransportCost:2</td>
 	</tr>
 						  
@@ -4131,7 +4885,7 @@ West Kwangtung touches Hong Kong. </p> <br>
 	<td>2</td>
 	<td>2</td>
 	<td>4</td>
-	<td><img src="http://i958.photobucket.com/albums/ae64/pulicat/TripleA/RSOC/units/Japanese/mobile_infantry.jpg"></td>
+	<td><img src="Japanese.gif"/></td>
 	<td>canBlitz, isSupportable, TransportCost:2</td>
 	</tr>
 
@@ -4141,7 +4895,7 @@ West Kwangtung touches Hong Kong. </p> <br>
 	<td>1</td>
 	<td>2</td>
 	<td>4</td>
-	<td><img src="http://i958.photobucket.com/albums/ae64/pulicat/TripleA/RSOC/units/Japanese/light_armour.jpg"></td>
+	<td><img src="Japanese.gif"/></td>
 	<td>canBlitz, isSupportable, TransportCost:3</td>
 	</tr>
 						  
@@ -4151,7 +4905,7 @@ West Kwangtung touches Hong Kong. </p> <br>
 	<td>1</td>
 	<td>2</td>
 	<td>4</td>
-	<td><img src="http://i958.photobucket.com/albums/ae64/pulicat/TripleA/RSOC/units/Manchukwo/heavy_cavalry.jpg"></td>
+	<td><img src="Manchukwo.gif"/></td>
 	<td>canBlitz, isSupportable, TransportCost:3</td>
 	</tr>
 
@@ -4165,7 +4919,7 @@ West Kwangtung touches Hong Kong. </p> <br>
 	<td>1</td>
 	<td>2</td>
 	<td>2</td>
-	<td><img src="http://i958.photobucket.com/albums/ae64/pulicat/TripleA/RSOC/units/Manchukwo/light_infantry.jpg"></td>
+	<td><img src="Manchukwo.gif"/></td>
 	<td>canBlitz, is NOT supportable, TransportCost:2</td>
 	</tr>
 
@@ -4175,7 +4929,7 @@ West Kwangtung touches Hong Kong. </p> <br>
 	<td>1</td>
 	<td>3</td>
 	<td>3</td>
-	<td><img src="http://i958.photobucket.com/albums/ae64/pulicat/TripleA/RSOC/units/Communist/guerilla.jpg"></td>
+	<td><img src="Communist.gif"/></td>
 	<td>This is an "air" unit, so it can't capture territory and must land on a  friendly space. Cannot be transported.</td>
 	</tr>
 	
@@ -4185,7 +4939,7 @@ West Kwangtung touches Hong Kong. </p> <br>
 	<td>0</td>
 	<td>20</td>
 	<td>1.5</td>
-	<td><img src="http://i958.photobucket.com/albums/ae64/pulicat/TripleA/RSOC/units/Communist/propaganda.jpg"></td>
+	<td><img src="Communist.gif"/></td>
 	<td>canBlitz, is NOT supportable, Cannot be transported</td>
 	</tr>
 	<tr>
@@ -4194,7 +4948,7 @@ West Kwangtung touches Hong Kong. </p> <br>
 	<td>2</td>
 	<td>2</td>
 	<td>4</td>
-	<td><img src="http://i958.photobucket.com/albums/ae64/pulicat/TripleA/RSOC/units/British/commando.jpg"></td>
+	<td><img src="British.gif"/></td>
 	<td>can NOT Blitz, is NOT Supportable, TransportCost:2</td>
 	</tr>
 	</table>
