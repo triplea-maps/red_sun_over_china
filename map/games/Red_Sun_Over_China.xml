@@ -1103,7 +1103,7 @@
       <!-- Manchukwo Game Sequence -->
       <!--<step name="manchukwoTech" delegate="tech" player="Manchukwo"/>
                         <step name="manchukwoTechActivation" delegate="tech_activation" player="Manchukwo"/>-->
-      <step name="mManchukwoCombatMove" delegate="move" player="Manchukwo"/>
+      <step name="manchukwoCombatMove" delegate="move" player="Manchukwo"/>
       <step name="manchukwoPurchase" delegate="purchase" player="Manchukwo"/>
       <step name="manchukwoBattle" delegate="battle" player="Manchukwo"/>
       <step name="manchukwoNonCombatMove" delegate="move" player="Manchukwo" display="Non Combat Move"/>
@@ -2968,6 +2968,7 @@
       <option name="placementAnyTerritory" value="false"/>
       <option name="placementCapturedTerritory" value="true"/>
     </attachment>
+    <!--  Triggers For Units Requiring Factories -->
     <attachment name="conditionAttachmentAlways" attachTo="Nationalist" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="switch" value="true"/>
     </attachment>
@@ -2982,6 +2983,42 @@
       <option name="unitType" value="elite:heavy_artillery:light_artillery:armour:fighter:aaGun:cargo_train:armoured_train:bomber"/>
       <option name="unitProperty" value="requiresUnits" count="-reset-"/>
       <option name="when" value="after:nationalistEndTurn"/>
+    </attachment>
+    <attachment name="triggerAttachmentManchukwoUnitsRequireFactoryOn" attachTo="Manchukwo" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="conditions" value="conditionAttachmentAlways"/>
+      <option name="unitType" value="infantry:light_infantry:cavalry:heavy_cavalry:light_artillery:aaGun:cargo_train:armoured_train"/>
+      <option name="unitProperty" value="requiresUnits" count="factory"/>
+      <option name="when" value="before:manchukwoCombatMove"/>
+    </attachment>
+    <attachment name="triggerAttachmentManchukwoUnitsRequireFactoryOff" attachTo="Manchukwo" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="conditions" value="conditionAttachmentAlways"/>
+      <option name="unitType" value="infantry:light_infantry:cavalry:heavy_cavalry:light_artillery:aaGun:cargo_train:armoured_train"/>
+      <option name="unitProperty" value="requiresUnits" count="-reset-"/>
+      <option name="when" value="after:manchukwoEndTurn"/>
+    </attachment>
+    <attachment name="triggerAttachmentJapaneseUnitsRequireFactoryOn" attachTo="Japanese" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="conditions" value="conditionAttachmentAlways"/>
+      <option name="unitType" value="infantry:elite:mobile_infantry:heavy_artillery:light_artillery:armour:light_armour:fighter:bomber:transport:submarine:carrier:destroyer:cruiser:battleship:aaGun:cargo_train:armoured_train"/>
+      <option name="unitProperty" value="requiresUnits" count="factory"/>
+      <option name="when" value="before:japanesePlace"/>
+    </attachment>
+    <attachment name="triggerAttachmentJapaneseUnitsRequireFactoryOff" attachTo="Japanese" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="conditions" value="conditionAttachmentAlways"/>
+      <option name="unitType" value="infantry:elite:mobile_infantry:heavy_artillery:light_artillery:armour:light_armour:fighter:bomber:transport:submarine:carrier:destroyer:cruiser:battleship:aaGun:cargo_train:armoured_train"/>
+      <option name="unitProperty" value="requiresUnits" count="-reset-"/>
+      <option name="when" value="after:japanesePlace"/>
+    </attachment>
+    <attachment name="triggerAttachmentBritishUnitsRequireFactoryOn" attachTo="British" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="conditions" value="conditionAttachmentAlways"/>
+      <option name="unitType" value="infantry:commando:heavy_artillery:light_artillery:armour:fighter:bomber:transport:submarine:carrier:destroyer:cruiser:battleship:aaGun:cargo_train:armoured_train"/>
+      <option name="unitProperty" value="requiresUnits" count="factory"/>
+      <option name="when" value="before:britishCombatMove"/>
+    </attachment>
+    <attachment name="triggerAttachmentBritishUnitsRequireFactoryOff" attachTo="British" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="conditions" value="conditionAttachmentAlways"/>
+      <option name="unitType" value="infantry:commando:heavy_artillery:light_artillery:armour:fighter:bomber:transport:submarine:carrier:destroyer:cruiser:battleship:aaGun:cargo_train:armoured_train"/>
+      <option name="unitProperty" value="requiresUnits" count="-reset-"/>
+      <option name="when" value="after:britishEndTurn"/>
     </attachment>
   </attachmentList>
   <initialize>
@@ -3784,8 +3821,8 @@
 						<CENTER>
 <b><font size="6">Red Sun Over China: The Second Sino-Japanese War</font></b> <br>
 						<br>
-						by Pulicat <br></CENTER> <br>
-						Version 2.3 <br>
+						by Pulicat <br>
+						Version 2.3 <br></CENTER>
 						<p><br>
 						  Credits: Pulicat (creator and map design), erik542 (balance and playtesting), Veqryn (troubleshooting and general awesomeness). Thanks to all players and testers such as lalapalooza and everybody else!<br>
 						  <br>
@@ -3795,9 +3832,8 @@
 </p>
   <p><b>SPECIAL REMINDERS:</b></p>
 <p><b>1) Movement from one side of an enemy city to another is technically possible, but is considered ILLEGAL.</b></p>
-  <p><strong>2) Manchukwo, Japanese, and British may build ONLY in FACTORIES.</strong>  </p>
-  <p><strong>3) British are not allowed to fight Axis for the first 3 rounds (Phase I), unless any Axis country attacks it first.</strong>  </p>
-  <p><b>The rules listed in the special reminder above are unique to this mod, but unfortunately TripleA cannot code for their automatic implementation. TripleA will not automatically enforce the rule and you must keep the rules in mind yourself and take care to not violate the rules.</b></p><br>
+  <p><strong>2) British are not allowed to fight Axis for the first 3 rounds (Phase I), unless any Axis country attacks it first.</strong>  </p>
+  <p><b>The rules listed in the special reminder above are unique to this mod. TripleA will not automatically enforce the rule and you must keep the rules in mind yourself and take care to not violate the rules.</b></p><br>
     <br>
     <a name="Countries"><font size="5"><b><em>Countries</em></b></font></a>
 						<br><b>Axis Powers</b><br />
@@ -3805,13 +3841,13 @@
 						<li>Japan (capital: Japan)</li>
 						<li>Manchukwo (capital: Mukden)</li>
 						<li>Thailand (capital: Bangkok)</li>
-						</UL> <br />
+						</ul>
 						<br><b>Allied Powers</b><br />
 						  <ul>
 						<li>Nationalist (capital: Chungking)</li>
 						<li>Communist (no capital, the flag in the map is merely decoration)</li>
 						<li>British (capital: Calcutta)</li>
-						</UL> <br />
+						</ul>
   <br />
 
     <p><a name="Movement"><font size="5"><b><em>Movement</em></b></font></a></p>
@@ -3865,8 +3901,9 @@ Defeat Colonial Strongholds: <br />
 (+5) Axis controls Hong Kong.<br />
 (+5) Axis controls Rangoon.<br />
 (+5) Axis controls Mandalay.<br />
+<br />
 <i>Thailand--</i><br />
-(+10) Territorial Intergrity: Axis controls Kra, Bangkok, Chiang Mai, Nakhon Sawan, Phitsanulok, and Udon Thani.<br />
+(+10) Territorial Integrity: Axis controls Kra, Bangkok, Chiang Mai, Nakhon Sawan, Phitsanulok, and Udon Thani.<br />
 (+10) Indochinese resources: Thailand also gets 10 PU if Axis controls Luang Prabang, South Laos, Cambodia, Cochinchina, Annam, Tonkin, and Hanoi.<br>
 </p>
 <br>
