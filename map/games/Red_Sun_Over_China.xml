@@ -2961,16 +2961,6 @@
       <option name="placementAnyTerritory" value="false"/>
       <option name="placementCapturedTerritory" value="true"/>
     </attachment>
-    <!--
-				<attachment name="rulesAttachment" attachTo="Communist" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-                	<option name="movementRestrictionTerritories" value="Chungking:Chengang:Hong Kong:Fen-chow:Sog-rigs:Swatow:Huaipei:Tsingyang:Ichow:Fengdu:East Sikang:Chih-Chiang:Hangchow:Hanchung:Tientsin:Jih-Chao:Techow:Tsinan:Tuyun:Chenyuan:Kweiyang:Yen-ping:Weinan:Suifu:Kunming:Tsangchow:Tsingtai:Udon Thani:Juning:Tsingtao:North Jehol:Huainan:Anyang:Hwangshi:Tali:Kweilin:Yenan:Chien-ning:Ningyen:Ningsia:Hsingi:Ankang:Cheng-tu:Taiyuan:Liaocheng:Chiu-Chuan:Liaodong:Chengteh:Puchow:Kuyuan:Kannan:Kungchangfu:Huangshan:Shanhaiguan:Weihsien:Canton:Lungkow:Pa-chung:Nanning:Ordos Plateau:Anking:Changteh:Amoy:Kining:Poseh:Tsinghai:Kaifeng:West Kwangtung:Puel:Luan:Nanchang:Paoting:Wuhu:Nanyang:Soochow:Pinghsiang:Kirin:Lanchow:Shanghai:Wu Tang Mountains:Lu-ting:Chahar:Weihaiwei:Momein:Port Arthur:Wuhan:Kan:Mukden:Fancheng:Tungting:Ichang:Golog:Sian:Tangshan:Bichieh:Kutsing:Nanking:Mengtsi:Hsuchow:Sining:Shiuchow:Hehsi Corridor:Woochow:Szecheng:Peking:Chenchow:Luoyang:North Suiyuan:Ningpo:So-ping:Hwanggang:Yang-chow:Siangtan:Luchow:Foochow:Kunlun Mountains:Changchih:Chin-kiang:Poyang:Te-king:Lungchow:Changsha"/>
-                	<option name="movementRestrictionType" value="allowed"/>
-					<option name="unlimitedProduction" value="true"/>
-                	<option name="placementAnyTerritory" value="true"/>
-                	<option name="placementCapturedTerritory" value="true"/>
-                	<option name="placementPerTerritory" value="1000"/>
-                </attachment>
--->
     <attachment name="rulesAttachment" attachTo="Nationalist" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="movementRestrictionTerritories" value="Chiang Mai:Kra:Bangkok:Phitsanulok:Nakhon Sawan:Udon Thani:Cambodia:Cochinchina:Annam:South Laos:Luang Prabang:Tonkin:Hanoi"/>
       <option name="movementRestrictionType" value="disallowed"/>
@@ -2978,16 +2968,21 @@
       <option name="placementAnyTerritory" value="false"/>
       <option name="placementCapturedTerritory" value="true"/>
     </attachment>
-    <!--
-				<attachment name="rulesAttachment" attachTo="Nationalist" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-                	<option name="movementRestrictionTerritories" value="Chungking:Chengang:Hong Kong:Fen-chow:Sog-rigs:Swatow:Huaipei:Tsingyang:Ichow:Fengdu:East Sikang:Chih-Chiang:Hangchow:Hanchung:Tientsin:Jih-Chao:Techow:Tsinan:Tuyun:Chenyuan:Kweiyang:Yen-ping:Weinan:Suifu:Kunming:Tsangchow:Tsingtai:Udon Thani:Juning:Tsingtao:North Jehol:Huainan:Anyang:Hwangshi:Tali:Kweilin:Yenan:Chien-ning:Ningyen:Ningsia:Hsingi:Ankang:Cheng-tu:Taiyuan:Liaocheng:Chiu-Chuan:Liaodong:Chengteh:Puchow:Kuyuan:Kannan:Kungchangfu:Huangshan:Shanhaiguan:Weihsien:Canton:Lungkow:Pa-chung:Nanning:Ordos Plateau:Anking:Changteh:Amoy:Kining:Poseh:Tsinghai:Kaifeng:West Kwangtung:Puel:Luan:Nanchang:Paoting:Wuhu:Nanyang:Soochow:Pinghsiang:Kirin:Lanchow:Shanghai:Wu Tang Mountains:Lu-ting:Chahar:Weihaiwei:Momein:Port Arthur:Wuhan:Kan:Mukden:Fancheng:Tungting:Ichang:Golog:Sian:Tangshan:Bichieh:Kutsing:Nanking:Mengtsi:Hsuchow:Sining:Shiuchow:Hehsi Corridor:Woochow:Szecheng:Peking:Chenchow:Luoyang:North Suiyuan:Ningpo:So-ping:Hwanggang:Yang-chow:Siangtan:Luchow:Foochow:Kunlun Mountains:Changchih:Chin-kiang:Poyang:Te-king:Lungchow:Changsha:Kentung:Taungoo:Rangoon:Pathein:Chin:Sittang:Lashio:Mandalay:Chindwin:Myitkyina:SZ 3 North Yellow Sea:SZ 7 East China Sea:SZ 14 South China Sea:SZ 5 Sea of Japan:SZ 6 East China Sea:SZ 9 Taiwan Strait:SZ 16 Gulf of Thailand:SZ 19 Bay of Bengal:SZ 8 East China Sea:SZ 15 Philippine Sea:SZ 12 Gulf of Tonkin:SZ 1 Bohai Bay:SZ 17 Malay Sea:SZ 20 Indian Ocean:SZ 11 Philippine Sea:SZ 2 Bohai Sea:SZ 4 South Yellow Sea:SZ 13 South China Sea:SZ 18 Andaman Sea:SZ 10 South China Sea:SZ 21 Strait of Malacca"/>
-                	<option name="movementRestrictionType" value="allowed"/>
-					<option name="unlimitedProduction" value="true"/>
-                	<option name="placementAnyTerritory" value="true"/>
-                	<option name="placementCapturedTerritory" value="false"/>
-                	<option name="placementPerTerritory" value="1000"/>
-                </attachment>
--->
+    <attachment name="conditionAttachmentAlways" attachTo="Nationalist" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+      <option name="switch" value="true"/>
+    </attachment>
+    <attachment name="triggerAttachmentNationalistUnitsRequireFactoryOn" attachTo="Nationalist" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="conditions" value="conditionAttachmentAlways"/>
+      <option name="unitType" value="elite:heavy_artillery:light_artillery:armour:fighter:aaGun:cargo_train:armoured_train:bomber"/>
+      <option name="unitProperty" value="requiresUnits" count="factory"/>
+      <option name="when" value="before:nationalistCombatMove"/>
+    </attachment>
+    <attachment name="triggerAttachmentNationalistUnitsRequireFactoryOff" attachTo="Nationalist" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="conditions" value="conditionAttachmentAlways"/>
+      <option name="unitType" value="elite:heavy_artillery:light_artillery:armour:fighter:aaGun:cargo_train:armoured_train:bomber"/>
+      <option name="unitProperty" value="requiresUnits" count="-reset-"/>
+      <option name="when" value="after:nationalistEndTurn"/>
+    </attachment>
   </attachmentList>
   <initialize>
     <ownerInitialize>
@@ -3628,6 +3623,9 @@
     <property name="National Objectives" value="true" editable="true">
       <boolean/>
     </property>
+    <property name="Use Triggers" value="true" editable="false">
+      <boolean/>
+    </property>
     <property name="Always on AA" value="true" editable="true">
       <boolean/>
     </property>
@@ -3759,6 +3757,9 @@
     </property>
     <property name="maxFactoriesPerTerritory" value="100"/>
     <property name="Placement Restricted By Factory" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Unit Placement Restrictions" value="true" editable="false">
       <boolean/>
     </property>
     <property name="Damage From Bombing Done To Units Instead Of Territories" value="true" editable="false">
