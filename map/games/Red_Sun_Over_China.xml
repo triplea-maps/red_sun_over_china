@@ -1048,7 +1048,6 @@
     <unit name="cruiser"/>
     <unit name="light_artillery"/>
     <unit name="cavalry"/>
-    <!--<unit name="colonial_outpost"/>-->
     <unit name="propaganda"/>
     <unit name="elite"/>
     <unit name="conscript"/>
@@ -1062,6 +1061,11 @@
     <unit name="ruralproduction"/>
     <unit name="ticmark"/>
   </unitList>
+  <relationshipTypes>
+    <relationshipType name="Allied"/>
+    <relationshipType name="War"/>
+    <relationshipType name="Neutrality"/>
+  </relationshipTypes>
   <gamePlay>
     <delegate name="initDelegate" javaClass="games.strategy.triplea.delegate.InitializationDelegate" display="Initializing Delegates"/>
     <delegate name="tech" javaClass="games.strategy.triplea.delegate.TechnologyDelegate" display="Research Technology"/>
@@ -1076,6 +1080,7 @@
     <delegate name="endRound" javaClass="games.strategy.triplea.delegate.EndRoundDelegate" display="Round Complete"/>
     <delegate name="placeBid" javaClass="games.strategy.triplea.delegate.BidPlaceDelegate" display="Bid Placement"/>
     <delegate name="bid" javaClass="games.strategy.triplea.delegate.BidPurchaseDelegate" display="Bid Purchase"/>
+    <delegate name="politics" javaClass="games.strategy.triplea.delegate.PoliticsDelegate" display="Politics"/>
     <sequence>
       <step name="gameInitDelegate" delegate="initDelegate" maxRunCount="1"/>
       <!-- Bidding Phase -->
@@ -1092,8 +1097,6 @@
       <step name="britishBid" delegate="bid" player="British" maxRunCount="1"/>
       <step name="britishBidPlace" delegate="placeBid" player="British" maxRunCount="1"/>
       <!-- Nationalist Game Sequence -->
-      <!--<step name="nationalistTech" delegate="tech" player="Nationalist"/>
-                        <step name="nationalistTechActivation" delegate="tech_activation" player="Nationalist"/>-->
       <step name="nationalistCombatMove" delegate="move" player="Nationalist"/>
       <step name="nationalistPurchase" delegate="purchase" player="Nationalist"/>
       <step name="nationalistBattle" delegate="battle" player="Nationalist"/>
@@ -1101,8 +1104,7 @@
       <step name="nationalistPlace" delegate="place" player="Nationalist"/>
       <step name="nationalistEndTurn" delegate="endTurn" player="Nationalist"/>
       <!-- Manchukwo Game Sequence -->
-      <!--<step name="manchukwoTech" delegate="tech" player="Manchukwo"/>
-                        <step name="manchukwoTechActivation" delegate="tech_activation" player="Manchukwo"/>-->
+      <step name="manchukwoPolitics" delegate="politics" player="Manchukwo"/>
       <step name="manchukwoCombatMove" delegate="move" player="Manchukwo"/>
       <step name="manchukwoPurchase" delegate="purchase" player="Manchukwo"/>
       <step name="manchukwoBattle" delegate="battle" player="Manchukwo"/>
@@ -1110,8 +1112,6 @@
       <step name="manchukwoPlace" delegate="place" player="Manchukwo"/>
       <step name="manchukwoEndTurn" delegate="endTurn" player="Manchukwo"/>
       <!-- Communist Game Sequence -->
-      <!--<step name="communistTech" delegate="tech" player="Communist"/>
-                        <step name="communistTechActivation" delegate="tech_activation" player="Communist"/>-->
       <step name="communistCombatMove" delegate="move" player="Communist"/>
       <step name="communistPurchase" delegate="purchase" player="Communist"/>
       <step name="communistBattle" delegate="battle" player="Communist"/>
@@ -1119,12 +1119,12 @@
       <step name="communistPlace" delegate="place" player="Communist"/>
       <step name="communistEndTurn" delegate="endTurn" player="Communist"/>
       <!-- Japanese/Thailand Game Sequence -->
-      <!--<step name="japaneseTech" delegate="tech" player="Japanese"/>
-                        <step name="japaneseTechActivation" delegate="tech_activation" player="Japanese"/>-->
+      <step name="thailandPolitics" delegate="politics" player="Thailand"/>
       <step name="thailandCombatMove" delegate="move" player="Thailand"/>
       <step name="thailandPurchase" delegate="purchase" player="Thailand"/>
       <step name="thailandBattle" delegate="battle" player="Thailand"/>
       <step name="thailandNonCombatMove" delegate="move" player="Thailand" display="Non Combat Move"/>
+      <step name="japanesePolitics" delegate="politics" player="Japanese"/>
       <step name="japaneseCombatMove" delegate="move" player="Japanese"/>
       <step name="japanesePurchase" delegate="purchase" player="Japanese"/>
       <step name="japaneseBattle" delegate="battle" player="Japanese"/>
@@ -1134,8 +1134,6 @@
       <step name="japanesePlace" delegate="place" player="Japanese"/>
       <step name="japaneseEndTurn" delegate="endTurn" player="Japanese"/>
       <!-- British Game Sequence -->
-      <!--<step name="britishTech" delegate="tech" player="British"/>
-                        <step name="britishTechActivation" delegate="tech_activation" player="British"/>-->
       <step name="britishCombatMove" delegate="move" player="British"/>
       <step name="britishPurchase" delegate="purchase" player="British"/>
       <step name="britishBattle" delegate="battle" player="British"/>
@@ -1571,6 +1569,17 @@
     <playerRepair player="British" frontier="repair"/>
   </production>
   <attachmentList>
+    <!-- relationships -->
+    <attachment name="relationshipTypeAttachment" attachTo="War" javaClass="games.strategy.triplea.attachments.RelationshipTypeAttachment" type="relationship">
+      <option name="archeType" value="war"/>
+    </attachment>
+    <attachment name="relationshipTypeAttachment" attachTo="Allied" javaClass="games.strategy.triplea.attachments.RelationshipTypeAttachment" type="relationship">
+      <option name="archeType" value="allied"/>
+    </attachment>
+    <attachment name="relationshipTypeAttachment" attachTo="Neutrality" javaClass="games.strategy.triplea.attachments.RelationshipTypeAttachment" type="relationship">
+      <option name="archeType" value="neutral"/>
+    </attachment>
+  
     <!-- infantry -->
     <attachment name="unitAttachment" attachTo="infantry" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="1"/>
@@ -3578,6 +3587,7 @@
       <option name="canalName" value="East Assam-Chittagong Line"/>
       <option name="landTerritories" value="East Assam:Manipur:Chittagong"/>
     </attachment>
+    
     <!--  National Objectives -->
     <!-- Nationalist Objectives -->
     <!-- Phase II -->
@@ -3690,6 +3700,7 @@
       <option name="objectiveValue" value="20"/>
       <option name="alliedOwnershipTerritories" value="Kweilin:Chih-Chiang:Wu Tang Mountains:Ichang" count="4"/>
     </attachment>
+    
     <!-- Functional NOs -->
     <!-- UK Cap -->
     <attachment name="objectiveAttachment101" attachTo="British" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
@@ -3700,6 +3711,7 @@
       <option name="objectiveValue" value="-1"/>
       <option name="alliedOwnershipTerritories" value="Myitkyina" count="1"/>
     </attachment>
+    
     <!--  Rules Restrictions -->
     <attachment name="rulesAttachment" attachTo="Thailand" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="movementRestrictionTerritories" value="Kra:Chiang Mai:Bangkok:Nakhon Sawan:Phitsanulok:Udon Thani:Luang Prabang:South Laos:Cambodia:Cochinchina:Annam:Tonkin:Hanoi:Kentung:Taungoo:Rangoon:Pathein:Chin:Sittang:Lashio:Mandalay:Chindwin:Myitkyina:Malaya-Singapore:Korea:Japan:Formosa:Chittagong:Calcutta:Imphal:West Assam:Kohima:East Assam:Manipur:Rangoon Station:Bangkok Station:Hanoi Station"/>
@@ -3722,6 +3734,7 @@
       <option name="placementAnyTerritory" value="false"/>
       <option name="placementCapturedTerritory" value="true"/>
     </attachment>
+    
     <!--  Triggers For Units Requiring Factories -->
     <attachment name="conditionAttachmentAlways" attachTo="Nationalist" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="switch" value="true"/>
@@ -3774,6 +3787,45 @@
       <option name="unitProperty" value="requiresUnits" count="-reset-"/>
       <option name="when" value="after:britishEndTurn"/>
     </attachment>
+    
+    <!--  Political Actions and Triggers for Declaring War on British -->
+    <attachment name="conditionAttachment_British_Not_Yet_At_War_With_Japanese" attachTo="British" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+      <option name="relationship" value="British:Japanese:Neutrality"/>
+    </attachment>
+    <attachment name="conditionAttachmentTurn4" attachTo="Nationalist" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+      <option name="rounds" value="4"/>
+    </attachment>
+    <attachment name="triggerAttachment_British_War_Axis" attachTo="Nationalist" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="conditions" value="conditionAttachment_British_Not_Yet_At_War_With_Japanese:conditionAttachmentTurn4"/>
+      <option name="conditionType" value="AND"/>
+      <option name="when" value="before:nationalistCombatMove"/>
+      <option name="relationshipChange" value="British:Manchukwo:Neutrality:War"/>
+      <option name="relationshipChange" value="British:Thailand:Neutrality:War"/>
+      <option name="relationshipChange" value="British:Japanese:Neutrality:War"/>
+      <option name="uses" value="1"/>      
+    </attachment>
+    <attachment name="politicalActionAttachment_Manchukwo_To_War_With_British" attachTo="Manchukwo" javaClass="games.strategy.triplea.attachments.PoliticalActionAttachment" type="player">
+      <option name="conditions" value="conditionAttachment_British_Not_Yet_At_War_With_Japanese"/>
+      <option name="relationshipChange" value="British:Manchukwo:War"/>
+      <option name="relationshipChange" value="British:Thailand:War"/>
+      <option name="relationshipChange" value="British:Japanese:War"/>
+      <option name="text" value="Axis_War_British"/>
+    </attachment>
+    <attachment name="politicalActionAttachment_Thailand_To_War_With_British" attachTo="Thailand" javaClass="games.strategy.triplea.attachments.PoliticalActionAttachment" type="player">
+      <option name="conditions" value="conditionAttachment_British_Not_Yet_At_War_With_Japanese"/>
+      <option name="relationshipChange" value="British:Manchukwo:War"/>
+      <option name="relationshipChange" value="British:Thailand:War"/>
+      <option name="relationshipChange" value="British:Japanese:War"/>
+      <option name="text" value="Axis_War_British"/>
+    </attachment>
+    <attachment name="politicalActionAttachment_Japanese_To_War_With_British" attachTo="Japanese" javaClass="games.strategy.triplea.attachments.PoliticalActionAttachment" type="player">
+      <option name="conditions" value="conditionAttachment_British_Not_Yet_At_War_With_Japanese"/>
+      <option name="relationshipChange" value="British:Manchukwo:War"/>
+      <option name="relationshipChange" value="British:Thailand:War"/>
+      <option name="relationshipChange" value="British:Japanese:War"/>
+      <option name="text" value="Axis_War_British"/>
+    </attachment>
+    
   </attachmentList>
   <initialize>
     <ownerInitialize>
@@ -4375,6 +4427,23 @@
       <resourceGiven player="Manchukwo" resource="techTokens" quantity="0"/>
       <resourceGiven player="British" resource="techTokens" quantity="0"/>
     </resourceInitialize>
+    <relationshipInitialize>
+      <relationship type="Allied" player1="Nationalist" player2="Communist" roundValue="1"/>
+      <relationship type="Allied" player1="Nationalist" player2="British" roundValue="1"/>
+      <relationship type="Allied" player1="Communist" player2="British" roundValue="1"/>
+      <relationship type="Allied" player1="Manchukwo" player2="Thailand" roundValue="1"/>
+      <relationship type="Allied" player1="Manchukwo" player2="Japanese" roundValue="1"/>
+      <relationship type="Allied" player1="Thailand" player2="Japanese" roundValue="1"/>
+      <relationship type="War" player1="Nationalist" player2="Manchukwo" roundValue="1"/>
+      <relationship type="War" player1="Nationalist" player2="Thailand" roundValue="1"/>
+      <relationship type="War" player1="Nationalist" player2="Japanese" roundValue="1"/>
+      <relationship type="War" player1="Communist" player2="Manchukwo" roundValue="1"/>
+      <relationship type="War" player1="Communist" player2="Thailand" roundValue="1"/>
+      <relationship type="War" player1="Communist" player2="Japanese" roundValue="1"/>
+      <relationship type="Neutrality" player1="British" player2="Manchukwo" roundValue="1"/>
+      <relationship type="Neutrality" player1="British" player2="Thailand" roundValue="1"/>
+      <relationship type="Neutrality" player1="British" player2="Japanese" roundValue="1"/>
+    </relationshipInitialize>
   </initialize>
   <propertyList>
   
@@ -4409,6 +4478,9 @@
       <boolean/>
     </property>
     <property name="Low Luck for Bombing and Territory Damage" value="false" editable="true">
+      <boolean/>
+    </property>
+    <property name="Use Politics" value="true" editable="false">
       <boolean/>
     </property>
     <property name="National Objectives" value="true" editable="true">
@@ -4576,7 +4648,7 @@
 <b><font size="6">Red Sun Over China: The Second Sino-Japanese War</font></b> <br>
 						Version 2.3 <br>
                         by Pulicat <br>
-                        updates and fixes by redrum <br>
+                        updated by redrum <br>
 						</CENTER>
 						<p><br>
 						  Credits: Pulicat (creator and map design), redrum (updates and fixes), erik542 (balance and playtesting), Veqryn (troubleshooting and general awesomeness). Thanks to all players and testers such as lalapalooza and everybody else!<br>
@@ -4585,10 +4657,6 @@
 						  <br>
 						  <br>
 </p>
-  <p><b>SPECIAL REMINDERS:</b></p>
-  <p><strong>1) British are not allowed to fight Axis for the first 3 rounds (Phase I), unless any Axis country attacks it first.</strong>  </p>
-  <p><b>The rules listed in the special reminder above are unique to this mod. TripleA will not automatically enforce the rule and you must keep the rules in mind yourself and take care to not violate the rules.</b></p><br>
-    <br>
     <a name="Countries"><font size="5"><b><em>Countries</em></b></font></a>
 						<br><b>Axis Powers</b><br />
 						  <ul>
@@ -4602,11 +4670,10 @@
 						<li>Communist (no capital, the flag in the map is merely decoration)</li>
 						<li>British (capital: Calcutta)</li>
 						</ul>
-  <br />
 
     <p><a name="Movement"><font size="5"><b><em>Movement</em></b></font></a></p>
 						<p><b>Movement Through Cities</b><br />
-						  All territories bordering on a city is considered adjacent to each other, but players may only use this indirect connection if they control the city during that combat or noncombat movement phase. <b> Movement from one side of an enemy city to another is therefore technically possible with TripleA, but is considered ILLEGAL. </b> <br />
+						  All territories bordering on a city are considered adjacent to each other, but players may only use this indirect connection if they control the city during that combat or noncombat movement phase.<br />
   <br />
   <a name="Railroads"><b>Railroads</b></a><br />
 						  Railroad lines are marked on the map as dotted lines connecting the railroad stations. Two stations are considered connected if there exists a direct dotted line path between them. Trains may move between stations only if:<br />
@@ -4665,7 +4732,7 @@ Defeat Colonial Strongholds: <br />
 </p>
 						<p>-Communists produce <strong>all</strong> their units outside of factories, and may <strong>also build on newly captured territory</strong>. Communists may produce up to 3 units in each territory.</p>
 						<p>-Thailand produce all their units outside factories, and may <strong>ONLY build inside Thailand </strong>(their original starting territories). Thailand may produce up to 4 units in each territory.</p>
-<p>-Nationalists <strong>may produce infantry, cavalry and conscripts outside of factories </strong>(in the countryside)<strong>.</strong> All other units may be produced in factories only. Nationalists may produce up to 3 units in each non-factory territory.</p>
+<p>-Nationalists <strong>may produce infantry, cavalry and conscripts outside of factories </strong>(in the countryside). All other units may be produced in factories only. Nationalists may produce up to 3 units in each non-factory territory.</p>
 <p>-Japanese, Manchukwo, and British follow standard production rules (build all units in factories only, <strong>may NOT build outside of factories</strong>).</p>
 <p>-<b>Factories in China start out damaged. This is not a bug. </b> All cities in China (except the Nationalist capital Chungking) start out with maximum damage. In order to get the factory operational, players must pay repair price. For all Allied powers, this surcharge is 2 PU. <b> For the Japanese, it is 3 PU. </b>In other words if the Japanese wanted to build more than just 1 unit per Chinese factory per turn, it costs them a premium of 3 PU per additional unit built.<br>
 </p>
@@ -4958,7 +5025,7 @@ West Kwangtung touches Hong Kong. </p> <br>
 		<br>
 		<b>Technical Details (for the interested):</b><br>
 		-Territory Ownership: All territories initially under Communist control and all non-city territories initially under Nationalist control is attached "OccupiedTerritoryOf" Japan. <br>
-		-City connections: Since a land-canal option is not yet available for TripleA, currently all city-canal connections are coded as regular connections. <br>
+		-City connections: Use land-canals to limit movement to only if the city is controlled, currently all city-canal connections are coded as regular connections. <br>
 		-Railroads: Railroad stations are coded as water and trains as a kind of transport. For each of the 35 individual rail connections, two dummy sea zones had to be set up in the upper left hand corner ("Rail Connections" chart), thus totaling 70 dummy territories. This was so to allow all connections to be coded as canals, because otherwise TripleA will not allow multiple canal attachments to the same territory. <br>
 		The structure follows this example of the Wuhan-Changsha connection: <br>
 		(Wuhan)+[Wuhan-Changsha-Wuhan]=[Wuhan-Changsha-Changsha]+(Changsha) <br>
