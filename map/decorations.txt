@@ -1,6 +1,5 @@
 burma_road.png  (340,1235)
 rails.png  (10,138)
-phases.png  (25,330)
 
 Namelogo.png  (1830,2025)
 Himalayas.png  (43,1138)

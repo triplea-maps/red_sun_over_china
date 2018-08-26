@@ -164,105 +164,6 @@
     <territory name="Lungchow"/>
     <territory name="Changsha"/>
     <territory name="Poseh"/>
-    <territory name="Phase II"/>
-    <territory name="Phase I"/>
-    <!-- Stations -->
-    <territory name="Hanoi Station" water="true"/>
-    <territory name="Korea Station" water="true"/>
-    <territory name="Wuhan Station" water="true"/>
-    <territory name="Sian Station" water="true"/>
-    <territory name="Chittagong Station" water="true"/>
-    <territory name="Shanghai Station" water="true"/>
-    <territory name="Chungking Station" water="true"/>
-    <territory name="Tsingtao Station" water="true"/>
-    <territory name="Nanking Station" water="true"/>
-    <territory name="Taiyuan Station" water="true"/>
-    <territory name="Calcutta Station" water="true"/>
-    <territory name="Lanchow Station" water="true"/>
-    <territory name="Tsinan Station" water="true"/>
-    <territory name="Mukden Station" water="true"/>
-    <territory name="Peking Station" water="true"/>
-    <territory name="Nanchang Station" water="true"/>
-    <territory name="East Assam Station" water="true"/>
-    <territory name="Kunming Station" water="true"/>
-    <territory name="Kweiyang Station" water="true"/>
-    <territory name="Rangoon Station" water="true"/>
-    <territory name="Changsha Station" water="true"/>
-    <territory name="Bangkok Station" water="true"/>
-    <territory name="Canton Station" water="true"/>
-    <territory name="Port Arthur Station" water="true"/>
-    <territory name="Nanning Station" water="true"/>
-    <!--Auxillary Stations-->
-    <territory name="Korea-Mukden-Korea" water="true"/>
-    <territory name="Korea-Mukden-Mukden" water="true"/>
-    <territory name="Port Arthur-Mukden-Port Arthur" water="true"/>
-    <territory name="Port Arthur-Mukden-Mukden" water="true"/>
-    <territory name="Mukden-Peking-Mukden" water="true"/>
-    <territory name="Mukden-Peking-Peking" water="true"/>
-    <territory name="Peking-Tsinan-Peking" water="true"/>
-    <territory name="Peking-Tsinan-Tsinan" water="true"/>
-    <territory name="Peking-Taiyuan-Peking" water="true"/>
-    <territory name="Peking-Taiyuan-Taiyuan" water="true"/>
-    <territory name="Peking-Sian-Peking" water="true"/>
-    <territory name="Peking-Sian-Sian" water="true"/>
-    <territory name="Peking-Wuhan-Peking" water="true"/>
-    <territory name="Peking-Wuhan-Wuhan" water="true"/>
-    <territory name="Taiyuan-Sian-Taiyuan" water="true"/>
-    <territory name="Taiyuan-Sian-Sian" water="true"/>
-    <territory name="Taiyuan-Wuhan-Taiyuan" water="true"/>
-    <territory name="Taiyuan-Wuhan-Wuhan" water="true"/>
-    <territory name="Taiyuan-Tsinan-Taiyuan" water="true"/>
-    <territory name="Taiyuan-Tsinan-Tsinan" water="true"/>
-    <territory name="Sian-Tsinan-Sian" water="true"/>
-    <territory name="Sian-Tsinan-Tsinan" water="true"/>
-    <territory name="Sian-Wuhan-Sian" water="true"/>
-    <territory name="Sian-Wuhan-Wuhan" water="true"/>
-    <territory name="Wuhan-Tsinan-Wuhan" water="true"/>
-    <territory name="Wuhan-Tsinan-Tsinan" water="true"/>
-    <territory name="Tsinan-Tsingtao-Tsinan" water="true"/>
-    <territory name="Tsinan-Tsingtao-Tsingtao" water="true"/>
-    <territory name="Tsinan-Nanking-Tsinan" water="true"/>
-    <territory name="Tsinan-Nanking-Nanking" water="true"/>
-    <territory name="Nanking-Shanghai-Nanking" water="true"/>
-    <territory name="Nanking-Shanghai-Shanghai" water="true"/>
-    <territory name="Shanghai-Nanchang-Shanghai" water="true"/>
-    <territory name="Shanghai-Nanchang-Nanchang" water="true"/>
-    <territory name="Nanchang-Changsha-Nanchang" water="true"/>
-    <territory name="Nanchang-Changsha-Changsha" water="true"/>
-    <territory name="Wuhan-Changsha-Wuhan" water="true"/>
-    <territory name="Wuhan-Changsha-Changsha" water="true"/>
-    <territory name="Changsha-Canton-Changsha" water="true"/>
-    <territory name="Changsha-Canton-Canton" water="true"/>
-    <territory name="Changsha-Kweiyang-Changsha" water="true"/>
-    <territory name="Changsha-Kweiyang-Kweiyang" water="true"/>
-    <territory name="Canton-Kweiyang-Canton" water="true"/>
-    <territory name="Canton-Kweiyang-Kweiyang" water="true"/>
-    <territory name="Lanchow-Sian-Lanchow" water="true"/>
-    <territory name="Lanchow-Sian-Sian" water="true"/>
-    <territory name="Lanchow-Chungking-Lanchow" water="true"/>
-    <territory name="Lanchow-Chungking-Chungking" water="true"/>
-    <territory name="Sian-Chungking-Sian" water="true"/>
-    <territory name="Sian-Chungking-Chungking" water="true"/>
-    <territory name="Chungking-Kweiyang-Chungking" water="true"/>
-    <territory name="Chungking-Kweiyang-Kweiyang" water="true"/>
-    <territory name="Chungking-Kunming-Chungking" water="true"/>
-    <territory name="Chungking-Kunming-Kunming" water="true"/>
-    <territory name="Kunming-Kweiyang-Kunming" water="true"/>
-    <territory name="Kunming-Kweiyang-Kweiyang" water="true"/>
-    <territory name="Kunming-Hanoi-Kunming" water="true"/>
-    <territory name="Kunming-Hanoi-Hanoi" water="true"/>
-    <territory name="Hanoi-Nanning-Hanoi" water="true"/>
-    <territory name="Hanoi-Nanning-Nanning" water="true"/>
-    <territory name="Hanoi-Bangkok-Hanoi" water="true"/>
-    <territory name="Hanoi-Bangkok-Bangkok" water="true"/>
-    <territory name="Bangkok-Rangoon-Bangkok" water="true"/>
-    <territory name="Bangkok-Rangoon-Rangoon" water="true"/>
-    <territory name="Calcutta-East Assam-Calcutta" water="true"/>
-    <territory name="Calcutta-East Assam-East Assam" water="true"/>
-    <territory name="Calcutta-Chittagong-Calcutta" water="true"/>
-    <territory name="Calcutta-Chittagong-Chittagong" water="true"/>
-    <territory name="East Assam-Chittagong-East Assam" water="true"/>
-    <territory name="East Assam-Chittagong-Chittagong" water="true"/>
     <!-- Seazone Name Definitions -->
     <territory name="SZ 3 North Yellow Sea" water="true"/>
     <territory name="SZ 7 East China Sea" water="true"/>
@@ -875,141 +776,42 @@
     <connection t1="Poseh" t2="Szecheng"/>
     <connection t1="Poseh" t2="Tonkin"/>
     <connection t1="SZ 17 Malay Sea" t2="SZ 21 Strait of Malacca"/>
-    <connection t1="Phase I" t2="Phase II"/>
-    <!--Rail Connections-->
-    <!--Rail Connection to city-->
-    <connection t1="Hanoi Station" t2="Hanoi"/>
-    <connection t1="Korea Station" t2="Korea"/>
-    <connection t1="Wuhan Station" t2="Wuhan"/>
-    <connection t1="Sian Station" t2="Sian"/>
-    <connection t1="Chittagong Station" t2="Chittagong"/>
-    <connection t1="Shanghai Station" t2="Shanghai"/>
-    <connection t1="Chungking Station" t2="Chungking"/>
-    <connection t1="Tsingtao Station" t2="Tsingtao"/>
-    <connection t1="Nanking Station" t2="Nanking"/>
-    <connection t1="Taiyuan Station" t2="Taiyuan"/>
-    <connection t1="Calcutta Station" t2="Calcutta"/>
-    <connection t1="Lanchow Station" t2="Lanchow"/>
-    <connection t1="Tsinan Station" t2="Tsinan"/>
-    <connection t1="Mukden Station" t2="Mukden"/>
-    <connection t1="Peking Station" t2="Peking"/>
-    <connection t1="Nanchang Station" t2="Nanchang"/>
-    <connection t1="East Assam Station" t2="East Assam"/>
-    <connection t1="Kunming Station" t2="Kunming"/>
-    <connection t1="Kweiyang Station" t2="Kweiyang"/>
-    <connection t1="Rangoon Station" t2="Rangoon"/>
-    <connection t1="Changsha Station" t2="Changsha"/>
-    <connection t1="Bangkok Station" t2="Bangkok"/>
-    <connection t1="Canton Station" t2="Canton"/>
-    <connection t1="Port Arthur Station" t2="Port Arthur"/>
-    <connection t1="Nanning Station" t2="Nanning"/>
-    <!--Rail Connection to Auxillary-->
-    <connection t1="Korea-Mukden-Korea" t2="Korea Station"/>
-    <connection t1="Korea-Mukden-Mukden" t2="Mukden Station"/>
-    <connection t1="Port Arthur-Mukden-Port Arthur" t2="Port Arthur Station"/>
-    <connection t1="Port Arthur-Mukden-Mukden" t2="Mukden Station"/>
-    <connection t1="Mukden-Peking-Mukden" t2="Mukden Station"/>
-    <connection t1="Mukden-Peking-Peking" t2="Peking Station"/>
-    <connection t1="Peking-Tsinan-Peking" t2="Peking Station"/>
-    <connection t1="Peking-Tsinan-Tsinan" t2="Tsinan Station"/>
-    <connection t1="Peking-Taiyuan-Peking" t2="Peking Station"/>
-    <connection t1="Peking-Taiyuan-Taiyuan" t2="Taiyuan Station"/>
-    <connection t1="Peking-Sian-Peking" t2="Peking Station"/>
-    <connection t1="Peking-Sian-Sian" t2="Sian Station"/>
-    <connection t1="Peking-Wuhan-Peking" t2="Peking Station"/>
-    <connection t1="Peking-Wuhan-Wuhan" t2="Wuhan Station"/>
-    <connection t1="Taiyuan-Sian-Taiyuan" t2="Taiyuan Station"/>
-    <connection t1="Taiyuan-Sian-Sian" t2="Sian Station"/>
-    <connection t1="Taiyuan-Wuhan-Taiyuan" t2="Taiyuan Station"/>
-    <connection t1="Taiyuan-Wuhan-Wuhan" t2="Wuhan Station"/>
-    <connection t1="Taiyuan-Tsinan-Taiyuan" t2="Taiyuan Station"/>
-    <connection t1="Taiyuan-Tsinan-Tsinan" t2="Tsinan Station"/>
-    <connection t1="Sian-Tsinan-Sian" t2="Sian Station"/>
-    <connection t1="Sian-Tsinan-Tsinan" t2="Tsinan Station"/>
-    <connection t1="Sian-Wuhan-Sian" t2="Sian Station"/>
-    <connection t1="Sian-Wuhan-Wuhan" t2="Wuhan Station"/>
-    <connection t1="Wuhan-Tsinan-Wuhan" t2="Wuhan Station"/>
-    <connection t1="Wuhan-Tsinan-Tsinan" t2="Tsinan Station"/>
-    <connection t1="Tsinan-Tsingtao-Tsinan" t2="Tsinan Station"/>
-    <connection t1="Tsinan-Tsingtao-Tsingtao" t2="Tsingtao Station"/>
-    <connection t1="Tsinan-Nanking-Tsinan" t2="Tsinan Station"/>
-    <connection t1="Tsinan-Nanking-Nanking" t2="Nanking Station"/>
-    <connection t1="Nanking-Shanghai-Nanking" t2="Nanking Station"/>
-    <connection t1="Nanking-Shanghai-Shanghai" t2="Shanghai Station"/>
-    <connection t1="Shanghai-Nanchang-Shanghai" t2="Shanghai Station"/>
-    <connection t1="Shanghai-Nanchang-Nanchang" t2="Nanchang Station"/>
-    <connection t1="Nanchang-Changsha-Nanchang" t2="Nanchang Station"/>
-    <connection t1="Nanchang-Changsha-Changsha" t2="Changsha Station"/>
-    <connection t1="Wuhan-Changsha-Wuhan" t2="Wuhan Station"/>
-    <connection t1="Wuhan-Changsha-Changsha" t2="Changsha Station"/>
-    <connection t1="Changsha-Canton-Changsha" t2="Changsha Station"/>
-    <connection t1="Changsha-Canton-Canton" t2="Canton Station"/>
-    <connection t1="Changsha-Kweiyang-Changsha" t2="Changsha Station"/>
-    <connection t1="Changsha-Kweiyang-Kweiyang" t2="Kweiyang Station"/>
-    <connection t1="Canton-Kweiyang-Canton" t2="Canton Station"/>
-    <connection t1="Canton-Kweiyang-Kweiyang" t2="Kweiyang Station"/>
-    <connection t1="Lanchow-Sian-Lanchow" t2="Lanchow Station"/>
-    <connection t1="Lanchow-Sian-Sian" t2="Sian Station"/>
-    <connection t1="Lanchow-Chungking-Lanchow" t2="Lanchow Station"/>
-    <connection t1="Lanchow-Chungking-Chungking" t2="Chungking Station"/>
-    <connection t1="Sian-Chungking-Sian" t2="Sian Station"/>
-    <connection t1="Sian-Chungking-Chungking" t2="Chungking Station"/>
-    <connection t1="Chungking-Kweiyang-Chungking" t2="Chungking Station"/>
-    <connection t1="Chungking-Kweiyang-Kweiyang" t2="Kweiyang Station"/>
-    <connection t1="Chungking-Kunming-Chungking" t2="Chungking Station"/>
-    <connection t1="Chungking-Kunming-Kunming" t2="Kunming Station"/>
-    <connection t1="Kunming-Kweiyang-Kunming" t2="Kunming Station"/>
-    <connection t1="Kunming-Kweiyang-Kweiyang" t2="Kweiyang Station"/>
-    <connection t1="Kunming-Hanoi-Kunming" t2="Kunming Station"/>
-    <connection t1="Kunming-Hanoi-Hanoi" t2="Hanoi Station"/>
-    <connection t1="Hanoi-Nanning-Hanoi" t2="Hanoi Station"/>
-    <connection t1="Hanoi-Nanning-Nanning" t2="Nanning Station"/>
-    <connection t1="Hanoi-Bangkok-Hanoi" t2="Hanoi Station"/>
-    <connection t1="Hanoi-Bangkok-Bangkok" t2="Bangkok Station"/>
-    <connection t1="Bangkok-Rangoon-Bangkok" t2="Bangkok Station"/>
-    <connection t1="Bangkok-Rangoon-Rangoon" t2="Rangoon Station"/>
-    <connection t1="Calcutta-East Assam-Calcutta" t2="Calcutta Station"/>
-    <connection t1="Calcutta-East Assam-East Assam" t2="East Assam Station"/>
-    <connection t1="Calcutta-Chittagong-Calcutta" t2="Calcutta Station"/>
-    <connection t1="Calcutta-Chittagong-Chittagong" t2="Chittagong Station"/>
-    <connection t1="East Assam-Chittagong-East Assam" t2="East Assam Station"/>
-    <connection t1="East Assam-Chittagong-Chittagong" t2="Chittagong Station"/>
     <!--Rail Canal Connections-->
-    <connection t1="Korea-Mukden-Korea" t2="Korea-Mukden-Mukden"/>
-    <connection t1="Port Arthur-Mukden-Port Arthur" t2="Port Arthur-Mukden-Mukden"/>
-    <connection t1="Mukden-Peking-Mukden" t2="Mukden-Peking-Peking"/>
-    <connection t1="Peking-Tsinan-Peking" t2="Peking-Tsinan-Tsinan"/>
-    <connection t1="Peking-Taiyuan-Peking" t2="Peking-Taiyuan-Taiyuan"/>
-    <connection t1="Peking-Sian-Peking" t2="Peking-Sian-Sian"/>
-    <connection t1="Peking-Wuhan-Peking" t2="Peking-Wuhan-Wuhan"/>
-    <connection t1="Taiyuan-Sian-Taiyuan" t2="Taiyuan-Sian-Sian"/>
-    <connection t1="Taiyuan-Wuhan-Taiyuan" t2="Taiyuan-Wuhan-Wuhan"/>
-    <connection t1="Taiyuan-Tsinan-Taiyuan" t2="Taiyuan-Tsinan-Tsinan"/>
-    <connection t1="Sian-Tsinan-Sian" t2="Sian-Tsinan-Tsinan"/>
-    <connection t1="Sian-Wuhan-Sian" t2="Sian-Wuhan-Wuhan"/>
-    <connection t1="Wuhan-Tsinan-Wuhan" t2="Wuhan-Tsinan-Tsinan"/>
-    <connection t1="Tsinan-Tsingtao-Tsinan" t2="Tsinan-Tsingtao-Tsingtao"/>
-    <connection t1="Tsinan-Nanking-Tsinan" t2="Tsinan-Nanking-Nanking"/>
-    <connection t1="Nanking-Shanghai-Nanking" t2="Nanking-Shanghai-Shanghai"/>
-    <connection t1="Shanghai-Nanchang-Shanghai" t2="Shanghai-Nanchang-Nanchang"/>
-    <connection t1="Nanchang-Changsha-Nanchang" t2="Nanchang-Changsha-Changsha"/>
-    <connection t1="Wuhan-Changsha-Wuhan" t2="Wuhan-Changsha-Changsha"/>
-    <connection t1="Changsha-Canton-Changsha" t2="Changsha-Canton-Canton"/>
-    <connection t1="Changsha-Kweiyang-Changsha" t2="Changsha-Kweiyang-Kweiyang"/>
-    <connection t1="Canton-Kweiyang-Canton" t2="Canton-Kweiyang-Kweiyang"/>
-    <connection t1="Lanchow-Sian-Lanchow" t2="Lanchow-Sian-Sian"/>
-    <connection t1="Lanchow-Chungking-Lanchow" t2="Lanchow-Chungking-Chungking"/>
-    <connection t1="Sian-Chungking-Sian" t2="Sian-Chungking-Chungking"/>
-    <connection t1="Chungking-Kweiyang-Chungking" t2="Chungking-Kweiyang-Kweiyang"/>
-    <connection t1="Chungking-Kunming-Chungking" t2="Chungking-Kunming-Kunming"/>
-    <connection t1="Kunming-Kweiyang-Kunming" t2="Kunming-Kweiyang-Kweiyang"/>
-    <connection t1="Kunming-Hanoi-Kunming" t2="Kunming-Hanoi-Hanoi"/>
-    <connection t1="Hanoi-Nanning-Hanoi" t2="Hanoi-Nanning-Nanning"/>
-    <connection t1="Hanoi-Bangkok-Hanoi" t2="Hanoi-Bangkok-Bangkok"/>
-    <connection t1="Bangkok-Rangoon-Bangkok" t2="Bangkok-Rangoon-Rangoon"/>
-    <connection t1="Calcutta-East Assam-Calcutta" t2="Calcutta-East Assam-East Assam"/>
-    <connection t1="Calcutta-Chittagong-Calcutta" t2="Calcutta-Chittagong-Chittagong"/>
-    <connection t1="East Assam-Chittagong-East Assam" t2="East Assam-Chittagong-Chittagong"/>
+    <connection t1="Korea" t2="Mukden"/>
+    <connection t1="Port Arthur" t2="Mukden"/>
+    <connection t1="Mukden" t2="Peking"/>
+    <connection t1="Peking" t2="Tsinan"/>
+    <connection t1="Peking" t2="Taiyuan"/>
+    <connection t1="Peking" t2="Sian"/>
+    <connection t1="Peking" t2="Wuhan"/>
+    <connection t1="Taiyuan" t2="Sian"/>
+    <connection t1="Taiyuan" t2="Wuhan"/>
+    <connection t1="Taiyuan" t2="Tsinan"/>
+    <connection t1="Sian" t2="Tsinan"/>
+    <connection t1="Sian" t2="Wuhan"/>
+    <connection t1="Wuhan" t2="Tsinan"/>
+    <connection t1="Tsinan" t2="Tsingtao"/>
+    <connection t1="Tsinan" t2="Nanking"/>
+    <connection t1="Nanking" t2="Shanghai"/>
+    <connection t1="Shanghai" t2="Nanchang"/>
+    <connection t1="Nanchang" t2="Changsha"/>
+    <connection t1="Wuhan" t2="Changsha"/>
+    <connection t1="Changsha" t2="Canton"/>
+    <connection t1="Changsha" t2="Kweiyang"/>
+    <connection t1="Canton" t2="Kweiyang"/>
+    <connection t1="Lanchow" t2="Sian"/>
+    <connection t1="Lanchow" t2="Chungking"/>
+    <connection t1="Sian" t2="Chungking"/>
+    <connection t1="Chungking" t2="Kweiyang"/>
+    <connection t1="Chungking" t2="Kunming"/>
+    <connection t1="Kunming" t2="Kweiyang"/>
+    <connection t1="Kunming" t2="Hanoi"/>
+    <connection t1="Hanoi" t2="Nanning"/>
+    <connection t1="Hanoi" t2="Bangkok"/>
+    <connection t1="Bangkok" t2="Rangoon"/>
+    <connection t1="Calcutta" t2="East Assam"/>
+    <connection t1="Calcutta" t2="Chittagong"/>
+    <connection t1="East Assam" t2="Chittagong"/>
   </map>
   <resourceList>
     <resource name="PUs"/>
@@ -1056,10 +858,9 @@
     <unit name="mobile_infantry"/>
     <unit name="heavy_cavalry"/>
     <unit name="light_infantry"/>
-    <unit name="cargo_train"/>
-    <unit name="armoured_train"/>
+    <unit name="train"/>
+    <unit name="station"/>
     <unit name="ruralproduction"/>
-    <unit name="ticmark"/>
   </unitList>
   <relationshipTypes>
     <relationshipType name="Allied"/>
@@ -1206,10 +1007,6 @@
       <cost resource="PUs" quantity="6"/>
       <result resourceOrUnit="aaGun" quantity="1"/>
     </productionRule>
-    <!--<productionRule name="buyColonialOutpost">
-                        <cost resource="PUs" quantity="1" />
-                        <result resourceOrUnit="colonial_outpost" quantity="1"/>
-                </productionRule>-->
     <productionRule name="buyConscript">
       <cost resource="PUs" quantity="2"/>
       <result resourceOrUnit="conscript" quantity="1"/>
@@ -1252,11 +1049,7 @@
     </productionRule>
     <productionRule name="buyCargoTrain">
       <cost resource="PUs" quantity="8"/>
-      <result resourceOrUnit="cargo_train" quantity="1"/>
-    </productionRule>
-    <productionRule name="buyArmouredTrain">
-      <cost resource="PUs" quantity="10"/>
-      <result resourceOrUnit="armoured_train" quantity="1"/>
+      <result resourceOrUnit="train" quantity="1"/>
     </productionRule>
     <!-- Advanced Industrial Production -->
     <productionRule name="buyInfantryIndustrialTechnology">
@@ -1319,10 +1112,6 @@
       <cost resource="PUs" quantity="6"/>
       <result resourceOrUnit="aaGun" quantity="1"/>
     </productionRule>
-    <!--<productionRule name="buyColonialOutpostIndustrialTechnology">
-                        <cost resource="PUs" quantity="1" />
-                        <result resourceOrUnit="colonial_outpost" quantity="1"/>
-                </productionRule>-->
     <productionRule name="buyConscriptIndustrialTechnology">
       <cost resource="PUs" quantity="2"/>
       <result resourceOrUnit="conscript" quantity="1"/>
@@ -1365,11 +1154,7 @@
     </productionRule>
     <productionRule name="buyCargoTrainIndustrialTechnology">
       <cost resource="PUs" quantity="5"/>
-      <result resourceOrUnit="cargo_train" quantity="1"/>
-    </productionRule>
-    <productionRule name="buyArmouredTrainIndustrialTechnology">
-      <cost resource="PUs" quantity="8"/>
-      <result resourceOrUnit="armoured_train" quantity="1"/>
+      <result resourceOrUnit="train" quantity="1"/>
     </productionRule>
     <!-- SHIPYARD PRICES -->
     <productionRule name="buyTransportShipyards">
@@ -1464,7 +1249,6 @@
       <frontierRules name="buyAAGun"/>
       <frontierRules name="buyFactory"/>
       <frontierRules name="buyCargoTrain"/>
-      <frontierRules name="buyArmouredTrain"/>
     </productionFrontier>
     <productionFrontier name="nat-production">
       <frontierRules name="buyInfantry"/>
@@ -1477,7 +1261,6 @@
       <frontierRules name="buyFighter"/>
       <frontierRules name="buyAAGun"/>
       <frontierRules name="buyCargoTrain"/>
-      <frontierRules name="buyArmouredTrain"/>
     </productionFrontier>
     <productionFrontier name="com-production">
       <frontierRules name="buyInfantry"/>
@@ -1490,7 +1273,6 @@
       <frontierRules name="buyArmour"/>
       <frontierRules name="buyAAGun"/>
       <frontierRules name="buyCargoTrain"/>
-      <frontierRules name="buyArmouredTrain"/>
     </productionFrontier>
     <productionFrontier name="bri-production">
       <frontierRules name="buyInfantry"/>
@@ -1509,7 +1291,6 @@
       <frontierRules name="buyAAGun"/>
       <frontierRules name="buyFactory"/>
       <frontierRules name="buyCargoTrain"/>
-      <frontierRules name="buyArmouredTrain"/>
     </productionFrontier>
     <productionFrontier name="man-production">
       <frontierRules name="buyInfantry"/>
@@ -1541,11 +1322,9 @@
       <frontierRules name="buyConscriptIndustrialTechnology"/>
       <frontierRules name="buyMobileInfantryIndustrialTechnology"/>
       <frontierRules name="buyCavalryIndustrialTechnology"/>
-      <!--<frontierRules name="buyColonialOutpostIndustrialTechnology"/>-->
       <frontierRules name="buyHeavyCavalryIndustrialTechnology"/>
       <frontierRules name="buyLightInfantryIndustrialTechnology"/>
       <frontierRules name="buyCargoTrainIndustrialTechnology"/>
-      <frontierRules name="buyArmouredTrainIndustrialTechnology"/>
     </productionFrontier>
     <productionFrontier name="productionShipyards">
       <frontierRules name="buyTransportShipyards"/>
@@ -1568,7 +1347,13 @@
     <playerRepair player="Manchukwo" frontier="repair"/>
     <playerRepair player="British" frontier="repair"/>
   </production>
+  <technology>
+    <technologies>
+      <techname name="mechanizedInfantry"/>
+    </technologies>
+  </technology>
   <attachmentList>
+  
     <!-- relationships -->
     <attachment name="relationshipTypeAttachment" attachTo="War" javaClass="games.strategy.triplea.attachments.RelationshipTypeAttachment" type="relationship">
       <option name="archeType" value="war"/>
@@ -1579,12 +1364,32 @@
     <attachment name="relationshipTypeAttachment" attachTo="Neutrality" javaClass="games.strategy.triplea.attachments.RelationshipTypeAttachment" type="relationship">
       <option name="archeType" value="neutral"/>
     </attachment>
+    
+    <!-- technology -->
+    <attachment name="techAttachment" attachTo="Nationalist" javaClass="games.strategy.triplea.attachments.TechAttachment" type="player">
+      <option name="mechanizedInfantry" value="true"/>
+    </attachment>
+    <attachment name="techAttachment" attachTo="Manchukwo" javaClass="games.strategy.triplea.attachments.TechAttachment" type="player">
+      <option name="mechanizedInfantry" value="true"/>
+    </attachment>
+    <attachment name="techAttachment" attachTo="Communist" javaClass="games.strategy.triplea.attachments.TechAttachment" type="player">
+      <option name="mechanizedInfantry" value="true"/>
+    </attachment>
+    <attachment name="techAttachment" attachTo="Thailand" javaClass="games.strategy.triplea.attachments.TechAttachment" type="player">
+      <option name="mechanizedInfantry" value="true"/>
+    </attachment>
+    <attachment name="techAttachment" attachTo="Japanese" javaClass="games.strategy.triplea.attachments.TechAttachment" type="player">
+      <option name="mechanizedInfantry" value="true"/>
+    </attachment>
+    <attachment name="techAttachment" attachTo="British" javaClass="games.strategy.triplea.attachments.TechAttachment" type="player">
+      <option name="mechanizedInfantry" value="true"/>
+    </attachment>
   
     <!-- infantry -->
     <attachment name="unitAttachment" attachTo="infantry" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="1"/>
       <option name="transportCost" value="2"/>
-      <option name="isInfantry" value="true"/>
+      <option name="isLandTransportable" value="true"/>
       <option name="attack" value="1"/>
       <option name="defense" value="2"/>
       <option name="artillerySupportable" value="true"/>
@@ -1594,7 +1399,7 @@
     <attachment name="unitAttachment" attachTo="thai_infantry" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="1"/>
       <option name="transportCost" value="2"/>
-      <option name="isInfantry" value="true"/>
+      <option name="isLandTransportable" value="true"/>
       <option name="attack" value="1"/>
       <option name="defense" value="2"/>
       <option name="artillerySupportable" value="true"/>
@@ -1604,6 +1409,7 @@
     <attachment name="unitAttachment" attachTo="heavy_artillery" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="1"/>
       <option name="transportCost" value="3"/>
+      <option name="isLandTransportable" value="true"/>
       <option name="attack" value="3"/>
       <option name="defense" value="2"/>
       <option name="artillery" value="true"/>
@@ -1612,6 +1418,7 @@
     <attachment name="unitAttachment" attachTo="light_artillery" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
       <option name="transportCost" value="3"/>
+      <option name="isLandTransportable" value="true"/>
       <option name="canBlitz" value="false"/>
       <option name="attack" value="2"/>
       <option name="defense" value="2"/>
@@ -1621,6 +1428,7 @@
     <attachment name="unitAttachment" attachTo="light_armour" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
       <option name="transportCost" value="3"/>
+      <option name="isLandTransportable" value="true"/>
       <option name="canBlitz" value="true"/>
       <option name="attack" value="2"/>
       <option name="defense" value="1"/>
@@ -1630,6 +1438,7 @@
     <attachment name="unitAttachment" attachTo="armour" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
       <option name="transportCost" value="3"/>
+      <option name="isLandTransportable" value="true"/>
       <option name="canBlitz" value="true"/>
       <option name="attack" value="3"/>
       <option name="defense" value="3"/>
@@ -1714,6 +1523,7 @@
     <attachment name="unitAttachment" attachTo="conscript" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="1"/>
       <option name="transportCost" value="2"/>
+      <option name="isLandTransportable" value="true"/>
       <option name="attack" value="1"/>
       <option name="defense" value="1"/>
       <option name="canBlitz" value="true"/>
@@ -1724,6 +1534,7 @@
     <attachment name="unitAttachment" attachTo="mobile_infantry" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
       <option name="transportCost" value="2"/>
+      <option name="isLandTransportable" value="true"/>
       <option name="canBlitz" value="true"/>
       <option name="attack" value="1"/>
       <option name="defense" value="2"/>
@@ -1735,6 +1546,7 @@
     <attachment name="unitAttachment" attachTo="elite" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="1"/>
       <option name="transportCost" value="2"/>
+      <option name="isLandTransportable" value="true"/>
       <option name="attack" value="2"/>
       <option name="defense" value="2"/>
       <option name="isInfantry" value="true"/>
@@ -1745,6 +1557,7 @@
     <attachment name="unitAttachment" attachTo="commando" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
       <option name="transportCost" value="2"/>
+      <option name="isLandTransportable" value="true"/>
       <option name="attack" value="2"/>
       <option name="defense" value="2"/>
       <option name="isInfantry" value="true"/>
@@ -1756,6 +1569,7 @@
       <option name="movement" value="2"/>
       <option name="canBlitz" value="true"/>
       <option name="transportCost" value="2"/>
+      <option name="isLandTransportable" value="true"/>
       <option name="attack" value="1"/>
       <option name="defense" value="1"/>
       <option name="artillerySupportable" value="true"/>
@@ -1764,6 +1578,7 @@
     <attachment name="unitAttachment" attachTo="heavy_cavalry" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
       <option name="transportCost" value="3"/>
+      <option name="isLandTransportable" value="true"/>
       <option name="canBlitz" value="true"/>
       <option name="attack" value="2"/>
       <option name="defense" value="1"/>
@@ -1773,6 +1588,7 @@
     <attachment name="unitAttachment" attachTo="light_infantry" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
       <option name="transportCost" value="2"/>
+      <option name="isLandTransportable" value="true"/>
       <option name="attack" value="1"/>
       <option name="canBlitz" value="true"/>
       <option name="defense" value="1"/>
@@ -1786,27 +1602,23 @@
       <option name="defense" value="1"/>
       <option name="isAir" value="true"/>
     </attachment>
-    <!-- Cargo Train -->
-    <attachment name="unitAttachment" attachTo="cargo_train" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
-      <option name="movement" value="6"/>
-      <option name="isSea" value="true"/>
+    <!-- Train -->
+    <attachment name="unitAttachment" attachTo="train" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+      <option name="movement" value="2"/>
+      <option name="isLandTransport" value="true"/>
+      <option name="isInfrastructure" value="true"/>
+      <option name="isAAmovement" value="true"/>
       <option name="transportCapacity" value="10"/>
       <option name="attack" value="0"/>
       <option name="defense" value="0"/>
+      <option name="requiresUnitsToMove" value="station"/>
     </attachment>
-    <!-- Armoured Train -->
-    <attachment name="unitAttachment" attachTo="armoured_train" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
-      <option name="movement" value="6"/>
-      <option name="isSea" value="true"/>
-      <option name="transportCapacity" value="5"/>
-      <option name="attack" value="0"/>
-      <option name="defense" value="1"/>
-    </attachment>
-    <!-- Ticmark -->
-    <attachment name="unitAttachment" attachTo="ticmark" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
-      <option name="movement" value="1"/>
+    <!-- Rural Production -->
+    <attachment name="unitAttachment" attachTo="station" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="attack" value="0"/>
       <option name="defense" value="0"/>
+      <option name="isInfrastructure" value="true"/>
+      <option name="canBeDamaged" value="false"/>
     </attachment>
     <!-- Factory -->
     <attachment name="unitAttachment" attachTo="factory" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
@@ -1825,6 +1637,7 @@
     <attachment name="unitAttachment" attachTo="aaGun" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="isAA" value="true"/>
       <option name="transportCost" value="3"/>
+      <option name="isLandTransportable" value="true"/>
       <option name="movement" value="1"/>
     </attachment>
     <!-- Cities/Capitals/Industrial centers -->
@@ -2529,29 +2342,23 @@
     <attachment name="territoryAttachment" attachTo="Annam" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="1"/>
     </attachment>
-    <attachment name="territoryAttachment" attachTo="Phase II" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="production" value="0"/>
-    </attachment>
-    <attachment name="territoryAttachment" attachTo="Phase I" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-      <option name="production" value="0"/>
-    </attachment>
     
-    <!-- Canals -->
-    <attachment name="canalAttachment" attachTo="SZ 17 Malay Sea" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+    <!-- Sea Canals -->
+    <attachment name="canalAttachmentStraitofMalacca" attachTo="SZ 17 Malay Sea" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
       <option name="canalName" value="StraitofMalacca"/>
       <option name="landTerritories" value="Malaya-Singapore"/>
     </attachment>
-    <attachment name="canalAttachment" attachTo="SZ 21 Strait of Malacca" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+    <attachment name="canalAttachmentStraitofMalacca" attachTo="SZ 21 Strait of Malacca" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
       <option name="canalName" value="StraitofMalacca"/>
       <option name="landTerritories" value="Malaya-Singapore"/>
     </attachment>
-    <attachment name="canalAttachment" attachTo="SZ 22 Indian Ocean" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+    <attachment name="canalAttachmentAtlantic" attachTo="SZ 22 Indian Ocean" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
       <option name="canalName" value="Atlantic"/>
-      <option name="landTerritories" value="Tibet:Phase II"/>
+      <option name="landTerritories" value="Tibet:Sinkiang-Mongolia"/>
     </attachment>
-    <attachment name="canalAttachment" attachTo="SZ 100 Pacific Ocean" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+    <attachment name="canalAttachmentAtlantic" attachTo="SZ 100 Pacific Ocean" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
       <option name="canalName" value="Atlantic"/>
-      <option name="landTerritories" value="Tibet"/>
+      <option name="landTerritories" value="Tibet:Sinkiang-Mongolia"/>
     </attachment>
     
     <!-- Land Canals for Cities -->
@@ -3307,427 +3114,869 @@
     </attachment>
     
     <!--Rail Canals-->
-    <attachment name="canalAttachment" attachTo="Korea-Mukden-Korea" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+    <attachment name="canalAttachment1" attachTo="Korea" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
       <option name="canalName" value="Korea-Mukden Line"/>
       <option name="landTerritories" value="Korea:Mukden:Kirin"/>
+      <option name="excludedUnits" value="NONE"/>
     </attachment>
-    <attachment name="canalAttachment" attachTo="Korea-Mukden-Mukden" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+    <attachment name="canalAttachment2" attachTo="Mukden" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
       <option name="canalName" value="Korea-Mukden Line"/>
       <option name="landTerritories" value="Korea:Mukden:Kirin"/>
+      <option name="excludedUnits" value="NONE"/>
     </attachment>
-    <attachment name="canalAttachment" attachTo="Port Arthur-Mukden-Port Arthur" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+    <attachment name="canalAttachment3" attachTo="Port Arthur" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
       <option name="canalName" value="Port Arthur-Mukden Line"/>
       <option name="landTerritories" value="Port Arthur:Liaodong:Mukden"/>
+      <option name="excludedUnits" value="NONE"/>
     </attachment>
-    <attachment name="canalAttachment" attachTo="Port Arthur-Mukden-Mukden" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+    <attachment name="canalAttachment4" attachTo="Mukden" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
       <option name="canalName" value="Port Arthur-Mukden Line"/>
       <option name="landTerritories" value="Port Arthur:Liaodong:Mukden"/>
+      <option name="excludedUnits" value="NONE"/>
     </attachment>
-    <attachment name="canalAttachment" attachTo="Mukden-Peking-Mukden" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+    <attachment name="canalAttachment5" attachTo="Mukden" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
       <option name="canalName" value="Mukden-Peking Line"/>
       <option name="landTerritories" value="Mukden:Peking:Chengteh"/>
+      <option name="excludedUnits" value="NONE"/>
     </attachment>
-    <attachment name="canalAttachment" attachTo="Mukden-Peking-Peking" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+    <attachment name="canalAttachment6" attachTo="Peking" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
       <option name="canalName" value="Mukden-Peking Line"/>
       <option name="landTerritories" value="Mukden:Peking:Chengteh"/>
+      <option name="excludedUnits" value="NONE"/>
     </attachment>
-    <attachment name="canalAttachment" attachTo="Peking-Tsinan-Peking" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+    <attachment name="canalAttachment7" attachTo="Peking" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
       <option name="canalName" value="Peking-Tsinan Line"/>
       <option name="landTerritories" value="Peking:Tsinan:Tsangchow:Techow:Tientsin"/>
+      <option name="excludedUnits" value="NONE"/>
     </attachment>
-    <attachment name="canalAttachment" attachTo="Peking-Tsinan-Tsinan" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+    <attachment name="canalAttachment8" attachTo="Tsinan" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
       <option name="canalName" value="Peking-Tsinan Line"/>
       <option name="landTerritories" value="Peking:Tsinan:Tsangchow:Techow:Tientsin"/>
+      <option name="excludedUnits" value="NONE"/>
     </attachment>
-    <attachment name="canalAttachment" attachTo="Peking-Taiyuan-Peking" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+    <attachment name="canalAttachment9" attachTo="Peking" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
       <option name="canalName" value="Peking-Taiyuan Line"/>
       <option name="landTerritories" value="Peking:Taiyuan:Chengang:Paoting"/>
+      <option name="excludedUnits" value="NONE"/>
     </attachment>
-    <attachment name="canalAttachment" attachTo="Peking-Taiyuan-Taiyuan" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+    <attachment name="canalAttachment10" attachTo="Taiyuan" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
       <option name="canalName" value="Peking-Taiyuan Line"/>
       <option name="landTerritories" value="Peking:Taiyuan:Chengang:Paoting"/>
+      <option name="excludedUnits" value="NONE"/>
     </attachment>
-    <attachment name="canalAttachment" attachTo="Peking-Sian-Peking" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+    <attachment name="canalAttachment11" attachTo="Peking" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
       <option name="canalName" value="Peking-Sian Line"/>
       <option name="landTerritories" value="Peking:Paoting:Tsingtai:Anyang:Luoyang:Nanyang:Weinan:Sian"/>
+      <option name="excludedUnits" value="NONE"/>
     </attachment>
-    <attachment name="canalAttachment" attachTo="Peking-Sian-Sian" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+    <attachment name="canalAttachment12" attachTo="Sian" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
       <option name="canalName" value="Peking-Sian Line"/>
       <option name="landTerritories" value="Peking:Paoting:Tsingtai:Anyang:Luoyang:Nanyang:Weinan:Sian"/>
+      <option name="excludedUnits" value="NONE"/>
     </attachment>
-    <attachment name="canalAttachment" attachTo="Peking-Wuhan-Peking" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+    <attachment name="canalAttachment13" attachTo="Peking" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
       <option name="canalName" value="Peking-Wuhan Line"/>
       <option name="landTerritories" value="Peking:Paoting:Tsingtai:Anyang:Luoyang:Juning:Hwanggang:Wuhan"/>
+      <option name="excludedUnits" value="NONE"/>
     </attachment>
-    <attachment name="canalAttachment" attachTo="Peking-Wuhan-Wuhan" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+    <attachment name="canalAttachment14" attachTo="Wuhan" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
       <option name="canalName" value="Peking-Wuhan Line"/>
       <option name="landTerritories" value="Peking:Paoting:Tsingtai:Anyang:Luoyang:Nanyang:Fancheng:Wuhan"/>
+      <option name="excludedUnits" value="NONE"/>
     </attachment>
-    <attachment name="canalAttachment" attachTo="Taiyuan-Sian-Taiyuan" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+    <attachment name="canalAttachment15" attachTo="Taiyuan" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
       <option name="canalName" value="Taiyuan-Sian Line"/>
       <option name="landTerritories" value="Taiyuan:Sian:Weinan:Puchow"/>
+      <option name="excludedUnits" value="NONE"/>
     </attachment>
-    <attachment name="canalAttachment" attachTo="Taiyuan-Sian-Sian" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+    <attachment name="canalAttachment16" attachTo="Sian" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
       <option name="canalName" value="Taiyuan-Sian Line"/>
       <option name="landTerritories" value="Taiyuan:Sian:Weinan:Puchow"/>
+      <option name="excludedUnits" value="NONE"/>
     </attachment>
-    <attachment name="canalAttachment" attachTo="Taiyuan-Wuhan-Taiyuan" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+    <attachment name="canalAttachment17" attachTo="Taiyuan" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
       <option name="canalName" value="Taiyuan-Wuhan Line"/>
       <option name="landTerritories" value="Taiyuan:Chengang:Paoting:Tsingtai:Anyang:Luoyang:Nanyang:Fancheng:Wuhan"/>
+      <option name="excludedUnits" value="NONE"/>
     </attachment>
-    <attachment name="canalAttachment" attachTo="Taiyuan-Wuhan-Wuhan" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+    <attachment name="canalAttachment18" attachTo="Wuhan" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
       <option name="canalName" value="Taiyuan-Wuhan Line"/>
       <option name="landTerritories" value="Taiyuan:Chengang:Paoting:Tsingtai:Anyang:Luoyang:Nanyang:Fancheng:Wuhan"/>
+      <option name="excludedUnits" value="NONE"/>
     </attachment>
-    <attachment name="canalAttachment" attachTo="Taiyuan-Tsinan-Taiyuan" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+    <attachment name="canalAttachment19" attachTo="Taiyuan" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
       <option name="canalName" value="Taiyuan-Tsinan Line"/>
       <option name="landTerritories" value="Taiyuan:Chengang:Paoting:Tsangchow:Techow:Tsinan"/>
+      <option name="excludedUnits" value="NONE"/>
     </attachment>
-    <attachment name="canalAttachment" attachTo="Taiyuan-Tsinan-Tsinan" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+    <attachment name="canalAttachment20" attachTo="Tsinan" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
       <option name="canalName" value="Taiyuan-Tsinan Line"/>
       <option name="landTerritories" value="Taiyuan:Chengang:Paoting:Tsangchow:Techow:Tsinan"/>
+      <option name="excludedUnits" value="NONE"/>
     </attachment>
-    <attachment name="canalAttachment" attachTo="Sian-Tsinan-Sian" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+    <attachment name="canalAttachment21" attachTo="Sian" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
       <option name="canalName" value="Sian-Tsinan Line"/>
       <option name="landTerritories" value="Sian:Weinan:Nanyang:Luoyang:Kaifeng:Kining:Tsinan"/>
+      <option name="excludedUnits" value="NONE"/>
     </attachment>
-    <attachment name="canalAttachment" attachTo="Sian-Tsinan-Tsinan" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+    <attachment name="canalAttachment22" attachTo="Tsinan" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
       <option name="canalName" value="Sian-Tsinan Line"/>
       <option name="landTerritories" value="Sian:Weinan:Nanyang:Luoyang:Kaifeng:Kining:Tsinan"/>
+      <option name="excludedUnits" value="NONE"/>
     </attachment>
-    <attachment name="canalAttachment" attachTo="Sian-Wuhan-Sian" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+    <attachment name="canalAttachment23" attachTo="Sian" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
       <option name="canalName" value="Sian-Wuhan Line"/>
       <option name="landTerritories" value="Sian:Weinan:Nanyang:Luoyang:Fancheng:Wuhan"/>
+      <option name="excludedUnits" value="NONE"/>
     </attachment>
-    <attachment name="canalAttachment" attachTo="Sian-Wuhan-Wuhan" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+    <attachment name="canalAttachment24" attachTo="Wuhan" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
       <option name="canalName" value="Sian-Wuhan Line"/>
       <option name="landTerritories" value="Sian:Weinan:Nanyang:Luoyang:Fancheng:Wuhan"/>
+      <option name="excludedUnits" value="NONE"/>
     </attachment>
-    <attachment name="canalAttachment" attachTo="Wuhan-Tsinan-Wuhan" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+    <attachment name="canalAttachment25" attachTo="Wuhan" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
       <option name="canalName" value="Wuhan-Tsinan Line"/>
       <option name="landTerritories" value="Wuhan:Fancheng:Nanyang:Luoyang:Kaifeng:Kining:Tsinan"/>
+      <option name="excludedUnits" value="NONE"/>
     </attachment>
-    <attachment name="canalAttachment" attachTo="Wuhan-Tsinan-Tsinan" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+    <attachment name="canalAttachment26" attachTo="Tsinan" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
       <option name="canalName" value="Wuhan-Tsinan Line"/>
       <option name="landTerritories" value="Wuhan:Fancheng:Nanyang:Luoyang:Kaifeng:Kining:Tsinan"/>
+      <option name="excludedUnits" value="NONE"/>
     </attachment>
-    <attachment name="canalAttachment" attachTo="Tsinan-Tsingtao-Tsinan" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+    <attachment name="canalAttachment27" attachTo="Tsinan" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
       <option name="canalName" value="Tsinan-Tsingtao Line"/>
       <option name="landTerritories" value="Tsinan:Lungkow:Jih-Chao:Tsingtao"/>
+      <option name="excludedUnits" value="NONE"/>
     </attachment>
-    <attachment name="canalAttachment" attachTo="Tsinan-Tsingtao-Tsingtao" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+    <attachment name="canalAttachment28" attachTo="Tsingtao" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
       <option name="canalName" value="Tsinan-Tsingtao Line"/>
       <option name="landTerritories" value="Tsinan:Lungkow:Jih-Chao:Tsingtao"/>
+      <option name="excludedUnits" value="NONE"/>
     </attachment>
-    <attachment name="canalAttachment" attachTo="Tsinan-Nanking-Tsinan" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+    <attachment name="canalAttachment29" attachTo="Tsinan" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
       <option name="canalName" value="Tsinan-Nanking Line"/>
       <option name="landTerritories" value="Tsinan:Ichow:Hsuchow:Yang-chow:Nanking"/>
+      <option name="excludedUnits" value="NONE"/>
     </attachment>
-    <attachment name="canalAttachment" attachTo="Tsinan-Nanking-Nanking" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+    <attachment name="canalAttachment30" attachTo="Nanking" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
       <option name="canalName" value="Tsinan-Nanking Line"/>
       <option name="landTerritories" value="Tsinan:Ichow:Hsuchow:Yang-chow:Nanking"/>
+      <option name="excludedUnits" value="NONE"/>
     </attachment>
-    <attachment name="canalAttachment" attachTo="Nanking-Shanghai-Nanking" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+    <attachment name="canalAttachment31" attachTo="Nanking" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
       <option name="canalName" value="Nanking-Shanghai Line"/>
       <option name="landTerritories" value="Nanking:Wuhu:Soochow:Shanghai"/>
+      <option name="excludedUnits" value="NONE"/>
     </attachment>
-    <attachment name="canalAttachment" attachTo="Nanking-Shanghai-Shanghai" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+    <attachment name="canalAttachment32" attachTo="Shanghai" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
       <option name="canalName" value="Nanking-Shanghai Line"/>
       <option name="landTerritories" value="Nanking:Wuhu:Soochow:Shanghai"/>
+      <option name="excludedUnits" value="NONE"/>
     </attachment>
-    <attachment name="canalAttachment" attachTo="Shanghai-Nanchang-Shanghai" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+    <attachment name="canalAttachment33" attachTo="Shanghai" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
       <option name="canalName" value="Shanghai-Nanchang Line"/>
       <option name="landTerritories" value="Shanghai:Hangchow:Ningpo:Poyang:Nanchang"/>
+      <option name="excludedUnits" value="NONE"/>
     </attachment>
-    <attachment name="canalAttachment" attachTo="Shanghai-Nanchang-Nanchang" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+    <attachment name="canalAttachment34" attachTo="Nanchang" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
       <option name="canalName" value="Shanghai-Nanchang Line"/>
       <option name="landTerritories" value="Shanghai:Hangchow:Ningpo:Poyang:Nanchang"/>
+      <option name="excludedUnits" value="NONE"/>
     </attachment>
-    <attachment name="canalAttachment" attachTo="Nanchang-Changsha-Nanchang" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+    <attachment name="canalAttachment35" attachTo="Nanchang" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
       <option name="canalName" value="Nanchang-Changsha Line"/>
       <option name="landTerritories" value="Nanchang:Pinghsiang:Chien-ning:Changsha"/>
+      <option name="excludedUnits" value="NONE"/>
     </attachment>
-    <attachment name="canalAttachment" attachTo="Nanchang-Changsha-Changsha" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+    <attachment name="canalAttachment36" attachTo="Changsha" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
       <option name="canalName" value="Nanchang-Changsha Line"/>
       <option name="landTerritories" value="Nanchang:Pinghsiang:Chien-ning:Changsha"/>
+      <option name="excludedUnits" value="NONE"/>
     </attachment>
-    <attachment name="canalAttachment" attachTo="Wuhan-Changsha-Wuhan" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+    <attachment name="canalAttachment37" attachTo="Wuhan" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
       <option name="canalName" value="Wuhan-Changsha Line"/>
       <option name="landTerritories" value="Wuhan:Tungting:Changsha"/>
+      <option name="excludedUnits" value="NONE"/>
     </attachment>
-    <attachment name="canalAttachment" attachTo="Wuhan-Changsha-Changsha" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+    <attachment name="canalAttachment38" attachTo="Changsha" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
       <option name="canalName" value="Wuhan-Changsha Line"/>
       <option name="landTerritories" value="Wuhan:Tungting:Changsha"/>
+      <option name="excludedUnits" value="NONE"/>
     </attachment>
-    <attachment name="canalAttachment" attachTo="Changsha-Canton-Changsha" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+    <attachment name="canalAttachment39" attachTo="Changsha" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
       <option name="canalName" value="Changsha-Canton Line"/>
       <option name="landTerritories" value="Changsha:Siangtan:Chenchow:Te-king:Canton"/>
+      <option name="excludedUnits" value="NONE"/>
     </attachment>
-    <attachment name="canalAttachment" attachTo="Changsha-Canton-Canton" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+    <attachment name="canalAttachment40" attachTo="Canton" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
       <option name="canalName" value="Changsha-Canton Line"/>
       <option name="landTerritories" value="Changsha:Siangtan:Chenchow:Te-king:Canton"/>
+      <option name="excludedUnits" value="NONE"/>
     </attachment>
-    <attachment name="canalAttachment" attachTo="Changsha-Kweiyang-Changsha" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+    <attachment name="canalAttachment41" attachTo="Changsha" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
       <option name="canalName" value="Changsha-Kweiyang Line"/>
       <option name="landTerritories" value="Changsha:Siangtan:Kweilin:Tuyun:Kweiyang"/>
+      <option name="excludedUnits" value="NONE"/>
     </attachment>
-    <attachment name="canalAttachment" attachTo="Changsha-Kweiyang-Kweiyang" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+    <attachment name="canalAttachment42" attachTo="Kweiyang" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
       <option name="canalName" value="Changsha-Kweiyang Line"/>
       <option name="landTerritories" value="Changsha:Siangtan:Kweilin:Tuyun:Kweiyang"/>
+      <option name="excludedUnits" value="NONE"/>
     </attachment>
-    <attachment name="canalAttachment" attachTo="Canton-Kweiyang-Canton" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+    <attachment name="canalAttachment43" attachTo="Canton" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
       <option name="canalName" value="Canton-Kweiyang Line"/>
       <option name="landTerritories" value="Canton:Te-king:Chenchow:Siangtan:Kweilin:Tuyun:Kweiyang"/>
+      <option name="excludedUnits" value="NONE"/>
     </attachment>
-    <attachment name="canalAttachment" attachTo="Canton-Kweiyang-Kweiyang" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+    <attachment name="canalAttachment44" attachTo="Kweiyang" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
       <option name="canalName" value="Canton-Kweiyang Line"/>
       <option name="landTerritories" value="Canton:Te-king:Chenchow:Siangtan:Kweilin:Tuyun:Kweiyang"/>
+      <option name="excludedUnits" value="NONE"/>
     </attachment>
-    <attachment name="canalAttachment" attachTo="Lanchow-Sian-Lanchow" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+    <attachment name="canalAttachment45" attachTo="Lanchow" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
       <option name="canalName" value="Lanchow-Sian Line"/>
       <option name="landTerritories" value="Lanchow:Kannan:Hanchung:Sian"/>
+      <option name="excludedUnits" value="NONE"/>
     </attachment>
-    <attachment name="canalAttachment" attachTo="Lanchow-Sian-Sian" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+    <attachment name="canalAttachment46" attachTo="Sian" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
       <option name="canalName" value="Lanchow-Sian Line"/>
       <option name="landTerritories" value="Lanchow:Kannan:Hanchung:Sian"/>
+      <option name="excludedUnits" value="NONE"/>
     </attachment>
-    <attachment name="canalAttachment" attachTo="Lanchow-Chungking-Lanchow" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+    <attachment name="canalAttachment47" attachTo="Lanchow" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
       <option name="canalName" value="Lanchow-Chungking Line"/>
       <option name="landTerritories" value="Lanchow:Kannan:Hanchung:Pa-chung:Chungking"/>
+      <option name="excludedUnits" value="NONE"/>
     </attachment>
-    <attachment name="canalAttachment" attachTo="Lanchow-Chungking-Chungking" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+    <attachment name="canalAttachment48" attachTo="Chungking" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
       <option name="canalName" value="Lanchow-Chungking Line"/>
       <option name="landTerritories" value="Lanchow:Kannan:Hanchung:Pa-chung:Chungking"/>
+      <option name="excludedUnits" value="NONE"/>
     </attachment>
-    <attachment name="canalAttachment" attachTo="Sian-Chungking-Sian" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+    <attachment name="canalAttachment49" attachTo="Sian" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
       <option name="canalName" value="Sian-Chungking Line"/>
       <option name="landTerritories" value="Sian:Hanchung:Pa-chung:Chungking"/>
+      <option name="excludedUnits" value="NONE"/>
     </attachment>
-    <attachment name="canalAttachment" attachTo="Sian-Chungking-Chungking" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+    <attachment name="canalAttachment50" attachTo="Chungking" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
       <option name="canalName" value="Sian-Chungking Line"/>
       <option name="landTerritories" value="Sian:Hanchung:Pa-chung:Chungking"/>
+      <option name="excludedUnits" value="NONE"/>
     </attachment>
-    <attachment name="canalAttachment" attachTo="Chungking-Kweiyang-Chungking" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+    <attachment name="canalAttachment51" attachTo="Chungking" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
       <option name="canalName" value="Chungking-Kweiyang Line"/>
       <option name="landTerritories" value="Chungking:Luchow:Kweiyang"/>
+      <option name="excludedUnits" value="NONE"/>
     </attachment>
-    <attachment name="canalAttachment" attachTo="Chungking-Kweiyang-Kweiyang" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+    <attachment name="canalAttachment52" attachTo="Kweiyang" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
       <option name="canalName" value="Chungking-Kweiyang Line"/>
       <option name="landTerritories" value="Chungking:Luchow:Kweiyang"/>
+      <option name="excludedUnits" value="NONE"/>
     </attachment>
-    <attachment name="canalAttachment" attachTo="Chungking-Kunming-Chungking" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+    <attachment name="canalAttachment53" attachTo="Chungking" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
       <option name="canalName" value="Chungking-Kunming Line"/>
       <option name="landTerritories" value="Chungking:Luchow:Kutsing:Kunming"/>
+      <option name="excludedUnits" value="NONE"/>
     </attachment>
-    <attachment name="canalAttachment" attachTo="Chungking-Kunming-Kunming" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+    <attachment name="canalAttachment54" attachTo="Kunming" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
       <option name="canalName" value="Chungking-Kunming Line"/>
       <option name="landTerritories" value="Chungking:Luchow:Kutsing:Kunming"/>
+      <option name="excludedUnits" value="NONE"/>
     </attachment>
-    <attachment name="canalAttachment" attachTo="Kunming-Kweiyang-Kunming" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+    <attachment name="canalAttachment55" attachTo="Kunming" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
       <option name="canalName" value="Kunming-Kweiyang Line"/>
       <option name="landTerritories" value="Kunming:Kutsing:Hsingi:Kweilin"/>
+      <option name="excludedUnits" value="NONE"/>
     </attachment>
-    <attachment name="canalAttachment" attachTo="Kunming-Kweiyang-Kweiyang" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+    <attachment name="canalAttachment56" attachTo="Kweiyang" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
       <option name="canalName" value="Kunming-Kweiyang Line"/>
       <option name="landTerritories" value="Kunming:Kutsing:Hsingi:Kweilin"/>
+      <option name="excludedUnits" value="NONE"/>
     </attachment>
-    <attachment name="canalAttachment" attachTo="Kunming-Hanoi-Kunming" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+    <attachment name="canalAttachment57" attachTo="Kunming" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
       <option name="canalName" value="Kunming-Hanoi Line"/>
       <option name="landTerritories" value="Kunming:Mengtsi:Tonkin:Hanoi"/>
+      <option name="excludedUnits" value="NONE"/>
     </attachment>
-    <attachment name="canalAttachment" attachTo="Kunming-Hanoi-Hanoi" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+    <attachment name="canalAttachment58" attachTo="Hanoi" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
       <option name="canalName" value="Kunming-Hanoi Line"/>
       <option name="landTerritories" value="Kunming:Mengtsi:Tonkin:Hanoi"/>
+      <option name="excludedUnits" value="NONE"/>
     </attachment>
-    <attachment name="canalAttachment" attachTo="Hanoi-Nanning-Hanoi" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+    <attachment name="canalAttachment59" attachTo="Hanoi" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
       <option name="canalName" value="Hanoi-Nanning Line"/>
       <option name="landTerritories" value="Nanning:Lungchow:Tonkin:Hanoi"/>
+      <option name="excludedUnits" value="NONE"/>
     </attachment>
-    <attachment name="canalAttachment" attachTo="Hanoi-Nanning-Nanning" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+    <attachment name="canalAttachment60" attachTo="Nanning" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
       <option name="canalName" value="Hanoi-Nanning Line"/>
       <option name="landTerritories" value="Nanning:Lungchow:Tonkin:Hanoi"/>
+      <option name="excludedUnits" value="NONE"/>
     </attachment>
-    <attachment name="canalAttachment" attachTo="Hanoi-Bangkok-Hanoi" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+    <attachment name="canalAttachment61" attachTo="Hanoi" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
       <option name="canalName" value="Hanoi-Bangkok Line"/>
       <option name="landTerritories" value="Hanoi:Tonkin:Annam:Cochinchina:Cambodia:Nakhon Sawan:Bangkok"/>
+      <option name="excludedUnits" value="NONE"/>
     </attachment>
-    <attachment name="canalAttachment" attachTo="Hanoi-Bangkok-Bangkok" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+    <attachment name="canalAttachment62" attachTo="Bangkok" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
       <option name="canalName" value="Hanoi-Bangkok Line"/>
       <option name="landTerritories" value="Hanoi:Tonkin:Annam:Cochinchina:Cambodia:Nakhon Sawan:Bangkok"/>
+      <option name="excludedUnits" value="NONE"/>
     </attachment>
-    <attachment name="canalAttachment" attachTo="Bangkok-Rangoon-Bangkok" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+    <attachment name="canalAttachment63" attachTo="Bangkok" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
       <option name="canalName" value="Bangkok-Rangoon Line"/>
       <option name="landTerritories" value="Bangkok:Kra:Rangoon"/>
+      <option name="excludedUnits" value="NONE"/>
     </attachment>
-    <attachment name="canalAttachment" attachTo="Bangkok-Rangoon-Rangoon" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+    <attachment name="canalAttachment64" attachTo="Rangoon" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
       <option name="canalName" value="Bangkok-Rangoon Line"/>
       <option name="landTerritories" value="Bangkok:Kra:Rangoon"/>
+      <option name="excludedUnits" value="NONE"/>
     </attachment>
-    <attachment name="canalAttachment" attachTo="Calcutta-East Assam-Calcutta" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+    <attachment name="canalAttachment65" attachTo="Calcutta" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
       <option name="canalName" value="Calcutta-East Assam Line"/>
       <option name="landTerritories" value="Calcutta:Imphal:Kohima:East Assam"/>
+      <option name="excludedUnits" value="NONE"/>
     </attachment>
-    <attachment name="canalAttachment" attachTo="Calcutta-East Assam-East Assam" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+    <attachment name="canalAttachment66" attachTo="East Assam" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
       <option name="canalName" value="Calcutta-East Assam Line"/>
       <option name="landTerritories" value="Calcutta:Imphal:Kohima:East Assam"/>
+      <option name="excludedUnits" value="NONE"/>
     </attachment>
-    <attachment name="canalAttachment" attachTo="Calcutta-Chittagong-Calcutta" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+    <attachment name="canalAttachment67" attachTo="Calcutta" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
       <option name="canalName" value="Calcutta-Chittagong Line"/>
       <option name="landTerritories" value="Calcutta:Chittagong"/>
+      <option name="excludedUnits" value="NONE"/>
     </attachment>
-    <attachment name="canalAttachment" attachTo="Calcutta-Chittagong-Chittagong" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+    <attachment name="canalAttachment68" attachTo="Chittagong" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
       <option name="canalName" value="Calcutta-Chittagong Line"/>
       <option name="landTerritories" value="Calcutta:Chittagong"/>
+      <option name="excludedUnits" value="NONE"/>
     </attachment>
-    <attachment name="canalAttachment" attachTo="East Assam-Chittagong-East Assam" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+    <attachment name="canalAttachment69" attachTo="East Assam" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
       <option name="canalName" value="East Assam-Chittagong Line"/>
       <option name="landTerritories" value="East Assam:Manipur:Chittagong"/>
+      <option name="excludedUnits" value="NONE"/>
     </attachment>
-    <attachment name="canalAttachment" attachTo="East Assam-Chittagong-Chittagong" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+    <attachment name="canalAttachment70" attachTo="Chittagong" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
       <option name="canalName" value="East Assam-Chittagong Line"/>
       <option name="landTerritories" value="East Assam:Manipur:Chittagong"/>
+      <option name="excludedUnits" value="NONE"/>
     </attachment>
     
-    <!--  National Objectives -->
+    <!-- Rail Canals to Only Allow Trains SZ 100 Pacific Ocean-->
+    <attachment name="canalAttachment01" attachTo="Korea" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Korea-Mukden Train"/>
+      <option name="landTerritories" value="SZ 100 Pacific Ocean"/>
+      <option name="excludedUnits" value="train"/>
+    </attachment>
+    <attachment name="canalAttachment02" attachTo="Mukden" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Korea-Mukden Train"/>
+      <option name="landTerritories" value="SZ 100 Pacific Ocean"/>
+      <option name="excludedUnits" value="train"/>
+    </attachment>
+    <attachment name="canalAttachment03" attachTo="Port Arthur" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Port Arthur-Mukden Train"/>
+      <option name="landTerritories" value="SZ 100 Pacific Ocean"/>
+      <option name="excludedUnits" value="train"/>
+    </attachment>
+    <attachment name="canalAttachment04" attachTo="Mukden" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Port Arthur-Mukden Train"/>
+      <option name="landTerritories" value="SZ 100 Pacific Ocean"/>
+      <option name="excludedUnits" value="train"/>
+    </attachment>
+    <attachment name="canalAttachment05" attachTo="Mukden" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Mukden-Peking Train"/>
+      <option name="landTerritories" value="SZ 100 Pacific Ocean"/>
+      <option name="excludedUnits" value="train"/>
+    </attachment>
+    <attachment name="canalAttachment06" attachTo="Peking" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Mukden-Peking Train"/>
+      <option name="landTerritories" value="SZ 100 Pacific Ocean"/>
+      <option name="excludedUnits" value="train"/>
+    </attachment>
+    <attachment name="canalAttachment07" attachTo="Peking" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Peking-Tsinan Train"/>
+      <option name="landTerritories" value="SZ 100 Pacific Ocean"/>
+      <option name="excludedUnits" value="train"/>
+    </attachment>
+    <attachment name="canalAttachment08" attachTo="Tsinan" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Peking-Tsinan Train"/>
+      <option name="landTerritories" value="SZ 100 Pacific Ocean"/>
+      <option name="excludedUnits" value="train"/>
+    </attachment>
+    <attachment name="canalAttachment09" attachTo="Peking" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Peking-Taiyuan Train"/>
+      <option name="landTerritories" value="SZ 100 Pacific Ocean"/>
+      <option name="excludedUnits" value="train"/>
+    </attachment>
+    <attachment name="canalAttachment010" attachTo="Taiyuan" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Peking-Taiyuan Train"/>
+      <option name="landTerritories" value="SZ 100 Pacific Ocean"/>
+      <option name="excludedUnits" value="train"/>
+    </attachment>
+    <attachment name="canalAttachment011" attachTo="Peking" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Peking-Sian Train"/>
+      <option name="landTerritories" value="SZ 100 Pacific Ocean"/>
+      <option name="excludedUnits" value="train"/>
+    </attachment>
+    <attachment name="canalAttachment012" attachTo="Sian" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Peking-Sian Train"/>
+      <option name="landTerritories" value="SZ 100 Pacific Ocean"/>
+      <option name="excludedUnits" value="train"/>
+    </attachment>
+    <attachment name="canalAttachment013" attachTo="Peking" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Peking-Wuhan Train"/>
+      <option name="landTerritories" value="SZ 100 Pacific Ocean"/>
+      <option name="excludedUnits" value="train"/>
+    </attachment>
+    <attachment name="canalAttachment014" attachTo="Wuhan" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Peking-Wuhan Train"/>
+      <option name="landTerritories" value="SZ 100 Pacific Ocean"/>
+      <option name="excludedUnits" value="train"/>
+    </attachment>
+    <attachment name="canalAttachment015" attachTo="Taiyuan" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Taiyuan-Sian Train"/>
+      <option name="landTerritories" value="SZ 100 Pacific Ocean"/>
+      <option name="excludedUnits" value="train"/>
+    </attachment>
+    <attachment name="canalAttachment016" attachTo="Sian" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Taiyuan-Sian Train"/>
+      <option name="landTerritories" value="SZ 100 Pacific Ocean"/>
+      <option name="excludedUnits" value="train"/>
+    </attachment>
+    <attachment name="canalAttachment017" attachTo="Taiyuan" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Taiyuan-Wuhan Train"/>
+      <option name="landTerritories" value="SZ 100 Pacific Ocean"/>
+      <option name="excludedUnits" value="train"/>
+    </attachment>
+    <attachment name="canalAttachment018" attachTo="Wuhan" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Taiyuan-Wuhan Train"/>
+      <option name="landTerritories" value="SZ 100 Pacific Ocean"/>
+      <option name="excludedUnits" value="train"/>
+    </attachment>
+    <attachment name="canalAttachment019" attachTo="Taiyuan" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Taiyuan-Tsinan Train"/>
+      <option name="landTerritories" value="SZ 100 Pacific Ocean"/>
+      <option name="excludedUnits" value="train"/>
+    </attachment>
+    <attachment name="canalAttachment020" attachTo="Tsinan" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Taiyuan-Tsinan Train"/>
+      <option name="landTerritories" value="SZ 100 Pacific Ocean"/>
+      <option name="excludedUnits" value="train"/>
+    </attachment>
+    <attachment name="canalAttachment021" attachTo="Sian" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Sian-Tsinan Train"/>
+      <option name="landTerritories" value="SZ 100 Pacific Ocean"/>
+      <option name="excludedUnits" value="train"/>
+    </attachment>
+    <attachment name="canalAttachment022" attachTo="Tsinan" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Sian-Tsinan Train"/>
+      <option name="landTerritories" value="SZ 100 Pacific Ocean"/>
+      <option name="excludedUnits" value="train"/>
+    </attachment>
+    <attachment name="canalAttachment023" attachTo="Sian" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Sian-Wuhan Train"/>
+      <option name="landTerritories" value="SZ 100 Pacific Ocean"/>
+      <option name="excludedUnits" value="train"/>
+    </attachment>
+    <attachment name="canalAttachment024" attachTo="Wuhan" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Sian-Wuhan Train"/>
+      <option name="landTerritories" value="SZ 100 Pacific Ocean"/>
+      <option name="excludedUnits" value="train"/>
+    </attachment>
+    <attachment name="canalAttachment025" attachTo="Wuhan" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Wuhan-Tsinan Train"/>
+      <option name="landTerritories" value="SZ 100 Pacific Ocean"/>
+      <option name="excludedUnits" value="train"/>
+    </attachment>
+    <attachment name="canalAttachment026" attachTo="Tsinan" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Wuhan-Tsinan Train"/>
+      <option name="landTerritories" value="SZ 100 Pacific Ocean"/>
+      <option name="excludedUnits" value="train"/>
+    </attachment>
+    <attachment name="canalAttachment027" attachTo="Tsinan" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Tsinan-Tsingtao Train"/>
+      <option name="landTerritories" value="SZ 100 Pacific Ocean"/>
+      <option name="excludedUnits" value="train"/>
+    </attachment>
+    <attachment name="canalAttachment028" attachTo="Tsingtao" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Tsinan-Tsingtao Train"/>
+      <option name="landTerritories" value="SZ 100 Pacific Ocean"/>
+      <option name="excludedUnits" value="train"/>
+    </attachment>
+    <attachment name="canalAttachment029" attachTo="Tsinan" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Tsinan-Nanking Train"/>
+      <option name="landTerritories" value="SZ 100 Pacific Ocean"/>
+      <option name="excludedUnits" value="train"/>
+    </attachment>
+    <attachment name="canalAttachment030" attachTo="Nanking" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Tsinan-Nanking Train"/>
+      <option name="landTerritories" value="SZ 100 Pacific Ocean"/>
+      <option name="excludedUnits" value="train"/>
+    </attachment>
+    <attachment name="canalAttachment031" attachTo="Nanking" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Nanking-Shanghai Train"/>
+      <option name="landTerritories" value="SZ 100 Pacific Ocean"/>
+      <option name="excludedUnits" value="train"/>
+    </attachment>
+    <attachment name="canalAttachment032" attachTo="Shanghai" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Nanking-Shanghai Train"/>
+      <option name="landTerritories" value="SZ 100 Pacific Ocean"/>
+      <option name="excludedUnits" value="train"/>
+    </attachment>
+    <attachment name="canalAttachment033" attachTo="Shanghai" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Shanghai-Nanchang Train"/>
+      <option name="landTerritories" value="SZ 100 Pacific Ocean"/>
+      <option name="excludedUnits" value="train"/>
+    </attachment>
+    <attachment name="canalAttachment034" attachTo="Nanchang" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Shanghai-Nanchang Train"/>
+      <option name="landTerritories" value="SZ 100 Pacific Ocean"/>
+      <option name="excludedUnits" value="train"/>
+    </attachment>
+    <attachment name="canalAttachment035" attachTo="Nanchang" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Nanchang-Changsha Train"/>
+      <option name="landTerritories" value="SZ 100 Pacific Ocean"/>
+      <option name="excludedUnits" value="train"/>
+    </attachment>
+    <attachment name="canalAttachment036" attachTo="Changsha" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Nanchang-Changsha Train"/>
+      <option name="landTerritories" value="SZ 100 Pacific Ocean"/>
+      <option name="excludedUnits" value="train"/>
+    </attachment>
+    <attachment name="canalAttachment037" attachTo="Wuhan" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Wuhan-Changsha Train"/>
+      <option name="landTerritories" value="SZ 100 Pacific Ocean"/>
+      <option name="excludedUnits" value="train"/>
+    </attachment>
+    <attachment name="canalAttachment038" attachTo="Changsha" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Wuhan-Changsha Train"/>
+      <option name="landTerritories" value="SZ 100 Pacific Ocean"/>
+      <option name="excludedUnits" value="train"/>
+    </attachment>
+    <attachment name="canalAttachment039" attachTo="Changsha" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Changsha-Canton Train"/>
+      <option name="landTerritories" value="SZ 100 Pacific Ocean"/>
+      <option name="excludedUnits" value="train"/>
+    </attachment>
+    <attachment name="canalAttachment040" attachTo="Canton" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Changsha-Canton Train"/>
+      <option name="landTerritories" value="SZ 100 Pacific Ocean"/>
+      <option name="excludedUnits" value="train"/>
+    </attachment>
+    <attachment name="canalAttachment041" attachTo="Changsha" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Changsha-Kweiyang Train"/>
+      <option name="landTerritories" value="SZ 100 Pacific Ocean"/>
+      <option name="excludedUnits" value="train"/>
+    </attachment>
+    <attachment name="canalAttachment042" attachTo="Kweiyang" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Changsha-Kweiyang Train"/>
+      <option name="landTerritories" value="SZ 100 Pacific Ocean"/>
+      <option name="excludedUnits" value="train"/>
+    </attachment>
+    <attachment name="canalAttachment043" attachTo="Canton" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Canton-Kweiyang Train"/>
+      <option name="landTerritories" value="SZ 100 Pacific Ocean"/>
+      <option name="excludedUnits" value="train"/>
+    </attachment>
+    <attachment name="canalAttachment044" attachTo="Kweiyang" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Canton-Kweiyang Train"/>
+      <option name="landTerritories" value="SZ 100 Pacific Ocean"/>
+      <option name="excludedUnits" value="train"/>
+    </attachment>
+    <attachment name="canalAttachment045" attachTo="Lanchow" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Lanchow-Sian Train"/>
+      <option name="landTerritories" value="SZ 100 Pacific Ocean"/>
+      <option name="excludedUnits" value="train"/>
+    </attachment>
+    <attachment name="canalAttachment046" attachTo="Sian" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Lanchow-Sian Train"/>
+      <option name="landTerritories" value="SZ 100 Pacific Ocean"/>
+      <option name="excludedUnits" value="train"/>
+    </attachment>
+    <attachment name="canalAttachment047" attachTo="Lanchow" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Lanchow-Chungking Train"/>
+      <option name="landTerritories" value="SZ 100 Pacific Ocean"/>
+      <option name="excludedUnits" value="train"/>
+    </attachment>
+    <attachment name="canalAttachment048" attachTo="Chungking" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Lanchow-Chungking Train"/>
+      <option name="landTerritories" value="SZ 100 Pacific Ocean"/>
+      <option name="excludedUnits" value="train"/>
+    </attachment>
+    <attachment name="canalAttachment049" attachTo="Sian" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Sian-Chungking Train"/>
+      <option name="landTerritories" value="SZ 100 Pacific Ocean"/>
+      <option name="excludedUnits" value="train"/>
+    </attachment>
+    <attachment name="canalAttachment050" attachTo="Chungking" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Sian-Chungking Train"/>
+      <option name="landTerritories" value="SZ 100 Pacific Ocean"/>
+      <option name="excludedUnits" value="train"/>
+    </attachment>
+    <attachment name="canalAttachment051" attachTo="Chungking" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Chungking-Kweiyang Train"/>
+      <option name="landTerritories" value="SZ 100 Pacific Ocean"/>
+      <option name="excludedUnits" value="train"/>
+    </attachment>
+    <attachment name="canalAttachment052" attachTo="Kweiyang" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Chungking-Kweiyang Train"/>
+      <option name="landTerritories" value="SZ 100 Pacific Ocean"/>
+      <option name="excludedUnits" value="train"/>
+    </attachment>
+    <attachment name="canalAttachment053" attachTo="Chungking" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Chungking-Kunming Train"/>
+      <option name="landTerritories" value="SZ 100 Pacific Ocean"/>
+      <option name="excludedUnits" value="train"/>
+    </attachment>
+    <attachment name="canalAttachment054" attachTo="Kunming" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Chungking-Kunming Train"/>
+      <option name="landTerritories" value="SZ 100 Pacific Ocean"/>
+      <option name="excludedUnits" value="train"/>
+    </attachment>
+    <attachment name="canalAttachment055" attachTo="Kunming" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Kunming-Kweiyang Train"/>
+      <option name="landTerritories" value="SZ 100 Pacific Ocean"/>
+      <option name="excludedUnits" value="train"/>
+    </attachment>
+    <attachment name="canalAttachment056" attachTo="Kweiyang" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Kunming-Kweiyang Train"/>
+      <option name="landTerritories" value="SZ 100 Pacific Ocean"/>
+      <option name="excludedUnits" value="train"/>
+    </attachment>
+    <attachment name="canalAttachment057" attachTo="Kunming" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Kunming-Hanoi Train"/>
+      <option name="landTerritories" value="SZ 100 Pacific Ocean"/>
+      <option name="excludedUnits" value="train"/>
+    </attachment>
+    <attachment name="canalAttachment058" attachTo="Hanoi" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Kunming-Hanoi Train"/>
+      <option name="landTerritories" value="SZ 100 Pacific Ocean"/>
+      <option name="excludedUnits" value="train"/>
+    </attachment>
+    <attachment name="canalAttachment059" attachTo="Hanoi" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Hanoi-Nanning Train"/>
+      <option name="landTerritories" value="SZ 100 Pacific Ocean"/>
+      <option name="excludedUnits" value="train"/>
+    </attachment>
+    <attachment name="canalAttachment060" attachTo="Nanning" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Hanoi-Nanning Train"/>
+      <option name="landTerritories" value="SZ 100 Pacific Ocean"/>
+      <option name="excludedUnits" value="train"/>
+    </attachment>
+    <attachment name="canalAttachment061" attachTo="Hanoi" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Hanoi-Bangkok Train"/>
+      <option name="landTerritories" value="SZ 100 Pacific Ocean"/>
+      <option name="excludedUnits" value="train"/>
+    </attachment>
+    <attachment name="canalAttachment062" attachTo="Bangkok" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Hanoi-Bangkok Train"/>
+      <option name="landTerritories" value="SZ 100 Pacific Ocean"/>
+      <option name="excludedUnits" value="train"/>
+    </attachment>
+    <attachment name="canalAttachment063" attachTo="Bangkok" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Bangkok-Rangoon Train"/>
+      <option name="landTerritories" value="SZ 100 Pacific Ocean"/>
+      <option name="excludedUnits" value="train"/>
+    </attachment>
+    <attachment name="canalAttachment064" attachTo="Rangoon" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Bangkok-Rangoon Train"/>
+      <option name="landTerritories" value="SZ 100 Pacific Ocean"/>
+      <option name="excludedUnits" value="train"/>
+    </attachment>
+    <attachment name="canalAttachment065" attachTo="Calcutta" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Calcutta-East Assam Train"/>
+      <option name="landTerritories" value="SZ 100 Pacific Ocean"/>
+      <option name="excludedUnits" value="train"/>
+    </attachment>
+    <attachment name="canalAttachment066" attachTo="East Assam" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Calcutta-East Assam Train"/>
+      <option name="landTerritories" value="SZ 100 Pacific Ocean"/>
+      <option name="excludedUnits" value="train"/>
+    </attachment>
+    <attachment name="canalAttachment067" attachTo="Calcutta" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Calcutta-Chittagong Train"/>
+      <option name="landTerritories" value="SZ 100 Pacific Ocean"/>
+      <option name="excludedUnits" value="train"/>
+    </attachment>
+    <attachment name="canalAttachment068" attachTo="Chittagong" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Calcutta-Chittagong Train"/>
+      <option name="landTerritories" value="SZ 100 Pacific Ocean"/>
+      <option name="excludedUnits" value="train"/>
+    </attachment>
+    <attachment name="canalAttachment069" attachTo="East Assam" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="East Assam-Chittagong Train"/>
+      <option name="landTerritories" value="SZ 100 Pacific Ocean"/>
+      <option name="excludedUnits" value="train"/>
+    </attachment>
+    <attachment name="canalAttachment070" attachTo="Chittagong" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="East Assam-Chittagong Train"/>
+      <option name="landTerritories" value="SZ 100 Pacific Ocean"/>
+      <option name="excludedUnits" value="train"/>
+    </attachment>
+    
+    <!-- Conditions -->
+    <attachment name="conditionAttachmentAlways" attachTo="Nationalist" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+      <option name="switch" value="true"/>
+    </attachment>
+    <attachment name="conditionAttachmentTurn4" attachTo="Nationalist" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+      <option name="rounds" value="4"/>
+    </attachment>
+    <attachment name="conditionAttachment_British_Not_At_War_With_Axis" attachTo="British" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+      <option name="relationship" value="British:Japanese:Neutrality"/>
+    </attachment>
+    <attachment name="conditionAttachment_British_At_War_With_Axis" attachTo="British" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+      <option name="relationship" value="British:Japanese:War"/>
+    </attachment>
+    <attachment name="conditionAttachment_Allies_Lost_Burma_Road" attachTo="Nationalist" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+      <option name="alliedOwnershipTerritories" value="Myitkyina:Chindwin:Momein:Puel:East Assam" count="5"/>
+      <option name="invert" value="true"/>
+    </attachment>
+       
+    <!-- National Objectives -->
+    
     <!-- Nationalist Objectives -->
-    <!-- Phase II -->
-    <attachment name="objectiveAttachment25" attachTo="Nationalist" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+    <!-- British at War with Axis -->
+    <attachment name="objectiveAttachment_British_At_War_With_Axis" attachTo="Nationalist" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="objectiveValue" value="40"/>
-      <option name="alliedOwnershipTerritories" value="Phase II" count="1"/>
+      <option name="conditions" value="conditionAttachment_British_At_War_With_Axis"/>
     </attachment>
     <!-- Burma Road -->
-    <attachment name="objectiveAttachment2" attachTo="Nationalist" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+    <attachment name="objectiveAttachment_Burma_Road" attachTo="Nationalist" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="objectiveValue" value="20"/>
       <option name="alliedOwnershipTerritories" value="Myitkyina:Chindwin:Momein:Puel:East Assam" count="5"/>
     </attachment>
     <!-- The Hump -->
-    <attachment name="objectiveAttachment3" attachTo="Nationalist" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+    <attachment name="objectiveAttachment_The_Hump" attachTo="Nationalist" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="objectiveValue" value="10"/>
-      <option name="alliedOwnershipTerritories" value="East Assam:Kunming:Phase II" count="3"/>
+      <option name="conditions" value="conditionAttachment_British_At_War_With_Axis:conditionAttachment_Allies_Lost_Burma_Road"/>
+      <option name="alliedOwnershipTerritories" value="East Assam:Kunming" count="2"/>
     </attachment>
-    <!-- Control of Central China 1 -->
-    <attachment name="objectiveAttachment4" attachTo="Nationalist" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+    <!-- Control of Central China -->
+    <attachment name="objectiveAttachment_Control_Nanking" attachTo="Nationalist" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="objectiveValue" value="20"/>
       <option name="alliedOwnershipTerritories" value="Nanking" count="1"/>
     </attachment>
-    <attachment name="objectiveAttachment5" attachTo="Nationalist" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+    <attachment name="objectiveAttachment_Control_Wuhan" attachTo="Nationalist" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="objectiveValue" value="20"/>
       <option name="alliedOwnershipTerritories" value="Wuhan" count="1"/>
     </attachment>
-    <attachment name="objectiveAttachment6" attachTo="Nationalist" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+    <attachment name="objectiveAttachment_Control_Changsha" attachTo="Nationalist" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="objectiveValue" value="10"/>
       <option name="alliedOwnershipTerritories" value="Changsha" count="1"/>
     </attachment>
-    <attachment name="objectiveAttachment7" attachTo="Nationalist" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+    <attachment name="objectiveAttachment_Control_Nanchang" attachTo="Nationalist" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="objectiveValue" value="10"/>
       <option name="alliedOwnershipTerritories" value="Nanchang" count="1"/>
     </attachment>
     <!-- Control of South China -->
-    <attachment name="objectiveAttachment8" attachTo="Nationalist" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+    <attachment name="objectiveAttachment_Control_South_China" attachTo="Nationalist" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="objectiveValue" value="20"/>
       <option name="alliedOwnershipTerritories" value="Canton:Nanning" count="2"/>
     </attachment>
+    
     <!-- Communist Objectives -->
-    <!-- China-Soviet highwway -->
-    <attachment name="objectiveAttachment9" attachTo="Communist" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+    <!-- China-Soviet highway -->
+    <attachment name="objectiveAttachment_China-Soviet_Highway" attachTo="Communist" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="objectiveValue" value="5"/>
       <option name="alliedOwnershipTerritories" value="Chiu-Chuan:Hehsi Corridor:Lanchow" count="3"/>
     </attachment>
     <!-- Communist Quarantine -->
-    <attachment name="objectiveAttachment10" attachTo="Communist" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+    <attachment name="objectiveAttachment_Communist_Quarantine" attachTo="Communist" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="objectiveValue" value="5"/>
       <option name="alliedExclusionTerritories" value="Yenan:Fen-chow:Puchow:Sian:Weinan:Ankang:Hanchung:Tsingyang:Kungchangfu:Kuyuan:Lanchow"/>
     </attachment>
+    
     <!-- British  Objectives -->
     <!-- Colonial Strongholds -->
-    <attachment name="objectiveAttachment11" attachTo="British" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+    <attachment name="objectiveAttachment_Control_Mandalay" attachTo="British" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="objectiveValue" value="5"/>
-      <option name="alliedOwnershipTerritories" value="Mandalay:Phase II" count="2"/>
+      <option name="conditions" value="conditionAttachment_British_At_War_With_Axis"/>
+      <option name="alliedOwnershipTerritories" value="Mandalay" count="1"/>
     </attachment>
-    <attachment name="objectiveAttachment12" attachTo="British" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+    <attachment name="objectiveAttachment_Control_Sittang" attachTo="British" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="objectiveValue" value="5"/>
-      <option name="alliedOwnershipTerritories" value="Sittang:Phase II" count="2"/>
+      <option name="conditions" value="conditionAttachment_British_At_War_With_Axis"/>
+      <option name="alliedOwnershipTerritories" value="Sittang" count="1"/>
     </attachment>
-    <attachment name="objectiveAttachment13" attachTo="British" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+    <attachment name="objectiveAttachment_Control_Rangoon" attachTo="British" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="objectiveValue" value="5"/>
-      <option name="alliedOwnershipTerritories" value="Rangoon:Phase II" count="2"/>
+      <option name="conditions" value="conditionAttachment_British_At_War_With_Axis"/>
+      <option name="alliedOwnershipTerritories" value="Rangoon" count="1"/>
+    </attachment>   
+    <attachment name="objectiveAttachment_Not_At_War_With_Axis" attachTo="British" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+      <option name="objectiveValue" value="-25"/>
+      <option name="conditions" value="conditionAttachment_British_Not_At_War_With_Axis"/>
     </attachment>
-    <attachment name="objectiveAttachment14" attachTo="British" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="objectiveValue" value="30"/>
-      <option name="alliedOwnershipTerritories" value="Phase II" count="1"/>
+    <attachment name="objectiveAttachment_At_War_With_Axis" attachTo="British" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+      <option name="objectiveValue" value="40"/>
+      <option name="conditions" value="conditionAttachment_British_At_War_With_Axis"/>
     </attachment>
+    
     <!-- Thailand  Objectives -->
     <!-- Territorial Integrity -->
-    <attachment name="objectiveAttachment15" attachTo="Thailand" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+    <attachment name="objectiveAttachment_Territorial_Integrity" attachTo="Thailand" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="objectiveValue" value="5"/>
       <option name="alliedOwnershipTerritories" value="Kra:Bangkok:Chiang Mai:Nakhon Sawan:Phitsanulok:Udon Thani" count="6"/>
     </attachment>
     <!-- Indochina -->
-    <attachment name="objectiveAttachment16" attachTo="Thailand" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+    <attachment name="objectiveAttachment_Thailand_Indochinese_Resources" attachTo="Thailand" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="objectiveValue" value="5"/>
       <option name="alliedOwnershipTerritories" value="Luang Prabang:South Laos:Cambodia:Cochinchina:Annam:Tonkin:Hanoi" count="7"/>
     </attachment>
+    
     <!-- Japanese Objectives -->
     <!-- Indochinese resources -->
-    <attachment name="objectiveAttachment16" attachTo="Japanese" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+    <attachment name="objectiveAttachment_Japanese_Indochinese_Resources" attachTo="Japanese" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="objectiveValue" value="10"/>
       <option name="alliedOwnershipTerritories" value="Luang Prabang:South Laos:Cambodia:Cochinchina:Annam:Tonkin:Hanoi" count="7"/>
     </attachment>
     <!-- Colonial Strongholds -->
-    <attachment name="objectiveAttachment19" attachTo="Japanese" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+    <attachment name="objectiveAttachment_Axis_Control_Hong_Kong" attachTo="Japanese" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="objectiveValue" value="5"/>
       <option name="alliedOwnershipTerritories" value="Hong Kong" count="1"/>
     </attachment>
-    <attachment name="objectiveAttachment20" attachTo="Japanese" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+    <attachment name="objectiveAttachment_Axis_Control_Malaya-Singapore" attachTo="Japanese" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="objectiveValue" value="5"/>
       <option name="alliedOwnershipTerritories" value="Malaya-Singapore" count="1"/>
     </attachment>
-    <attachment name="objectiveAttachment21" attachTo="Japanese" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+    <attachment name="objectiveAttachment_Axis_Control_Mandalay" attachTo="Japanese" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="objectiveValue" value="5"/>
       <option name="alliedOwnershipTerritories" value="Mandalay" count="1"/>
     </attachment>
-    <attachment name="objectiveAttachment22" attachTo="Japanese" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+    <attachment name="objectiveAttachment_Axis_Control_Rangoon" attachTo="Japanese" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="objectiveValue" value="5"/>
       <option name="alliedOwnershipTerritories" value="Rangoon" count="1"/>
     </attachment>
     <!-- Operation U-Go -->
-    <attachment name="objectiveAttachment23" attachTo="Japanese" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+    <attachment name="objectiveAttachment_Operation_U-Go" attachTo="Japanese" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="objectiveValue" value="30"/>
       <option name="alliedOwnershipTerritories" value="Imphal:Kohima:Chittagong" count="1"/>
     </attachment>
     <!-- Operation Ichi-Go -->
-    <attachment name="objectiveAttachment24" attachTo="Japanese" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+    <attachment name="objectiveAttachment_Operation_Ichi-Go" attachTo="Japanese" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="objectiveValue" value="20"/>
       <option name="alliedOwnershipTerritories" value="Kweilin:Chih-Chiang:Wu Tang Mountains:Ichang" count="4"/>
     </attachment>
     
-    <!-- Functional NOs -->
-    <!-- UK Cap -->
-    <attachment name="objectiveAttachment101" attachTo="British" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="objectiveValue" value="-27"/>
-      <option name="alliedExclusionTerritories" value="Phase II" count="1"/>
-    </attachment>
-    <attachment name="objectiveAttachment101" attachTo="British" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="objectiveValue" value="-1"/>
-      <option name="alliedOwnershipTerritories" value="Myitkyina" count="1"/>
-    </attachment>
-    
     <!--  Rules Restrictions -->
-    <attachment name="rulesAttachment" attachTo="Thailand" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="movementRestrictionTerritories" value="Kra:Chiang Mai:Bangkok:Nakhon Sawan:Phitsanulok:Udon Thani:Luang Prabang:South Laos:Cambodia:Cochinchina:Annam:Tonkin:Hanoi:Kentung:Taungoo:Rangoon:Pathein:Chin:Sittang:Lashio:Mandalay:Chindwin:Myitkyina:Malaya-Singapore:Korea:Japan:Formosa:Chittagong:Calcutta:Imphal:West Assam:Kohima:East Assam:Manipur:Rangoon Station:Bangkok Station:Hanoi Station"/>
+    <attachment name="rulesAttachmentThailand" attachTo="Thailand" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+      <option name="movementRestrictionTerritories" value="Kra:Chiang Mai:Bangkok:Nakhon Sawan:Phitsanulok:Udon Thani:Luang Prabang:South Laos:Cambodia:Cochinchina:Annam:Tonkin:Hanoi:Kentung:Taungoo:Rangoon:Pathein:Chin:Sittang:Lashio:Mandalay:Chindwin:Myitkyina:Malaya-Singapore:Korea:Japan:Formosa:Chittagong:Calcutta:Imphal:West Assam:Kohima:East Assam:Manipur"/>
       <option name="movementRestrictionType" value="allowed"/>
       <option name="unlimitedProduction" value="false"/>
       <option name="placementAnyTerritory" value="false"/>
       <option name="placementCapturedTerritory" value="false"/>
     </attachment>
-    <attachment name="rulesAttachment" attachTo="Communist" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+    <attachment name="rulesAttachmentCommunist" attachTo="Communist" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="movementRestrictionTerritories" value="Kra:Chiang Mai:Bangkok:Nakhon Sawan:Phitsanulok:Udon Thani:Luang Prabang:South Laos:Cambodia:Cochinchina:Annam:Tonkin:Hanoi:Kentung:Taungoo:Rangoon:Pathein:Chin:Sittang:Lashio:Mandalay:Chindwin:Myitkyina:Malaya-Singapore:Korea:Japan:Formosa:Chittagong:Calcutta:Imphal:West Assam:Kohima:East Assam:Manipur:Malaya-Singapore:Hong Kong"/>
       <option name="movementRestrictionType" value="disallowed"/>
       <option name="unlimitedProduction" value="false"/>
       <option name="placementAnyTerritory" value="false"/>
       <option name="placementCapturedTerritory" value="true"/>
     </attachment>
-    <attachment name="rulesAttachment" attachTo="Nationalist" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+    <attachment name="rulesAttachmentNationalist" attachTo="Nationalist" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="movementRestrictionTerritories" value="Chiang Mai:Kra:Bangkok:Phitsanulok:Nakhon Sawan:Udon Thani:Cambodia:Cochinchina:Annam:South Laos:Luang Prabang:Tonkin:Hanoi"/>
       <option name="movementRestrictionType" value="disallowed"/>
       <option name="unlimitedProduction" value="false"/>
@@ -3735,95 +3984,90 @@
       <option name="placementCapturedTerritory" value="true"/>
     </attachment>
     
-    <!--  Triggers For Units Requiring Factories -->
-    <attachment name="conditionAttachmentAlways" attachTo="Nationalist" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="switch" value="true"/>
-    </attachment>
+    <!--  Triggers For Units Requiring Factories -->   
     <attachment name="triggerAttachmentNationalistUnitsRequireFactoryOn" attachTo="Nationalist" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentAlways"/>
-      <option name="unitType" value="elite:heavy_artillery:light_artillery:armour:fighter:aaGun:cargo_train:armoured_train:bomber"/>
+      <option name="unitType" value="elite:heavy_artillery:light_artillery:armour:fighter:aaGun:train:bomber"/>
       <option name="unitProperty" value="requiresUnits" count="factory"/>
       <option name="when" value="before:nationalistCombatMove"/>
     </attachment>
     <attachment name="triggerAttachmentNationalistUnitsRequireFactoryOff" attachTo="Nationalist" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentAlways"/>
-      <option name="unitType" value="elite:heavy_artillery:light_artillery:armour:fighter:aaGun:cargo_train:armoured_train:bomber"/>
+      <option name="unitType" value="elite:heavy_artillery:light_artillery:armour:fighter:aaGun:train:bomber"/>
       <option name="unitProperty" value="requiresUnits" count="-reset-"/>
       <option name="when" value="after:nationalistEndTurn"/>
     </attachment>
     <attachment name="triggerAttachmentManchukwoUnitsRequireFactoryOn" attachTo="Manchukwo" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentAlways"/>
-      <option name="unitType" value="infantry:light_infantry:cavalry:heavy_cavalry:light_artillery:aaGun:cargo_train:armoured_train"/>
+      <option name="unitType" value="infantry:light_infantry:cavalry:heavy_cavalry:light_artillery:aaGun:train"/>
       <option name="unitProperty" value="requiresUnits" count="factory"/>
       <option name="when" value="before:manchukwoCombatMove"/>
     </attachment>
     <attachment name="triggerAttachmentManchukwoUnitsRequireFactoryOff" attachTo="Manchukwo" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentAlways"/>
-      <option name="unitType" value="infantry:light_infantry:cavalry:heavy_cavalry:light_artillery:aaGun:cargo_train:armoured_train"/>
+      <option name="unitType" value="infantry:light_infantry:cavalry:heavy_cavalry:light_artillery:aaGun:train"/>
       <option name="unitProperty" value="requiresUnits" count="-reset-"/>
       <option name="when" value="after:manchukwoEndTurn"/>
     </attachment>
     <attachment name="triggerAttachmentJapaneseUnitsRequireFactoryOn" attachTo="Japanese" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentAlways"/>
-      <option name="unitType" value="infantry:elite:mobile_infantry:heavy_artillery:light_artillery:armour:light_armour:fighter:bomber:transport:submarine:carrier:destroyer:cruiser:battleship:aaGun:cargo_train:armoured_train"/>
+      <option name="unitType" value="infantry:elite:mobile_infantry:heavy_artillery:light_artillery:armour:light_armour:fighter:bomber:transport:submarine:carrier:destroyer:cruiser:battleship:aaGun:train"/>
       <option name="unitProperty" value="requiresUnits" count="factory"/>
       <option name="when" value="before:japanesePlace"/>
     </attachment>
     <attachment name="triggerAttachmentJapaneseUnitsRequireFactoryOff" attachTo="Japanese" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentAlways"/>
-      <option name="unitType" value="infantry:elite:mobile_infantry:heavy_artillery:light_artillery:armour:light_armour:fighter:bomber:transport:submarine:carrier:destroyer:cruiser:battleship:aaGun:cargo_train:armoured_train"/>
+      <option name="unitType" value="infantry:elite:mobile_infantry:heavy_artillery:light_artillery:armour:light_armour:fighter:bomber:transport:submarine:carrier:destroyer:cruiser:battleship:aaGun:train"/>
       <option name="unitProperty" value="requiresUnits" count="-reset-"/>
       <option name="when" value="after:japanesePlace"/>
     </attachment>
     <attachment name="triggerAttachmentBritishUnitsRequireFactoryOn" attachTo="British" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentAlways"/>
-      <option name="unitType" value="infantry:commando:heavy_artillery:light_artillery:armour:fighter:bomber:transport:submarine:carrier:destroyer:cruiser:battleship:aaGun:cargo_train:armoured_train"/>
+      <option name="unitType" value="infantry:commando:heavy_artillery:light_artillery:armour:fighter:bomber:transport:submarine:carrier:destroyer:cruiser:battleship:aaGun:train"/>
       <option name="unitProperty" value="requiresUnits" count="factory"/>
       <option name="when" value="before:britishCombatMove"/>
     </attachment>
     <attachment name="triggerAttachmentBritishUnitsRequireFactoryOff" attachTo="British" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="conditions" value="conditionAttachmentAlways"/>
-      <option name="unitType" value="infantry:commando:heavy_artillery:light_artillery:armour:fighter:bomber:transport:submarine:carrier:destroyer:cruiser:battleship:aaGun:cargo_train:armoured_train"/>
+      <option name="unitType" value="infantry:commando:heavy_artillery:light_artillery:armour:fighter:bomber:transport:submarine:carrier:destroyer:cruiser:battleship:aaGun:train"/>
       <option name="unitProperty" value="requiresUnits" count="-reset-"/>
       <option name="when" value="after:britishEndTurn"/>
     </attachment>
     
     <!--  Political Actions and Triggers for Declaring War on British -->
-    <attachment name="conditionAttachment_British_Not_Yet_At_War_With_Japanese" attachTo="British" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="relationship" value="British:Japanese:Neutrality"/>
-    </attachment>
-    <attachment name="conditionAttachmentTurn4" attachTo="Nationalist" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="rounds" value="4"/>
-    </attachment>
-    <attachment name="triggerAttachment_British_War_Axis" attachTo="Nationalist" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-      <option name="conditions" value="conditionAttachment_British_Not_Yet_At_War_With_Japanese:conditionAttachmentTurn4"/>
-      <option name="conditionType" value="AND"/>
-      <option name="when" value="before:nationalistCombatMove"/>
-      <option name="relationshipChange" value="British:Manchukwo:Neutrality:War"/>
-      <option name="relationshipChange" value="British:Thailand:Neutrality:War"/>
-      <option name="relationshipChange" value="British:Japanese:Neutrality:War"/>
-      <option name="uses" value="1"/>      
-    </attachment>
     <attachment name="politicalActionAttachment_Manchukwo_To_War_With_British" attachTo="Manchukwo" javaClass="games.strategy.triplea.attachments.PoliticalActionAttachment" type="player">
-      <option name="conditions" value="conditionAttachment_British_Not_Yet_At_War_With_Japanese"/>
+      <option name="conditions" value="conditionAttachment_British_Not_At_War_With_Axis"/>
       <option name="relationshipChange" value="British:Manchukwo:War"/>
       <option name="relationshipChange" value="British:Thailand:War"/>
       <option name="relationshipChange" value="British:Japanese:War"/>
       <option name="text" value="Axis_War_British"/>
     </attachment>
     <attachment name="politicalActionAttachment_Thailand_To_War_With_British" attachTo="Thailand" javaClass="games.strategy.triplea.attachments.PoliticalActionAttachment" type="player">
-      <option name="conditions" value="conditionAttachment_British_Not_Yet_At_War_With_Japanese"/>
+      <option name="conditions" value="conditionAttachment_British_Not_At_War_With_Axis"/>
       <option name="relationshipChange" value="British:Manchukwo:War"/>
       <option name="relationshipChange" value="British:Thailand:War"/>
       <option name="relationshipChange" value="British:Japanese:War"/>
       <option name="text" value="Axis_War_British"/>
     </attachment>
     <attachment name="politicalActionAttachment_Japanese_To_War_With_British" attachTo="Japanese" javaClass="games.strategy.triplea.attachments.PoliticalActionAttachment" type="player">
-      <option name="conditions" value="conditionAttachment_British_Not_Yet_At_War_With_Japanese"/>
+      <option name="conditions" value="conditionAttachment_British_Not_At_War_With_Axis"/>
       <option name="relationshipChange" value="British:Manchukwo:War"/>
       <option name="relationshipChange" value="British:Thailand:War"/>
       <option name="relationshipChange" value="British:Japanese:War"/>
       <option name="text" value="Axis_War_British"/>
+    </attachment>
+    <attachment name="triggerAttachment_British_War_Axis" attachTo="Nationalist" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="conditions" value="conditionAttachment_British_Not_At_War_With_Axis:conditionAttachmentTurn4"/>
+      <option name="when" value="before:nationalistCombatMove"/>
+      <option name="relationshipChange" value="British:Manchukwo:Neutrality:War"/>
+      <option name="relationshipChange" value="British:Thailand:Neutrality:War"/>
+      <option name="relationshipChange" value="British:Japanese:Neutrality:War"/>
+      <option name="uses" value="1"/>      
+    </attachment>
+    <attachment name="triggerAttachment_Open_Atlantic_Canal" attachTo="Nationalist" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="conditions" value="conditionAttachment_British_At_War_With_Axis"/>
+      <option name="changeOwnership" value="Sinkiang-Mongolia:any:British:false"/>
+      <option name="uses" value="1"/>      
     </attachment>
     
   </attachmentList>
@@ -3954,7 +4198,6 @@
       <territoryOwner territory="Ordos Plateau" owner="Manchukwo"/>
       <!--  Thailand Territories -->
       <territoryOwner territory="Kra" owner="Thailand"/>
-      <territoryOwner territory="Sinkiang-Mongolia" owner="Thailand"/>
       <territoryOwner territory="Chiang Mai" owner="Thailand"/>
       <territoryOwner territory="Bangkok" owner="Thailand"/>
       <territoryOwner territory="Nakhon Sawan" owner="Thailand"/>
@@ -4143,7 +4386,6 @@
       <unitPlacement unitType="heavy_artillery" territory="Port Arthur" quantity="2" owner="Japanese"/>
       <unitPlacement unitType="mobile_infantry" territory="Port Arthur" quantity="2" owner="Japanese"/>
       <!-- British Placement -->
-      <unitPlacement unitType="ticmark" territory="Phase I" quantity="1" owner="Nationalist"/>
       <unitPlacement unitType="factory" territory="Calcutta" quantity="1" owner="British"/>
       <unitPlacement unitType="infantry" territory="Calcutta" quantity="2" owner="British"/>
       <unitPlacement unitType="light_artillery" territory="Calcutta" quantity="1" owner="British"/>
@@ -4269,28 +4511,53 @@
       <unitPlacement unitType="destroyer" territory="SZ 18 Andaman Sea" quantity="1"/>
       <unitPlacement unitType="battleship" territory="SZ 21 Strait of Malacca" quantity="1"/>
       <!-- Trains Placement -->
-      <unitPlacement unitType="cargo_train" territory="Korea Station" quantity="1" owner="Japanese"/>
-      <unitPlacement unitType="cargo_train" territory="Port Arthur Station" quantity="1" owner="Japanese"/>
-      <unitPlacement unitType="cargo_train" territory="Mukden Station" quantity="1" owner="Japanese"/>
-      <unitPlacement unitType="cargo_train" territory="Taiyuan Station" quantity="1" owner="Japanese"/>
-      <unitPlacement unitType="cargo_train" territory="Peking Station" quantity="2" owner="Japanese"/>
-      <unitPlacement unitType="cargo_train" territory="Shanghai Station" quantity="2" owner="Japanese"/>
-      <unitPlacement unitType="armoured_train" territory="Shanghai Station" quantity="1" owner="Japanese"/>
-      <unitPlacement unitType="armoured_train" territory="Peking Station" quantity="1" owner="Japanese"/>
-      <unitPlacement unitType="armoured_train" territory="Wuhan Station" quantity="2" owner="Nationalist"/>
-      <unitPlacement unitType="armoured_train" territory="Chungking Station" quantity="2" owner="Nationalist"/>
-      <unitPlacement unitType="cargo_train" territory="Tsinan Station" quantity="2" owner="Nationalist"/>
-      <unitPlacement unitType="cargo_train" territory="Tsingtao Station" quantity="2" owner="Nationalist"/>
-      <unitPlacement unitType="cargo_train" territory="Nanchang Station" quantity="2" owner="Nationalist"/>
-      <unitPlacement unitType="cargo_train" territory="Changsha Station" quantity="2" owner="Nationalist"/>
-      <unitPlacement unitType="cargo_train" territory="Canton Station" quantity="2" owner="Nationalist"/>
-      <unitPlacement unitType="cargo_train" territory="Chungking Station" quantity="2" owner="Nationalist"/>
-      <unitPlacement unitType="cargo_train" territory="Kweiyang Station" quantity="2" owner="Nationalist"/>
-      <unitPlacement unitType="cargo_train" territory="Nanning Station" quantity="2" owner="Nationalist"/>
-      <unitPlacement unitType="cargo_train" territory="Kunming Station" quantity="2" owner="Nationalist"/>
-      <unitPlacement unitType="cargo_train" territory="Lanchow Station" quantity="2" owner="Communist"/>
-      <unitPlacement unitType="cargo_train" territory="Calcutta Station" quantity="2" owner="British"/>
-      <unitPlacement unitType="armoured_train" territory="Calcutta Station" quantity="2" owner="British"/>
+      <unitPlacement unitType="train" territory="Korea" quantity="1" owner="Japanese"/>
+      <unitPlacement unitType="train" territory="Port Arthur" quantity="1" owner="Japanese"/>
+      <unitPlacement unitType="train" territory="Mukden" quantity="1" owner="Japanese"/>
+      <unitPlacement unitType="train" territory="Taiyuan" quantity="1" owner="Japanese"/>
+      <unitPlacement unitType="train" territory="Peking" quantity="2" owner="Japanese"/>
+      <unitPlacement unitType="train" territory="Shanghai" quantity="2" owner="Japanese"/>
+      <unitPlacement unitType="train" territory="Wuhan" quantity="2" owner="Nationalist"/>
+      <unitPlacement unitType="train" territory="Chungking" quantity="2" owner="Nationalist"/>
+      <unitPlacement unitType="train" territory="Tsinan" quantity="2" owner="Nationalist"/>
+      <unitPlacement unitType="train" territory="Tsingtao" quantity="2" owner="Nationalist"/>
+      <unitPlacement unitType="train" territory="Nanchang" quantity="2" owner="Nationalist"/>
+      <unitPlacement unitType="train" territory="Changsha" quantity="2" owner="Nationalist"/>
+      <unitPlacement unitType="train" territory="Canton" quantity="2" owner="Nationalist"/>
+      <unitPlacement unitType="train" territory="Kweiyang" quantity="2" owner="Nationalist"/>
+      <unitPlacement unitType="train" territory="Nanning" quantity="2" owner="Nationalist"/>
+      <unitPlacement unitType="train" territory="Kunming" quantity="2" owner="Nationalist"/>
+      <unitPlacement unitType="train" territory="Lanchow" quantity="2" owner="Communist"/>
+      <unitPlacement unitType="train" territory="Calcutta" quantity="2" owner="British"/>
+      
+      <!-- Station Placement -->
+      <unitPlacement unitType="station" territory="Hanoi" quantity="1"/>
+      <unitPlacement unitType="station" territory="Chungking" quantity="1" owner="Nationalist"/>
+      <unitPlacement unitType="station" territory="Nanking" quantity="1" owner="Nationalist"/>
+      <unitPlacement unitType="station" territory="Tsinan" quantity="1" owner="Nationalist"/>
+      <unitPlacement unitType="station" territory="Tsingtao" quantity="1" owner="Nationalist"/>
+      <unitPlacement unitType="station" territory="Nanchang" quantity="1" owner="Nationalist"/>
+      <unitPlacement unitType="station" territory="Wuhan" quantity="1" owner="Nationalist"/>
+      <unitPlacement unitType="station" territory="Changsha" quantity="1" owner="Nationalist"/>
+      <unitPlacement unitType="station" territory="Nanning" quantity="1" owner="Nationalist"/>
+      <unitPlacement unitType="station" territory="Canton" quantity="1" owner="Nationalist"/>
+      <unitPlacement unitType="station" territory="Kweiyang" quantity="1" owner="Nationalist"/>
+      <unitPlacement unitType="station" territory="Kunming" quantity="1" owner="Nationalist"/>
+      <unitPlacement unitType="station" territory="Mukden" quantity="1" owner="Manchukwo"/>
+      <unitPlacement unitType="station" territory="Lanchow" quantity="1" owner="Communist"/>
+      <unitPlacement unitType="station" territory="Sian" quantity="1" owner="Communist"/>
+      <unitPlacement unitType="station" territory="Bangkok" quantity="1" owner="Thailand"/>
+      <unitPlacement unitType="station" territory="Korea" quantity="1" owner="Japanese"/>
+      <unitPlacement unitType="station" territory="Port Arthur" quantity="1" owner="Japanese"/>
+      <unitPlacement unitType="station" territory="Peking" quantity="1" owner="Japanese"/>
+      <unitPlacement unitType="station" territory="Shanghai" quantity="1" owner="Japanese"/>
+      <unitPlacement unitType="station" territory="Taiyuan" quantity="1" owner="Japanese"/>
+      <unitPlacement unitType="station" territory="Calcutta" quantity="1" owner="British"/>
+      <unitPlacement unitType="station" territory="East Assam" quantity="1" owner="British"/>
+      <unitPlacement unitType="station" territory="Chittagong" quantity="1" owner="British"/>
+      <unitPlacement unitType="station" territory="Rangoon" quantity="1" owner="British"/>
+
+      <!-- Factory Placement -->
       <unitPlacement unitType="factory" territory="Taiyuan" quantity="1" owner="Japanese" unitDamage="8"/>
       <unitPlacement unitType="factory" territory="Nanking" quantity="1" owner="Nationalist" unitDamage="8"/>
       <unitPlacement unitType="factory" territory="Tsinan" quantity="1" owner="Nationalist" unitDamage="8"/>
@@ -4595,6 +4862,9 @@
     <property name="Two hit battleship" value="true" editable="false">
       <boolean/>
     </property>
+    <property name="Control All Canals Between Territories To Pass" value="true" editable="false">
+      <boolean/>
+    </property>
     
     <!-- production related -->
     <property name="Produce fighters on carriers" value="true" editable="false">
@@ -4715,7 +4985,7 @@ Burma: <br />
 <br />
 <i>Japan--</i><br />
 (+10) Indochinese resources: Axis controls Luang Prabang, South Laos, Cambodia, Cochinchina, Annam, Tonkin, and Hanoi.<br />
-(+30) Operation Ichi-Go: Axis controls Kweilin, Chih-Chiang, Wu Tang Mountains, and Ichang<br />
+(+20) Operation Ichi-Go: Axis controls Kweilin, Chih-Chiang, Wu Tang Mountains, and Ichang<br />
 (+30) Operation U-Go: Axis controls any 1 of: Imphal, Kohima, or Chittagong.<br />
 Defeat Colonial Strongholds: <br />
 (+5) Axis controls Malaya-Singapore.<br />
@@ -4724,8 +4994,8 @@ Defeat Colonial Strongholds: <br />
 (+5) Axis controls Mandalay.<br />
 <br />
 <i>Thailand--</i><br />
-(+10) Territorial Integrity: Axis controls Kra, Bangkok, Chiang Mai, Nakhon Sawan, Phitsanulok, and Udon Thani.<br />
-(+10) Indochinese resources: Thailand also gets 10 PU if Axis controls Luang Prabang, South Laos, Cambodia, Cochinchina, Annam, Tonkin, and Hanoi.<br>
+(+5) Territorial Integrity: Axis controls Kra, Bangkok, Chiang Mai, Nakhon Sawan, Phitsanulok, and Udon Thani.<br />
+(+5) Indochinese resources: Thailand also gets 10 PU if Axis controls Luang Prabang, South Laos, Cambodia, Cochinchina, Annam, Tonkin, and Hanoi.<br>
 </p>
 <br>
     <a name="Production">    <font size="5"><b><em>Production</em></b></font></a></p>
