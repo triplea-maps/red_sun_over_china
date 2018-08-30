@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE game SYSTEM "game.dtd">
 <game>
-  <info name="Red Sun Over China" version="3.0.0"/>
+  <info name="Red Sun Over China" version="3.0.1"/>
   <loader javaClass="games.strategy.triplea.TripleA"/>
   <map>
     <!-- Territory name Definitions -->
@@ -3962,26 +3962,19 @@
     </attachment>     
     
     <!--  Rules Restrictions -->
-    <attachment name="rulesAttachmentThailand" attachTo="Thailand" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="movementRestrictionTerritories" value="Kra:Chiang Mai:Bangkok:Nakhon Sawan:Phitsanulok:Udon Thani:Luang Prabang:South Laos:Cambodia:Cochinchina:Annam:Tonkin:Hanoi:Kentung:Taungoo:Rangoon:Pathein:Chin:Sittang:Lashio:Mandalay:Chindwin:Myitkyina:Malaya-Singapore:Korea:Japan:Formosa:Chittagong:Calcutta:Imphal:West Assam:Kohima:East Assam:Manipur"/>
+    <attachment name="rulesAttachment" attachTo="Thailand" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+      <option name="movementRestrictionTerritories" value="Kra:Chiang Mai:Bangkok:Nakhon Sawan:Phitsanulok:Udon Thani:Luang Prabang:South Laos:Cambodia:Cochinchina:Annam:Tonkin:Hanoi:Kentung:Taungoo:Rangoon:Pathein:Chin:Sittang:Lashio:Mandalay:Chindwin:Myitkyina:Malaya-Singapore:Korea:Japan:Formosa:Chittagong:Calcutta:Imphal:West Assam:Kohima:East Assam:Manipur:Hong Kong"/>
       <option name="movementRestrictionType" value="allowed"/>
-      <option name="unlimitedProduction" value="false"/>
-      <option name="placementAnyTerritory" value="false"/>
-      <option name="placementCapturedTerritory" value="false"/>
     </attachment>
-    <attachment name="rulesAttachmentCommunist" attachTo="Communist" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="movementRestrictionTerritories" value="Kra:Chiang Mai:Bangkok:Nakhon Sawan:Phitsanulok:Udon Thani:Luang Prabang:South Laos:Cambodia:Cochinchina:Annam:Tonkin:Hanoi:Kentung:Taungoo:Rangoon:Pathein:Chin:Sittang:Lashio:Mandalay:Chindwin:Myitkyina:Malaya-Singapore:Korea:Japan:Formosa:Chittagong:Calcutta:Imphal:West Assam:Kohima:East Assam:Manipur:Malaya-Singapore:Hong Kong"/>
+    <attachment name="rulesAttachment" attachTo="Communist" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+      <option name="movementRestrictionTerritories" value="Kra:Chiang Mai:Bangkok:Nakhon Sawan:Phitsanulok:Udon Thani:Luang Prabang:South Laos:Cambodia:Cochinchina:Annam:Tonkin:Hanoi:Kentung:Taungoo:Rangoon:Pathein:Chin:Sittang:Lashio:Mandalay:Chindwin:Myitkyina:Malaya-Singapore:Korea:Japan:Formosa:Chittagong:Calcutta:Imphal:West Assam:Kohima:East Assam:Manipur:Hong Kong"/>
       <option name="movementRestrictionType" value="disallowed"/>
-      <option name="unlimitedProduction" value="false"/>
-      <option name="placementAnyTerritory" value="false"/>
+      <option name="placementAnyTerritory" value="true"/>
       <option name="placementCapturedTerritory" value="true"/>
     </attachment>
-    <attachment name="rulesAttachmentNationalist" attachTo="Nationalist" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="movementRestrictionTerritories" value="Chiang Mai:Kra:Bangkok:Phitsanulok:Nakhon Sawan:Udon Thani:Cambodia:Cochinchina:Annam:South Laos:Luang Prabang:Tonkin:Hanoi"/>
+    <attachment name="rulesAttachment" attachTo="Nationalist" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+      <option name="movementRestrictionTerritories" value="Kra:Chiang Mai:Bangkok:Nakhon Sawan:Phitsanulok:Udon Thani:Luang Prabang:South Laos:Cambodia:Cochinchina:Annam:Tonkin:Hanoi"/>
       <option name="movementRestrictionType" value="disallowed"/>
-      <option name="unlimitedProduction" value="false"/>
-      <option name="placementAnyTerritory" value="false"/>
-      <option name="placementCapturedTerritory" value="true"/>
     </attachment>
     
     <!--  Triggers For Units Requiring Factories -->   
