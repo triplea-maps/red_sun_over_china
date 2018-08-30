@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE game SYSTEM "game.dtd">
 <game>
-  <info name="Red Sun Over China" version="3.0.0"/>
+  <info name="Red Sun Over China" version="3.0.1"/>
   <loader javaClass="games.strategy.triplea.TripleA"/>
   <map>
     <!-- Territory name Definitions -->
