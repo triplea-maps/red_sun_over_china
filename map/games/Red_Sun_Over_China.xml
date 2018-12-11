@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE game SYSTEM "game.dtd">
 <game>
-  <info name="Red Sun Over China" version="3.0.1"/>
+  <info name="Red Sun Over China" version="3.1.0"/>
   <loader javaClass="games.strategy.triplea.TripleA"/>
   <map>
     <!-- Territory name Definitions -->
@@ -3444,16 +3444,6 @@
       <option name="landTerritories" value="Calcutta:Imphal:Kohima:East Assam"/>
       <option name="excludedUnits" value="NONE"/>
     </attachment>
-    <attachment name="canalAttachment67" attachTo="Calcutta" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-      <option name="canalName" value="Calcutta-Chittagong Line"/>
-      <option name="landTerritories" value="Calcutta:Chittagong"/>
-      <option name="excludedUnits" value="NONE"/>
-    </attachment>
-    <attachment name="canalAttachment68" attachTo="Chittagong" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-      <option name="canalName" value="Calcutta-Chittagong Line"/>
-      <option name="landTerritories" value="Calcutta:Chittagong"/>
-      <option name="excludedUnits" value="NONE"/>
-    </attachment>
     <attachment name="canalAttachment69" attachTo="East Assam" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
       <option name="canalName" value="East Assam-Chittagong Line"/>
       <option name="landTerritories" value="East Assam:Manipur:Chittagong"/>
@@ -3793,16 +3783,6 @@
     </attachment>
     <attachment name="canalAttachment066" attachTo="East Assam" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
       <option name="canalName" value="Calcutta-East Assam Train"/>
-      <option name="landTerritories" value="SZ 100 Pacific Ocean"/>
-      <option name="excludedUnits" value="train"/>
-    </attachment>
-    <attachment name="canalAttachment067" attachTo="Calcutta" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-      <option name="canalName" value="Calcutta-Chittagong Train"/>
-      <option name="landTerritories" value="SZ 100 Pacific Ocean"/>
-      <option name="excludedUnits" value="train"/>
-    </attachment>
-    <attachment name="canalAttachment068" attachTo="Chittagong" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-      <option name="canalName" value="Calcutta-Chittagong Train"/>
       <option name="landTerritories" value="SZ 100 Pacific Ocean"/>
       <option name="excludedUnits" value="train"/>
     </attachment>
@@ -4367,8 +4347,8 @@
       <unitPlacement unitType="heavy_artillery" territory="Japan" quantity="5" owner="Japanese"/>
       <unitPlacement unitType="light_artillery" territory="Japan" quantity="5" owner="Japanese"/>
       <unitPlacement unitType="light_armour" territory="Japan" quantity="2" owner="Japanese"/>
-      <unitPlacement unitType="fighter" territory="Japan" quantity="7" owner="Japanese"/>
-      <unitPlacement unitType="bomber" territory="Japan" quantity="6" owner="Japanese"/>
+      <unitPlacement unitType="fighter" territory="Japan" quantity="5" owner="Japanese"/>
+      <unitPlacement unitType="bomber" territory="Japan" quantity="2" owner="Japanese"/>
       <unitPlacement unitType="elite" territory="Formosa" quantity="10" owner="Japanese"/>
       <unitPlacement unitType="heavy_artillery" territory="Formosa" quantity="3" owner="Japanese"/>
       <unitPlacement unitType="mobile_infantry" territory="Formosa" quantity="10" owner="Japanese"/>
@@ -4380,18 +4360,19 @@
       <unitPlacement unitType="mobile_infantry" territory="Port Arthur" quantity="2" owner="Japanese"/>
       <!-- British Placement -->
       <unitPlacement unitType="factory" territory="Calcutta" quantity="1" owner="British"/>
-      <unitPlacement unitType="infantry" territory="Calcutta" quantity="2" owner="British"/>
+      <unitPlacement unitType="infantry" territory="Calcutta" quantity="6" owner="British"/>
       <unitPlacement unitType="light_artillery" territory="Calcutta" quantity="1" owner="British"/>
       <unitPlacement unitType="commando" territory="Calcutta" quantity="1" owner="British"/>
       <unitPlacement unitType="factory" territory="Chittagong" quantity="1" owner="British"/>
       <unitPlacement unitType="infantry" territory="Chittagong" quantity="1" owner="British"/>
       <unitPlacement unitType="factory" territory="Malaya-Singapore" quantity="1" owner="British"/>
-      <unitPlacement unitType="infantry" territory="Malaya-Singapore" quantity="2" owner="British"/>
+      <unitPlacement unitType="infantry" territory="Malaya-Singapore" quantity="5" owner="British"/>
       <unitPlacement unitType="factory" territory="Hong Kong" quantity="1" owner="British"/>
       <unitPlacement unitType="infantry" territory="Hong Kong" quantity="2" owner="British"/>
       <unitPlacement unitType="infantry" territory="Rangoon" quantity="1" owner="British"/>
       <unitPlacement unitType="factory" territory="Rangoon" quantity="1" owner="British"/>
       <unitPlacement unitType="infantry" territory="Chindwin" quantity="1" owner="British"/>
+      <unitPlacement unitType="infantry" territory="Kohima" quantity="4" owner="British"/>
       <unitPlacement unitType="light_artillery" territory="Kohima" quantity="1" owner="British"/>
       <unitPlacement unitType="infantry" territory="Mandalay" quantity="3" owner="British"/>
       <unitPlacement unitType="battleship" territory="SZ 19 Bay of Bengal" quantity="2" owner="British"/>
@@ -4912,7 +4893,7 @@
             <br />
             <b>updated by redrum</b>
             <br />
-            <span style="font-size:125%;000000"colspan="2"><b>Version: 3.0.0</b></span>
+            <span style="font-size:125%;000000"colspan="2"><b>Version: 3.1.0</b></span>
         </div>
         <br />
         <table border="1" bgcolor="EEEEEE" align="center">
@@ -5237,6 +5218,16 @@
         <br />
         <font size="5"><b><em>Miscellaneous</em></b></font>
         <br />
+        <br />
+        <b>Politics</b>
+        <br />
+        <div>
+            <ul style="text-align: left; display: inline-block; width: 400px">
+                <li>The Nationalists and Communists start at war with the Axis powers but the British start as neutral (can't attack or be attacked by Axis powers until war is declared).</li>
+                <li>The Axis powers have the political option to declare war on the British at the start of any of their turns.</li>
+                <li>If by the start of the British turn 4 they are still neutral then they automatically declare war on the Axis powers.</li>
+            </ul>
+        </div>
         <br />
         <b>Territory Ownership</b>
         <br />
