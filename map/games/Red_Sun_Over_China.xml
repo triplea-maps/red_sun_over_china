@@ -254,7 +254,6 @@
     <connection t1="Chin-kiang" t2="Shanghai"/>
     <connection t1="Hehsi Corridor" t2="Kuyuan"/>
     <connection t1="Hehsi Corridor" t2="Sog-rigs"/>
-    <connection t1="Hehsi Corridor" t2="Tsinghai"/>
     <connection t1="Annam" t2="South Laos"/>
     <connection t1="Annam" t2="Cochinchina"/>
     <connection t1="Annam" t2="SZ 17 Malay Sea"/>
@@ -313,7 +312,6 @@
     <connection t1="SZ 16 Gulf of Thailand" t2="SZ 17 Malay Sea"/>
     <connection t1="West Sikang" t2="Kunlun Mountains"/>
     <connection t1="West Sikang" t2="Myitkyina"/>
-    <connection t1="West Sikang" t2="East Assam"/>
     <connection t1="Weinan" t2="Yenan"/>
     <connection t1="Suifu" t2="Cheng-tu"/>
     <connection t1="Suifu" t2="Chungking"/>
