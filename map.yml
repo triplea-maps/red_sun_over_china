@@ -1,0 +1,4 @@
+map_name: red_sun_over_china
+games:
+- {game_name: Warlords FFA, file_name: Warlords.xml}
+- {game_name: Red Sun Over China, file_name: Red_Sun_Over_China.xml}
