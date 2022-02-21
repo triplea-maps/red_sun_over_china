@@ -1,7 +1,7 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0"?>
 <!DOCTYPE game SYSTEM "game.dtd">
 <game>
-  <info name="Warlords FFA" version="1.1"/>
+  <info name="Warlords FFA" version="1.2"/>
   <loader javaClass="games.strategy.triplea.TripleA"/>
   <map>
     <!-- Territory name Definitions -->
@@ -164,7 +164,7 @@
     <territory name="Lungchow"/>
     <territory name="Changsha"/>
     <territory name="Poseh"/>
-    <!-- Stations -->
+    <!-- Stations 
     <territory name="Hanoi Station" water="true"/>
     <territory name="Korea Station" water="true"/>
     <territory name="Wuhan Station" water="true"/>
@@ -190,7 +190,8 @@
     <territory name="Canton Station" water="true"/>
     <territory name="Port Arthur Station" water="true"/>
     <territory name="Nanning Station" water="true"/>
-    <!--Auxillary Stations-->
+    -->
+    <!--Auxillary Stations
     <territory name="Korea-Mukden-Korea" water="true"/>
     <territory name="Korea-Mukden-Mukden" water="true"/>
     <territory name="Port Arthur-Mukden-Port Arthur" water="true"/>
@@ -261,6 +262,7 @@
     <territory name="Calcutta-Chittagong-Chittagong" water="true"/>
     <territory name="East Assam-Chittagong-East Assam" water="true"/>
     <territory name="East Assam-Chittagong-Chittagong" water="true"/>
+    -->
     <!-- Seazone Name Definitions -->
     <territory name="SZ 3 North Yellow Sea" water="true"/>
     <territory name="SZ 7 East China Sea" water="true"/>
@@ -874,7 +876,7 @@
     <connection t1="Poseh" t2="Tonkin"/>
     <connection t1="SZ 17 Malay Sea" t2="SZ 21 Strait of Malacca"/>
     <!--Rail Connections-->
-    <!--Rail Connection to city-->
+    <!--Rail Connection to city
     <connection t1="Hanoi Station" t2="Hanoi"/>
     <connection t1="Korea Station" t2="Korea"/>
     <connection t1="Wuhan Station" t2="Wuhan"/>
@@ -900,7 +902,8 @@
     <connection t1="Canton Station" t2="Canton"/>
     <connection t1="Port Arthur Station" t2="Port Arthur"/>
     <connection t1="Nanning Station" t2="Nanning"/>
-    <!--Rail Connection to Auxillary-->
+    -->
+    <!--Rail Connection to Auxillary
     <connection t1="Korea-Mukden-Korea" t2="Korea Station"/>
     <connection t1="Korea-Mukden-Mukden" t2="Mukden Station"/>
     <connection t1="Port Arthur-Mukden-Port Arthur" t2="Port Arthur Station"/>
@@ -971,7 +974,8 @@
     <connection t1="Calcutta-Chittagong-Chittagong" t2="Chittagong Station"/>
     <connection t1="East Assam-Chittagong-East Assam" t2="East Assam Station"/>
     <connection t1="East Assam-Chittagong-Chittagong" t2="Chittagong Station"/>
-    <!--Rail Canal Connections-->
+    -->
+    <!--Rail Canal Connections
     <connection t1="Korea-Mukden-Korea" t2="Korea-Mukden-Mukden"/>
     <connection t1="Port Arthur-Mukden-Port Arthur" t2="Port Arthur-Mukden-Mukden"/>
     <connection t1="Mukden-Peking-Mukden" t2="Mukden-Peking-Peking"/>
@@ -1007,6 +1011,7 @@
     <connection t1="Calcutta-East Assam-Calcutta" t2="Calcutta-East Assam-East Assam"/>
     <connection t1="Calcutta-Chittagong-Calcutta" t2="Calcutta-Chittagong-Chittagong"/>
     <connection t1="East Assam-Chittagong-East Assam" t2="East Assam-Chittagong-Chittagong"/>
+    -->
   </map>
   <resourceList>
     <resource name="PUs"/>
@@ -2082,7 +2087,7 @@
       <option name="production" value="2"/>
       <option name="unitProduction" value="3"/>
     </attachment>
-    <!--Rail Canals-->
+    <!--Rail Canals
     <attachment name="canalAttachment" attachTo="Korea-Mukden-Korea" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
       <option name="canalName" value="Korea-Mukden Line"/>
       <option name="landTerritories" value="Korea:Mukden:Kirin"/>
@@ -2363,6 +2368,7 @@
       <option name="canalName" value="East Assam-Chittagong Line"/>
       <option name="landTerritories" value="East Assam:Manipur:Chittagong"/>
     </attachment>
+    -->
   </attachmentList>
   <initialize>
     <ownerInitialize>
@@ -2879,7 +2885,7 @@
 						<li>League of Five provinces (capital: Nanking)</li>
 						<li>Yunnan Clique (capital: Calcutta)</li>
 
-		<br>
+		<br>Fixed game by removing the railroad stuff.-Roger Cooper
 						
 					]]></value>
     </property>
